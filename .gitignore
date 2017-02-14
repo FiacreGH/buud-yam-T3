@@ -1,0 +1,30 @@
+###########
+# /
+###########
+/.idea
+/nbproject
+/vendor
+/build
+/build.xml
+/bin
+
+###########
+# /htdocs
+###########
+/htdocs/typo3_src*
+/htdocs/typo3
+/htdocs/uploads/*
+/htdocs/index.php
+/htdocs/fileadmin/*
+/htdocs/typo3temp/*
+
+######################
+# htdocs/typo3conf/
+######################
+/htdocs/typo3conf/ENABLE_INSTALL_TOOL
+/htdocs/typo3conf/FIRST_INSTALL
+/htdocs/typo3conf/*.log
+/htdocs/typo3conf/l10n/*
+/htdocs/typo3conf/ext/*
+!/htdocs/typo3conf/ext/speciality
+
