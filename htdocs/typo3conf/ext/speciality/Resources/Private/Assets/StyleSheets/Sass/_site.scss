@@ -15,10 +15,6 @@
   border-radius: 0;
 }
 
-.headImg1 {
-  margin-bottom: -25px;
-}
-
 .form-horizontal .form-group {
   margin-left: 0;
 }
@@ -28,7 +24,7 @@
 }
 
 .main, body {
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', serif !important;
 }
 body {
   font-size: 13px;
@@ -45,6 +41,9 @@ body {
   position: relative;
   top: 20px;
   left: 30px;
+}
+.headImg{
+  margin: auto;
 }
 
 .btn-primary {
