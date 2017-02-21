@@ -1,12 +1,8 @@
-<f:layout name="Page" />
+<f:layout name="Page"/>
 
-<f:render section="Navigation" partial="Navigation" arguments="{_all}"/>
-<f:render section="RestrictedContent" partial="RestrictedContent" arguments="{_all}"/>
 <div class="container">
-	<f:render section="LanguageMenu" partial="LanguageMenu" optional="true" arguments="{_all}"/>
 	<f:render section="Header" partial="Header" optional="true" arguments="{_all}"/>
-	<f:render section="Breadcrumb" partial="Breadcrumb" optional="true" arguments="{_all}"/>
-	<f:render section="HeroUnit" partial="HeroUnit" optional="true" arguments="{_all}"/>
+	<f:render section="Navigation" partial="Navigation" optional="true" arguments="{_all}"/>
 
 	<!--TYPO3SEARCH_begin-->
 	<f:render section="Main"/>
