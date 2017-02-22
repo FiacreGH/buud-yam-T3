@@ -1,8 +1,13 @@
-###################################################
-# Plugin VHS
-###################################################
-
 plugin.tx_vhs.settings.asset {
+
+	font {
+    	path = https://fonts.googleapis.com/css?family=Raleway
+    	group = css
+    	external = 1
+    	rewrite = 0
+    	type = css
+    }
+
 	mainCss {
 		path = EXT:speciality/Resources/Public/StyleSheets/site.min.css
 		group = css
@@ -11,11 +16,27 @@ plugin.tx_vhs.settings.asset {
 		type = css
 	}
 
+	fancyBoxCss {
+		path = https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css
+		dependencies = mainCss
+		external = 1
+		standalone = 1
+		type = css
+	}
+
 	mainJs {
 		path = EXT:speciality/Resources/Public/JavaScript/site.min.js
 		group = js
 		standalone = 1
 		rewrite = 0
+		type = js
+	}
+
+	fancyBoxJs {
+		path = https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js
+		dependencies = mainJs
+		external = 1
+		standalone = 1
 		type = js
 	}
 }

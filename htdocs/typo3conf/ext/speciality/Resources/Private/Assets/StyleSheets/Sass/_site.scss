@@ -24,10 +24,11 @@
 }
 
 .main, body {
-  font-family: 'Raleway', serif !important;
+  font-family: "Trebuchet MS", "Raleway", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 }
+
 body {
-  font-size: 13px;
+  font-size: 1.75em;
   line-height: 1.428571429;
   color: #333;
 }
@@ -107,14 +108,19 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 14px;
   }
   #navbar-main a.active {
-    background-color: #fff;
-    color: black;
+    background-color: #884C0B;
+    color: #ff9900;
+    font-weight: bold;
+  }
+  #navbar-main a.active:hover {
+    background-color: #884C0B;
+    color: #ff9900;
     font-weight: bold;
   }
 
   #navbar-main a:hover {
-    background-color: #fff;
-    color: black;
+    background-color: #c07400;
+    color: #ff9900;
     font-weight: bold;
   }
 }
