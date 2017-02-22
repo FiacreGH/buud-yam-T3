@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "21d2c7b93938aa281067a54a5bc542f1",
-    "content-hash": "341bd5732182e7ef874beb7bdf10e238",
+    "hash": "6eb9d8fdc5e595ad1c4e606c401c1061",
+    "content-hash": "ace8845b9eecddd2e7b6ba7acc86ffa8",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -113,6 +113,48 @@
             "time": "2015-06-14 21:17:01"
         },
         {
+            "name": "ecodev/newsletter",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ecodev/newsletter.git",
+                "reference": "d9c5a642d225fb185baa449f1bb1e871d8416b18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ecodev/newsletter/zipball/d9c5a642d225fb185baa449f1bb1e871d8416b18",
+                "reference": "d9c5a642d225fb185baa449f1bb1e871d8416b18",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-mcrypt": "*",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^1.11"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "Ecodev\\Newsletter\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Send any pages as Newsletter and provide statistics on opened emails and clicked links.",
+            "homepage": "https://github.com/ecodev/newsletter",
+            "keywords": [
+                "TYPO3 CMS",
+                "email",
+                "newsletter",
+                "statistics"
+            ],
+            "time": "2016-08-17 11:04:23"
+        },
+        {
             "name": "ecodev/speciality-ecodev",
             "version": "dev-master",
             "source": {
@@ -127,6 +169,57 @@
             "description": "TYPO3 extension to ship common configuration specific to Ecodev",
             "homepage": "https://github.com/Ecodev/speciality_ecodev",
             "time": "2016-11-25 11:45:56"
+        },
+        {
+            "name": "ecodev/tt-news",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ecodev/tt_news.git",
+                "reference": "e3bb81662d1a8a1406f81b67152a6befa3597a8b"
+            },
+            "type": "typo3-cms-extension",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Data structure for News",
+            "time": "2016-10-20 13:25:16"
+        },
+        {
+            "name": "fab/formule",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ecodev/formule.git",
+                "reference": "9bfd71931267498c9d4a075fa1b299a31023132c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ecodev/formule/zipball/9bfd71931267498c9d4a075fa1b299a31023132c",
+                "reference": "9bfd71931267498c9d4a075fa1b299a31023132c",
+                "shasum": ""
+            },
+            "replace": {
+                "formule": "self.version",
+                "typo3-ter/formule": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "Fab\\Formule\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Render a variety of forms template based on the FE such as contact form, registration form, etc... effortless!",
+            "homepage": "https://github.com/Ecodev/formule",
+            "keywords": [
+                "TYPO3 CMS",
+                "form"
+            ],
+            "time": "2016-12-14 09:08:11"
         },
         {
             "name": "fab/media",
@@ -169,16 +262,16 @@
         },
         {
             "name": "fab/natural-gallery",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ecodev/natural-gallery-typo3.git",
-                "reference": "bef66acb76cca82dcee8482776e78121f5e089f7"
+                "reference": "11ad8e2a0804f053a401f0843147bac6c1ba3519"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ecodev/natural-gallery-typo3/zipball/bef66acb76cca82dcee8482776e78121f5e089f7",
-                "reference": "bef66acb76cca82dcee8482776e78121f5e089f7",
+                "url": "https://api.github.com/repos/Ecodev/natural-gallery-typo3/zipball/11ad8e2a0804f053a401f0843147bac6c1ba3519",
+                "reference": "11ad8e2a0804f053a401f0843147bac6c1ba3519",
                 "shasum": ""
             },
             "replace": {
@@ -202,9 +295,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Ecodev/natural-gallery-typo3/issues",
-                "source": "https://github.com/Ecodev/natural-gallery-typo3/tree/1.0.3"
+                "source": "https://github.com/Ecodev/natural-gallery-typo3/tree/1.0.4"
             },
-            "time": "2016-12-18 16:14:03"
+            "time": "2017-02-21 17:10:25"
         },
         {
             "name": "fab/vidi",
@@ -506,6 +599,45 @@
                 "viewhelper"
             ],
             "time": "2015-11-19 22:46:54"
+        },
+        {
+            "name": "friendsoftypo3/tt-address",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://git.typo3.org/TYPO3CMS/Extensions/tt_address.git",
+                "reference": "2dc8e12f03e86b9e223665f390a3056c28efa032"
+            },
+            "require": {
+                "typo3/cms-core": ">=6.2.2,<8.0"
+            },
+            "replace": {
+                "tt_address": "self.version",
+                "typo3-ter/tt-address": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\TtAddress\\": "Classes"
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "tt_address Development Team",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Displays a list of addresses from an address table on the page.",
+            "homepage": "https://forge.typo3.org/projects/extension-tt_address",
+            "keywords": [
+                "TYPO3",
+                "addresses",
+                "extension"
+            ],
+            "time": "2016-02-12 09:33:48"
         },
         {
             "name": "helhum/typo3-console",
@@ -1181,16 +1313,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v3.2.3",
+            "version": "v3.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "32646a7cf53f3956c76dcb5c82555224ae321858"
+                "reference": "0ab87c1e7570b3534a6e51eb4ca8e9f6d7327856"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/32646a7cf53f3956c76dcb5c82555224ae321858",
-                "reference": "32646a7cf53f3956c76dcb5c82555224ae321858",
+                "url": "https://api.github.com/repos/symfony/process/zipball/0ab87c1e7570b3534a6e51eb4ca8e9f6d7327856",
+                "reference": "0ab87c1e7570b3534a6e51eb4ca8e9f6d7327856",
                 "shasum": ""
             },
             "require": {
@@ -1226,7 +1358,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-03 12:11:38"
+            "time": "2017-02-16 14:07:22"
         },
         {
             "name": "typo3-ter/nc-staticfilecache",
@@ -2660,16 +2792,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.2.3",
+            "version": "v3.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "e1718c6bf57e1efbb8793ada951584b2ab27775b"
+                "reference": "9724c684646fcb5387d579b4bfaa63ee0b0c64c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/e1718c6bf57e1efbb8793ada951584b2ab27775b",
-                "reference": "e1718c6bf57e1efbb8793ada951584b2ab27775b",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/9724c684646fcb5387d579b4bfaa63ee0b0c64c8",
+                "reference": "9724c684646fcb5387d579b4bfaa63ee0b0c64c8",
                 "shasum": ""
             },
             "require": {
@@ -2711,7 +2843,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-21 17:06:35"
+            "time": "2017-02-16 22:46:52"
         },
         {
             "name": "webmozart/assert",
@@ -2768,6 +2900,9 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "ecodev/speciality-ecodev": 20,
+        "fab/formule": 20,
+        "friendsoftypo3/tt-address": 20,
+        "ecodev/tt-news": 20,
         "mikey179/vfsstream": 20
     },
     "prefer-stable": false,
