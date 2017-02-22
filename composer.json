@@ -6,6 +6,14 @@
 		},
 		{
 			"type": "git",
+			"url": "https://github.com/Ecodev/tt_address.git"
+		},
+		{
+			"type": "git",
+			"url": "https://github.com/Ecodev/tt_news.git"
+		},
+		{
+			"type": "git",
 			"url": "https://github.com/Ecodev/speciality_ecodev.git"
 		}
 	],
@@ -15,6 +23,8 @@
 	"require": {
 		"typo3/cms": "7.6.*",
 		"ecodev/speciality-ecodev": "dev-master",
+		"fab/formule": "dev-master",
+		"friendsoftypo3/tt-address": "dev-master",
 
 		"fluidtypo3/fluidcontent": "4.*.*",
 		"fluidtypo3/fluidpages": "3.*.*",
@@ -25,6 +35,8 @@
 		"typo3-ter/nc-staticfilecache": "*",
 		"typo3-ter/realurl": "2.0.15",
 		"typo3-ter/seo-basics": "*",
+		"ecodev/tt-news": "dev-master",
+		"ecodev/newsletter": "3.1.0",
 
 		"helhum/typo3-console": "1.*.*",
 		"fab/vidi": "2.*.*",
@@ -35,6 +47,11 @@
 	"require-dev": {
 		"mikey179/vfsStream": "1.4.*@dev",
 		"phpunit/phpunit": "~4.7.0"
+	},
+	"autoload": {
+		"classmap": [
+			"htdocs/typo3conf/ext/speciality/Classes"
+		]
 	},
 	"autoload-dev": {
 		"psr-4": {
