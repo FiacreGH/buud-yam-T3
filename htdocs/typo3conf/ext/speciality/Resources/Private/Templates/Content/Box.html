@@ -1,0 +1,50 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	 xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+	 xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+	 xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+
+	<f:layout name="Content" />
+
+	<f:section name="Configuration">
+		<flux:form id="Box" options="{group: 'Bootstrap',Fluidcontent: {sorting: 50}, icon: '{f:uri.resource(path: \'Backend/Icons/Content/SimpleResponsiveImage.png\')}'}">
+			<flux:field.file name="settings.image" showThumbnails="1" allowed="jpg,jpeg,png,gif,JPEG,GIF,PNG,JPG" required="1" maxItems="1"/>
+			<flux:field.input name="settings.title"/>
+			<flux:field.input name="settings.maxWidth" default="400" />
+			<flux:field.input name="settings.link" />
+			<flux:field.input name="settings.more" />
+			<flux:form.content name="content"/>
+		</flux:form>
+	</f:section>
+
+	<f:section name="Preview">
+		<div style="text-align: center">
+			<v:media.image src="{settings.image}" alt="" width="100" />
+		</div>
+	</f:section>
+
+	<f:section name="Main">
+
+		<div class="box">
+			<f:if condition="{settings.link}">
+				<f:then>
+					<a class="boxImg" href="{settings.link}" style="background-image:url(/{settings.image})">
+						<span>{settings.title}</span>
+					</a>
+				</f:then>
+				<f:else>
+					<div class="boxImg" style="background-image:url(/{settings.image})">
+						<span>{settings.title}</span>
+					</div>
+				</f:else>
+			</f:if>
+
+			<div class="boxText {settings.responsiveViewText}">
+				<flux:content.render area="content"/>
+				<f:if condition="{settings.more}"><f:if condition="{settings.link}">
+					<a href="{settings.link}" title="see more" class="boxMore btn btn-primary pull-right">{settings.more}</a>
+				</f:if></f:if>
+			</div>
+		</div>
+	</f:section>
+
+</div>
