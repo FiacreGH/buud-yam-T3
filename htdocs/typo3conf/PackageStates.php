@@ -258,6 +258,14 @@ return [
             'packagePath' => 'typo3conf/ext/vidi/',
             'suggestions' => [],
         ],
+        'formule' => [
+            'composerName' => 'fab/formule',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/formule/',
+            'suggestions' => [
+                'vidi',
+            ],
+        ],
         'media' => [
             'composerName' => 'fab/media',
             'state' => 'active',
@@ -271,6 +279,14 @@ return [
             'state' => 'active',
             'packagePath' => 'typo3conf/ext/natural_gallery/',
             'suggestions' => [],
+        ],
+        'tt_news' => [
+            'composerName' => 'ecodev/tt-news',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/tt_news/',
+            'suggestions' => [
+                'vidi',
+            ],
         ],
         'vidi_frontend' => [
             'composerName' => 'fab/vidi-frontend',
@@ -300,6 +316,12 @@ return [
             'composerName' => 'ecodev/speciality-ecodev',
             'state' => 'active',
             'packagePath' => 'typo3conf/ext/speciality_ecodev/',
+            'suggestions' => [],
+        ],
+        'tt_address' => [
+            'composerName' => 'friendsoftypo3/tt-address',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/tt_address/',
             'suggestions' => [],
         ],
         'typo3_console' => [
@@ -372,6 +394,12 @@ return [
             'composerName' => 'typo3/cms-linkvalidator',
             'state' => 'inactive',
             'packagePath' => 'typo3/sysext/linkvalidator/',
+            'suggestions' => [],
+        ],
+        'newsletter' => [
+            'composerName' => 'ecodev/newsletter',
+            'state' => 'inactive',
+            'packagePath' => 'typo3conf/ext/newsletter/',
             'suggestions' => [],
         ],
         'opendocs' => [

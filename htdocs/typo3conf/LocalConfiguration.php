@@ -3,15 +3,20 @@ return [
     'BE' => [
         'debug' => false,
         'explicitADmode' => 'explicitAllow',
+        'installToolPassword' => '$P$C.UNGARWVv6Pgp/eBQE80plSomqr5a0',
         'loginSecurityLevel' => 'rsa',
     ],
-    'DB' => [],
+    'DB' => [
+        'host' => 'localhost',
+        'socket' => '',
+    ],
     'EXT' => [
         'extConf' => [
             'fluidcontent' => 'a:0:{}',
             'fluidcontent_core' => 'a:0:{}',
             'fluidpages' => 'a:3:{s:8:"autoload";s:1:"1";s:8:"doktypes";s:0:"";s:33:"pagesLanguageConfigurationOverlay";s:1:"0";}',
             'flux' => 'a:4:{s:9:"debugMode";s:1:"0";s:7:"compact";s:1:"0";s:17:"listNestedContent";s:1:"0";s:12:"handleErrors";s:1:"0";}',
+            'formule' => 'a:4:{s:19:"autoload_typoscript";s:1:"1";s:23:"development_redirect_to";s:0:"";s:19:"testing_redirect_to";s:0:"";s:22:"production_redirect_to";s:0:"";}',
             'media' => 'a:10:{s:18:"default_categories";s:0:"";s:22:"load_rte_configuration";s:1:"0";s:15:"has_folder_tree";s:1:"1";s:21:"has_media_file_picker";s:1:"0";s:14:"hide_file_list";s:1:"0";s:15:"image_thumbnail";s:7:"100x100";s:10:"image_mini";s:7:"120x120";s:11:"image_small";s:7:"320x320";s:12:"image_medium";s:7:"760x760";s:11:"image_large";s:9:"1200x1200";}',
             'natural_gallery' => 'a:0:{}',
             'nc_staticfilecache' => 'a:8:{s:23:"clearCacheForAllDomains";s:1:"1";s:22:"sendCacheControlHeader";s:1:"1";s:47:"sendCacheControlHeaderRedirectAfterCacheTimeout";s:1:"0";s:27:"enableStaticFileCompression";s:1:"1";s:23:"showGenerationSignature";s:1:"0";s:9:"fileTypes";s:7:"xml,rss";s:8:"strftime";s:14:"%d-%m-%y %H:%M";s:11:"recreateURI";s:1:"0";}',
@@ -23,6 +28,8 @@ return [
             'speciality' => 'a:0:{}',
             'speciality_distribution' => 'a:0:{}',
             'speciality_ecodev' => 'a:0:{}',
+            'tt_address' => 'a:3:{s:21:"backwardsCompatFormat";s:9:"%1$s %3$s";s:24:"storeBackwardsCompatName";s:1:"1";s:17:"readOnlyNameField";s:1:"1";}',
+            'tt_news' => 'a:1:{s:18:"activateCategories";s:1:"1";}',
             'typo3_console' => 'a:0:{}',
             'vhs' => 'a:0:{}',
             'vidi' => 'a:3:{s:10:"data_types";s:18:"fe_users,fe_groups";s:11:"default_pid";s:24:"1,fe_users:1,fe_groups:1";s:19:"autoload_typoscript";s:1:"1";}',
@@ -43,7 +50,6 @@ return [
             'TYPO3\CMS\Install\Updates\BackendUserStartModuleUpdate' => 1,
             'TYPO3\CMS\Install\Updates\Compatibility6ExtractionUpdate' => 1,
             'TYPO3\CMS\Install\Updates\ContentTypesToTextMediaUpdate' => 1,
-            'TYPO3\CMS\Install\Updates\ExtensionManagerTables' => 1,
             'TYPO3\CMS\Install\Updates\FileListIsStartModuleUpdate' => 1,
             'TYPO3\CMS\Install\Updates\FilesReplacePermissionUpdate' => 1,
             'TYPO3\CMS\Install\Updates\LanguageIsoCodeUpdate' => 1,
