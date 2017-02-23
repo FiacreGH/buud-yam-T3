@@ -32,8 +32,8 @@ return [
             'tt_news' => 'a:1:{s:18:"activateCategories";s:1:"1";}',
             'typo3_console' => 'a:0:{}',
             'vhs' => 'a:0:{}',
-            'vidi' => 'a:3:{s:10:"data_types";s:18:"fe_users,fe_groups";s:11:"default_pid";s:24:"1,fe_users:1,fe_groups:1";s:19:"autoload_typoscript";s:1:"1";}',
-            'vidi_frontend' => 'a:2:{s:13:"content_types";s:29:"fe_groups, fe_users, sys_file";s:19:"autoload_typoscript";s:1:"1";}',
+            'vidi' => 'a:3:{s:10:"data_types";s:53:"fe_users,fe_groups, sys_category, tt_news, tt_address";s:11:"default_pid";s:24:"1,fe_users:1,fe_groups:1";s:19:"autoload_typoscript";s:1:"1";}',
+            'vidi_frontend' => 'a:2:{s:13:"content_types";s:38:"fe_groups, fe_users, sys_file, tt_news";s:19:"autoload_typoscript";s:1:"1";}',
         ],
     ],
     'FE' => [
