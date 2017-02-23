@@ -1,0 +1,172 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"
+      xmlns:f="http://typo3.org/ns/fluid/ViewHelpers"
+      xmlns:fo="http://typo3.org/ns/Fab/Formule/ViewHelpers">
+
+<f:layout name="Default"/>
+
+<f:section name="main">
+
+	<fo:loadAssets/>
+
+	<style>
+		.red {
+			color: red;
+		}
+	</style>
+
+	<fo:loadAssets>
+		<script>
+			$(document).ready(function() {
+				$('#characterLeft').text('{f:translate(key:"contact.limit.total.characters")}');
+				$('#message').keydown(function() {
+					var max = 140;
+					var len = $(this).val().length;
+					if (len >= max) {
+						$('#characterLeft').text('{f:translate(key:"contact.limit.met")}');
+						$('#characterLeft').addClass('red');
+						$('#btnSubmit').addClass('disabled');
+					}
+					else {
+						var numberOfCharacters = max - len;
+						$('#characterLeft').text(numberOfCharacters + ' {f:translate(key:"contact.limit.characters")}');
+						$('#btnSubmit').removeClass('disabled');
+						$('#characterLeft').removeClass('red');
+					}
+				});
+			});
+		</script>
+	</fo:loadAssets>
+
+	<f:render section="FormError" partial="Form/Error" arguments="{_all}"/>
+	<div class="form-area">
+		<f:form class="form-horizontal" action="submit" controller="Form" additionalAttributes="{role: 'form'}" method="post">
+			<h1 style="padding-bottom: 10px">
+				Contact
+			</h1>
+			<f:if condition="{fo:context.isDevelopment()}">
+				<f:render section="FormError" partial="Form/Error" arguments="{_all}"/>
+			</f:if>
+			<div class="form-group {fo:hasError(field: 'first_name_last_name')}">
+				<div class="col-sm-12">
+					<input type="text"
+					       class="form-control"
+					       id="first_name_last_name"
+					       name="first_name_last_name"
+					       value="{values.first_name_last_name}"
+					       placeholder="Nom et prénom *"
+					       required="required"/>
+					<span class="help-block">{fo:message.error(field: 'first_name_last_name')}</span>
+				</div>
+			</div>
+			<div class="form-group ">
+				<div class="col-sm-12">
+					<input type="text"
+					       class="form-control"
+					       id="organ"
+					       name="organ"
+					       value="{values.organ}"
+					       placeholder="Organisme"/>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-12">
+					<input type="text"
+					       class="form-control"
+					       id="rue"
+					       name="rue"
+					       value="{values.rue}"
+					       placeholder="Rue"/>
+				</div>
+			</div>
+			<div class="form-group {fo:hasError(field: 'npa')}">
+				<div class="col-sm-12">
+					<input type="text"
+					       class="form-control"
+					       id="npa"
+					       name="npa"
+					       value="{values.npa}"
+					       placeholder="NPA / Localité *"
+					       required="required"/>
+					<span class="help-block">{fo:message.error(field: 'npa')}</span>
+
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-12">
+					<input type="text"
+					       class="form-control"
+					       id="pays"
+					       name="pays"
+					       value="{values.pays}"
+					       placeholder="Pays"/>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-12">
+					<input type="text"
+					       class="form-control"
+					       id="phone"
+					       name="phone"
+					       value="{values.phone}"
+					       placeholder="Téléphone"/>
+				</div>
+			</div>
+			<div class="form-group {fo:hasError(field: 'email')}">
+				<div class="col-sm-12">
+					<input type="text"
+					       class="form-control"
+					       id="email"
+					       name="email"
+					       value="{values.email}"
+					       placeholder="Courriel *"
+					       required="required"/>
+					<span class="help-block">{fo:message.error(field: 'email')}</span>
+
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-12">
+				<textarea class="form-control"
+				          rows="6"
+				          id="message"
+				          name="message"
+				          placeholder="Remarques">{values.message}</textarea>
+				</div>
+			</div>
+
+			<p style="text-align: left">
+				*) champs obligatoires
+			</p>
+
+			<input type="submit" value="Envoyer" class="btn btn-primary pull-right">
+			<f:comment><!-- The only mandatory field --></f:comment>
+			<f:form.hidden name="values" value="{contentElement.uid}"/>
+
+			<f:comment><!-- VH to limit bots annoyance (required) --></f:comment>
+			<fo:honeyPot/>
+
+			<f:comment><!--Display hint in Development context (optional) --></f:comment>
+			<fo:message.development/>
+		</f:form>
+	</div>
+
+</f:section>
+
+<f:section name="emailAdmin">
+<f:translate key="admin_email_body" extensionName="speciality"/>
+<fo:form.show labelsIn="speciality"/>
+</f:section>
+
+<f:section name="emailUser">
+<f:translate key="user_email_body" extensionName="speciality"/>
+<fo:form.show labelsIn="speciality"/>
+</f:section>
+
+<f:section name="feedback">
+	<p>
+		<f:translate key="feedback_body" extensionName="speciality"/>
+	</p>
+
+	<fo:form.show labelsIn="speciality"/>
+</f:section>
+</html>
