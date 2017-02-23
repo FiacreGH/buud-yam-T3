@@ -141,6 +141,266 @@ p {
 
 }
 
+.new-date {
+
+  * {
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+  }
+
+  .month {
+    height: 30%;
+    width: 65%;
+    text-align: center;
+  }
+
+  .day {
+    height: 68%;
+    width: 65%;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .year {
+    margin-left: 65%;
+    width: 100%;
+    height: 35%;
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    text-align: right;
+    margin-top:0.2em;
+  }
+}
+
+.new-date-md {
+  @extend .new-date;
+
+  width: 100px;
+  height: 100px;
+
+  .month {
+    font-size: 32px;
+  }
+
+  .day {
+    font-size: 56px;
+  }
+
+  .year {
+    font-size: 37px;
+  }
+
+}
+
+.new-date-sm {
+  @extend .new-date;
+
+  width: 60px;
+  height: 60px;
+
+  .month {
+    font-size: 18px;
+  }
+
+  .day {
+    font-size: 33px;
+  }
+
+  .year {
+    font-size: 22px;
+  }
+}
+
+.new-date-xs {
+  @extend .new-date;
+
+  width: 40px;
+  height: 40px;
+
+  .month {
+    font-size: 13px;
+  }
+
+  .day {
+    font-size: 20px;
+  }
+
+  .year {
+    font-size: 15px;
+  }
+}
+
+
+/* Vidi row
+-------------------------------------------------- */
+
+.vidi-frontend {
+  tr {
+    .title {
+
+    }
+
+    p {
+
+    }
+  }
+}
+
+/* Vidi news rows
+-------------------------------------------------- */
+
+.news-row {
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+
+  .new-date {
+    margin-right: 20px;
+    text-align: left !important;
+  }
+
+  .news-content {
+    flex: 1;
+    a {
+      text-decoration: none;
+
+      &:hover {
+        color:$brand-primary
+      }
+    }
+  }
+
+  .news-title {
+    text-align: left !important;
+    font-weight:bold;
+    font-size:20px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .news-title + .news-short {
+    margin-top:.5em;
+  }
+}
+
+/* Vidi news rows on home page news
+-------------------------------------------------- */
+
+.news-row-home {
+  margin-bottom: 1em;
+  align-items:center;
+
+  .news-short {
+    display: none;
+  }
+
+  &:hover {
+    background: #f6f6f6;
+  }
+}
+
+
+/* Home
+-------------------------------------------------- */
+.home-news {
+
+  border: none !important;
+
+  tr:first-child td {
+    border: none !important;
+  }
+
+  td {
+    padding: 5px;
+  }
+
+  .news-short {
+    display: none;
+  }
+
+  .new-date {
+    @extend .new-date-xs;
+  }
+}
+
+.list-news {
+
+  .news-title {
+    font-weight: bold !important;
+  }
+
+  .new-date {
+    @extend .new-date-sm;
+    margin-top: 5px;
+  }
+}
+
+/* News Detail
+-------------------------------------------------- */
+
+.speciality-new {
+  margin-top: 40px;
+
+  .new-title {
+    margin-top: 0;
+  }
+
+  .new-date {
+    margin-top: 10px;
+  }
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover{
+  background-color: #ae6900;
+  border-color: #ae6900;
+
+}
+
+.vidi-frontend {
+
+  .vidi-row {
+    display: flex;
+    align-items:flex-start;
+
+    a {
+      color: #a70000;
+      text-decoration:none;
+      &:hover {
+        color: #038822;
+      }
+    }
+
+    .title {
+      font-size:24px;
+    }
+
+    .desc {
+      margin-top:0.5em;
+    }
+
+    .vidi-col-1 {
+      margin-right:20px;
+      img {
+        width:100px;
+      }
+    }
+
+    .vidi-col-2 {
+      flex: 1;
+    }
+  }
+
+}
+
+
 .btn-primary {
   color: #fff;
   background-color: #c07400;
@@ -150,7 +410,6 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #900 !important;
-  border-bottom: 1px solid #E4F2C8;
   padding: 10px 0 5px 0;
   font-weight: bold;
   margin: 0 0 0.25em 0;

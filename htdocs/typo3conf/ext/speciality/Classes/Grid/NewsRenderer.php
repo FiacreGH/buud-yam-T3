@@ -50,7 +50,7 @@ class NewsRenderer extends ColumnRendererAbstract
 </div>
 ';
         $configuration = [
-            'parameter' => 100,
+            'parameter' => 140,
             'useCacheHash' => 1,
             'additionalParams' => '&news=' . $this->object->getUid(),
         ];

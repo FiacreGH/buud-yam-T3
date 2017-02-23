@@ -7991,6 +7991,151 @@ p {
     .box .boxText .boxMore {
       margin-top: 5px; }
 
+.new-date *, .new-date-md *, .new-date-sm *, .list-news .new-date *, .new-date-xs *, .home-news .new-date * {
+  margin: 0;
+  padding: 0;
+  line-height: 1em; }
+
+.new-date .month, .new-date-md .month, .new-date-sm .month, .new-date-xs .month {
+  height: 30%;
+  width: 65%;
+  text-align: center; }
+
+.new-date .day, .new-date-md .day, .new-date-sm .day, .new-date-xs .day {
+  height: 68%;
+  width: 65%;
+  font-weight: bold;
+  text-align: center; }
+
+.new-date .year, .new-date-md .year, .new-date-sm .year, .new-date-xs .year {
+  margin-left: 65%;
+  width: 100%;
+  height: 35%;
+  transform: rotate(-90deg);
+  transform-origin: left top;
+  text-align: right;
+  margin-top: 0.2em; }
+
+.new-date-md {
+  width: 100px;
+  height: 100px; }
+  .new-date-md .month {
+    font-size: 32px; }
+  .new-date-md .day {
+    font-size: 56px; }
+  .new-date-md .year {
+    font-size: 37px; }
+
+.new-date-sm, .list-news .new-date, .list-news .new-date-md, .list-news .new-date-sm, .list-news .new-date-xs {
+  width: 60px;
+  height: 60px; }
+  .new-date-sm .month, .list-news .new-date .month, .list-news .new-date-md .month, .list-news .new-date-xs .month {
+    font-size: 18px; }
+  .new-date-sm .day, .list-news .new-date .day, .list-news .new-date-md .day, .list-news .new-date-xs .day {
+    font-size: 33px; }
+  .new-date-sm .year, .list-news .new-date .year, .list-news .new-date-md .year, .list-news .new-date-xs .year {
+    font-size: 22px; }
+
+.new-date-xs, .home-news .new-date, .home-news .new-date-md, .home-news .new-date-sm, .home-news .new-date-xs {
+  width: 40px;
+  height: 40px; }
+  .new-date-xs .month, .home-news .new-date .month, .home-news .new-date-md .month, .home-news .new-date-sm .month {
+    font-size: 13px; }
+  .new-date-xs .day, .home-news .new-date .day, .home-news .new-date-md .day, .home-news .new-date-sm .day {
+    font-size: 20px; }
+  .new-date-xs .year, .home-news .new-date .year, .home-news .new-date-md .year, .home-news .new-date-sm .year {
+    font-size: 15px; }
+
+/* Vidi row
+-------------------------------------------------- */
+/* Vidi news rows
+-------------------------------------------------- */
+.news-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; }
+  .news-row .new-date, .news-row .new-date-md, .news-row .new-date-sm, .news-row .new-date-xs {
+    margin-right: 20px;
+    text-align: left !important; }
+  .news-row .news-content {
+    flex: 1; }
+    .news-row .news-content a {
+      text-decoration: none; }
+      .news-row .news-content a:hover {
+        color: #337ab7; }
+  .news-row .news-title {
+    text-align: left !important;
+    font-weight: bold;
+    font-size: 20px; }
+    .news-row .news-title a {
+      text-decoration: none; }
+  .news-row .news-title + .news-short {
+    margin-top: .5em; }
+
+/* Vidi news rows on home page news
+-------------------------------------------------- */
+.news-row-home {
+  margin-bottom: 1em;
+  align-items: center; }
+  .news-row-home .news-short {
+    display: none; }
+  .news-row-home:hover {
+    background: #f6f6f6; }
+
+/* Home
+-------------------------------------------------- */
+.home-news {
+  border: none !important; }
+  .home-news tr:first-child td {
+    border: none !important; }
+  .home-news td {
+    padding: 5px; }
+  .home-news .news-short {
+    display: none; }
+
+.list-news .news-title {
+  font-weight: bold !important; }
+
+.list-news .new-date-md, .list-news .new-date-sm, .list-news .new-date, .list-news .new-date-xs {
+  margin-top: 5px; }
+
+/* News Detail
+-------------------------------------------------- */
+.speciality-new {
+  margin-top: 40px; }
+  .speciality-new .new-title {
+    margin-top: 0; }
+  .speciality-new .new-date, .speciality-new .new-date-md, .speciality-new .new-date-sm, .speciality-new .new-date-xs {
+    margin-top: 10px; }
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+  background-color: #ae6900;
+  border-color: #ae6900; }
+
+.vidi-frontend .vidi-row {
+  display: flex;
+  align-items: flex-start; }
+  .vidi-frontend .vidi-row a {
+    color: #a70000;
+    text-decoration: none; }
+    .vidi-frontend .vidi-row a:hover {
+      color: #038822; }
+  .vidi-frontend .vidi-row .title {
+    font-size: 24px; }
+  .vidi-frontend .vidi-row .desc {
+    margin-top: 0.5em; }
+  .vidi-frontend .vidi-row .vidi-col-1 {
+    margin-right: 20px; }
+    .vidi-frontend .vidi-row .vidi-col-1 img {
+      width: 100px; }
+  .vidi-frontend .vidi-row .vidi-col-2 {
+    flex: 1; }
+
 .btn-primary {
   color: #fff;
   background-color: #c07400;
@@ -7999,7 +8144,6 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #900 !important;
-  border-bottom: 1px solid #E4F2C8;
   padding: 10px 0 5px 0;
   font-weight: bold;
   margin: 0 0 0.25em 0;
