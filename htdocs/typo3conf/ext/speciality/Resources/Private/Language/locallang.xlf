@@ -1021,6 +1021,157 @@
 			</trans-unit>
 			<!-- /ThumbnailBox.html -->
 
+			<!-- Box.html -->
+			<trans-unit id="flux.Box" xml:space="preserve">
+                <source>Box</source>
+            </trans-unit>
+            <trans-unit id="flux.Box.description" xml:space="preserve">
+                <source>Box with image, title, link and content.</source>
+            </trans-unit>
+            <trans-unit id="flux.Box.columns.content" xml:space="preserve">
+                <source>Content</source>
+            </trans-unit>
+            <trans-unit id="flux.Box.fields.settings.image" xml:space="preserve">
+                <source>Image</source>
+            </trans-unit>
+            <trans-unit id="flux.Box.fields.settings.title" xml:space="preserve">
+                <source>Box title</source>
+            </trans-unit>
+            <trans-unit id="flux.Box.fields.settings.maxWidth" xml:space="preserve">
+                <source>Max image width</source>
+            </trans-unit>
+            <trans-unit id="flux.Box.fields.settings.link" xml:space="preserve">
+                <source>Link of content</source>
+            </trans-unit>
+            <trans-unit id="flux.Box.fields.settings.more" xml:space="preserve">
+                <source>"See more" button label</source>
+            </trans-unit>
+			<!-- /Box.html -->
+
+			<!-- Forms -->
+			<trans-unit id="first_name">
+				<source>Prénom: </source>
+			</trans-unit>
+			<trans-unit id="last_name">
+				<source>Nom: </source>
+			</trans-unit>
+			<trans-unit id="first_name_last_name">
+				<source>Nom et prénom*:</source>
+			</trans-unit>
+			<trans-unit id="organ">
+				<source>Organisme:</source>
+			</trans-unit>
+			<trans-unit id="rue">
+				<source>Rue:</source>
+			</trans-unit>
+			<trans-unit id="npa">
+				<source>NPA / Localité*:</source>
+			</trans-unit>
+			<trans-unit id="pays">
+				<source>Pays:</source>
+			</trans-unit>
+			<trans-unit id="phone">
+				<source>Téléphone:</source>
+			</trans-unit>
+			<trans-unit id="email">
+				<source>Courriel*:</source>
+			</trans-unit>
+			<trans-unit id="message">
+				<source>Commentaire:</source>
+			</trans-unit>
+			<trans-unit id="option0">
+				<source>Membre(Frs 50.-)</source>
+			</trans-unit>
+			<trans-unit id="option1">
+				<source>Membre (Frs 70.-)</source>
+			</trans-unit>
+			<trans-unit id="option2">
+				<source>Membre (Frs 100.-)</source>
+			</trans-unit>
+			<trans-unit id="option3">
+				<source>Parrainage (dès Frs 100.-)</source>
+			</trans-unit>
+
+			<trans-unit id="newsletter.update">
+				<source>Modifier mon inscription</source>
+			</trans-unit>
+			<trans-unit id="newsletter.delete">
+				<source>Supprimer mon inscription</source>
+			</trans-unit>
+
+			<!-- Frontend message -->
+			<trans-unit id="is_newsletter_active">
+				<source>Recevoir la newsletter ?</source>
+			</trans-unit>
+			<trans-unit id="message.update.success">
+				<source>Vos réglages ont été correctement enregistrés.</source>
+			</trans-unit>
+			<trans-unit id="confirm.delete">
+				<source>Êtes-vous sûr de vouloir supprimer votre compte?</source>
+			</trans-unit>
+
+			<trans-unit id="user_email_body">
+				<source>Nous avons bien reçu votre requête depuis le site Buud Yam. Nous l'examinerons et vous contacterons dès que possible.
+				</source>
+			</trans-unit>
+			<trans-unit id="admin_email_body">
+				<source>Bonjour Administrateur,
+
+					Vous avez reçu une nouvelle requête en provenance du site Buud Yam.
+
+					Les informations reçues sont les suivantes:
+				</source>
+			</trans-unit>
+			<trans-unit id="feedback_body">
+				<source>Merci, votre requête a été bien envoyée.</source>
+			</trans-unit>
+
+			<trans-unit id="newsletter.admin.body1">
+				<source><![CDATA[Hello Admin,
+
+Un visiteur a rempli le formulaire d'inscription à la newsletter depuis %s avec %s.
+
+Un email lui a été envoyé pour confirmation de son email adresse.
+
+Pour retrouver son contact, veuillez cliquer sur %s et chercher "%s" comme occurrence.]]></source>
+			</trans-unit>
+			<trans-unit id="newsletter.user.body1">
+				<source><![CDATA[%s %s,
+
+Nous avons reçu votre inscription à notre newsletter via le formulaire de notre site. Veuillez confirmer votre adresse email en cliquant %s.
+
+Si vous pensez avoir reçu cet email par erreur, veuillez ignorer ce message.]]></source>
+			</trans-unit>
+
+			<trans-unit id="newsletter.message.feedback">
+				<source>Votre inscription à la newsletter a réussi. Un email vous a été envoyé</source>
+			</trans-unit>
+
+			<!-- LatestNews.html -->
+			<trans-unit id="flux.latestNews" xml:space="preserve">
+				<source>Latest News with Content Elements</source>
+			</trans-unit>
+			<trans-unit id="flux.latestNews.description" xml:space="preserve">
+				<source>Latest News Element Container</source>
+			</trans-unit>
+
+			<!-- NewsDetail.html -->
+			<trans-unit id="flux.newsDetail" xml:space="preserve">
+				<source>Détail actualité</source>
+			</trans-unit>
+			<trans-unit id="flux.newsDetail.description" xml:space="preserve">
+				<source></source>
+			</trans-unit>
+
+
+			<!-- NewsletterList.html -->
+			<trans-unit id="flux.newsletterList" xml:space="preserve">
+				<source>Liste Newsletter</source>
+			</trans-unit>
+			<trans-unit id="flux.newsletterList.description" xml:space="preserve">
+				<source></source>
+			</trans-unit>
+
 			<!-- TextImage.html -->
 			<trans-unit id="flux.TextImage" xml:space="preserve">
                 <source>Text and image</source>
