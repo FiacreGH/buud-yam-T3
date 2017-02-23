@@ -1,0 +1,120 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"
+      xmlns:f="http://typo3.org/ns/fluid/ViewHelpers"
+      xmlns:fo="http://typo3.org/ns/Fab/Formule/ViewHelpers">
+
+<f:layout name="Default"/>
+
+<f:section name="main">
+
+	<fo:loadAssets/>
+
+	<fo:loadAssets>
+		<script>
+			$(document).ready(function() {
+				$('#submit-delete').click(function(e) {
+					if (confirm('{f:translate(key: "confirm.delete")}')) {
+						$('#btn-delete').val(1);
+					} else {
+						e.preventDefault();
+					}
+				});
+			});
+		</script>
+	</fo:loadAssets>
+
+	<f:if condition="{values.uid}">
+
+		<f:then>
+
+			<div class="form-area">
+				<f:form action="submit" controller="Form" additionalAttributes="{role: 'form'}" method="post">
+
+					<f:if condition="{fo:context.isDevelopment()}">
+						<f:render section="FormError" partial="Form/Error" arguments="{_all}"/>
+					</f:if>
+
+					<f:render section="FlashMessage" partial="FlashMessage" arguments="{_all}"/>
+
+					<div class="form-group {fo:hasError(field: 'first_name')}">
+						<input type="text"
+						       class="form-control"
+						       id="first_name"
+						       name="first_name"
+						       value="{values.first_name}"
+						       placeholder="Prénom *"
+						       required="required"/>
+						<span class="help-block">{fo:message.error(field: 'first_name')}</span>
+					</div>
+					<div class="form-group {fo:hasError(field: 'last_name')}">
+						<input type="text"
+						       class="form-control"
+						       id="last_name"
+						       name="last_name"
+						       value="{values.last_name}"
+						       placeholder="Nom *"
+						       required="required"/>
+						<span class="help-block">{fo:message.error(field: 'last_name')}</span>
+					</div>
+					<div class="form-group {fo:hasError(field: 'email')}">
+						<div class="input-group">
+							<div class="input-group-addon">@</div>
+							<input type="text"
+							       class="form-control"
+							       id="email"
+							       name="email"
+							       value="{values.email}"
+							       placeholder="E-mail *"
+							       required="required"/>
+						</div>
+						<span class="help-block">{fo:message.error(field: 'email')}</span>
+					</div>
+					<div class="checkbox {fo:hasError(field: 'is_newsletter_active')}">
+						<label>
+							<input type="hidden" name="is_newsletter_active" value="0"/>
+
+							<input type="checkbox"
+							       id="is_newsletter_active"
+							       {f:if(condition: "{values.is_newsletter_active}", then: 'checked="checked"')}
+							name="is_newsletter_active"
+							value="1"/>
+							<f:translate key="is_newsletter_active" extensionName="speciality"/>
+						</label>
+					</div>
+
+					<input type="submit"
+					       style="margin-left: 10px"
+					       value="{f:translate(key:'newsletter.update', extensionName:'speciality')}"
+					       class="btn btn-primary pull-right">
+
+					<input type="submit"
+					       id="submit-delete"
+					       value="{f:translate(key:'newsletter.delete', extensionName:'speciality')}"
+					       class="btn btn-danger pull-right">
+
+					<f:comment><!-- The only mandatory field --></f:comment>
+					<f:form.hidden name="values" value="{contentElement.uid}"/>
+
+					<input type="hidden" name="token" value="{fo:gp(key: 'token')}"/>
+					<input type="hidden" id="btn-delete" name="delete" value="0"/>
+
+					<f:comment><!--Display hint in Development context (optional) --></f:comment>
+					<fo:message.development/>
+				</f:form>
+			</div>
+		</f:then>
+		<f:else>
+			<f:translate key="token.invalid"/>
+		</f:else>
+
+	</f:if>
+
+</f:section>
+
+<f:section name="feedback">
+	<p class="success">
+		<f:translate key="message.update.success" extensionName="speciality"/>
+	</p>
+
+	<fo:form.show labelsIn="speciality"/>
+</f:section>
+</html>

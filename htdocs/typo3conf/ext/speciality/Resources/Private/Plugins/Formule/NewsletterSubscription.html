@@ -1,0 +1,93 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"
+      xmlns:f="http://typo3.org/ns/fluid/ViewHelpers"
+      xmlns:fo="http://typo3.org/ns/Fab/Formule/ViewHelpers">
+
+<f:layout name="Default"/>
+
+<f:section name="main">
+
+	<fo:loadAssets/>
+
+	<div class="form-area">
+		<f:form action="submit" controller="Form" additionalAttributes="{role: 'form'}" method="post">
+
+			<f:if condition="{fo:context.isDevelopment()}">
+				<f:render section="FormError" partial="Form/Error" arguments="{_all}"/>
+			</f:if>
+
+			<div class="form-group {fo:hasError(field: 'first_name')}">
+				<input type="text"
+				       class="form-control"
+				       id="first_name"
+				       name="first_name"
+				       value="{values.first_name}"
+				       placeholder="Prénom *"
+				       required="required"/>
+				<span class="help-block">{fo:message.error(field: 'first_name')}</span>
+			</div>
+			<div class="form-group {fo:hasError(field: 'last_name')}">
+				<input type="text"
+				       class="form-control"
+				       id="last_name"
+				       name="last_name"
+				       value="{values.last_name}"
+				       placeholder="Nom *"
+				       required="required"/>
+				<span class="help-block">{fo:message.error(field: 'last_name')}</span>
+			</div>
+			<div class="form-group {fo:hasError(field: 'email')}">
+				<input type="text"
+				       class="form-control"
+				       id="email"
+				       name="email"
+				       value="{values.email}"
+				       placeholder="Email *"
+				       required="required"/>
+				<span class="help-block">{fo:message.error(field: 'email')}</span>
+			</div>
+			<input type="submit" value="Souscrire" class="btn btn-primary pull-right">
+
+			<f:comment><!-- The only mandatory field --></f:comment>
+			<f:form.hidden name="values" value="{contentElement.uid}"/>
+
+			<f:comment><!-- VH to limit bots annoyance (optional) --></f:comment>
+			<fo:honeyPot/>
+
+			<f:comment><!--Display hint in Development context (optional) --></f:comment>
+			<fo:message.development/>
+		</f:form>
+	</div>
+
+</f:section>
+
+<f:section name="emailAdmin">
+<f:translate key="newsletter.admin.body1"
+             arguments="{
+             0: '{HTTP_HOST}',
+             1: '{email}',
+             2: '{f:translate(key: \'link\') -> fo:link.backend()}',
+             3: '{last_name}'
+             }"
+             extensionName="speciality"/>
+
+<fo:form.show labelsIn="speciality"/>
+</f:section>
+
+<f:section name="emailUser">
+<f:translate key="newsletter.user.body1"
+             arguments="{
+             0: '{first_name}',
+             1: '{last_name}',
+             2: '{f:translate(key: \'link\') -> fo:link.confirm(pageUid: \'variable.preferencesPageUid\')}'
+             }"
+             extensionName="speciality"/>
+</f:section>
+
+<f:section name="feedback">
+	<p>
+		<f:translate key="newsletter.message.feedback" extensionName="speciality"/>
+	</p>
+
+	<fo:form.show labelsIn="speciality"/>
+</f:section>
+</html>

@@ -1,0 +1,30 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+     xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+     xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+     xmlns:s="http://typo3.org/ns/Ecodev/Speciality/ViewHelpers"
+     xmlns:v="http://typo3.org/ns/Fab/Vidi/ViewHelpers">
+
+	<f:layout name="Content"/>
+
+	<f:section name="Configuration">
+		<flux:form id="newsletterList"
+		           options="{group: 'Bootstrap', Fluidcontent: {sorting: 300}, icon: '{f:uri.resource(path: \'Backend/Icons/Content/Accordion.png\')}'}">
+
+		</flux:form>
+	</f:section>
+
+	<f:section name="Main">
+		<f:groupedFor each="{s:newsletter.find()}" as="newsletterPage" groupBy="year" groupKey="year">
+			<h3>{year}</h3>
+			<f:for each="{newsletterPage}" as="fruit" key="label">
+				<p>
+					<f:link.page pageUid="{fruit.uid}">
+						<strong>{fruit.title}</strong>
+					</f:link.page>
+					{fruit.abstract -> f:format.raw()}
+				</p>
+
+			</f:for>
+		</f:groupedFor>
+	</f:section>
+</div>
