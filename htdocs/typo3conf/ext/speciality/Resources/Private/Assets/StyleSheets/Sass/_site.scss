@@ -554,14 +554,24 @@ label {
 .nav.bs-docs-sidenav > .active .nav .current > a,
 .nav.bs-docs-sidenav > .current > a,
 .nav.bs-docs-sidenav > .active > a {
-  color: #fff;
-  background-color: #c07400;
+  color: #f90;
+  background-color: #884C0B;
   position: relative;
   z-index: 2;
   padding: 9px 15px;
   border: 0;
   text-shadow: 0 1px 0 rgba(0, 0, 0, .15);
   box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1), inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+.bs-docs-sidenav>li a{
+  color: #613434;
+  background-color: #c07400;
+  border: 1px solid #c07400 ;
+  font-weight: bold;
+  &:hover {
+    color: #f90;
+    background-color: #c07400;
+  }
 }
 
 /* Chevrons */
@@ -572,9 +582,6 @@ label {
   opacity: .25;
 }
 
-.bs-docs-sidenav > li > a:hover {
-  background-color: #f5f5f5;
-}
 
 /* style for menu level 2 */
 .nav.bs-docs-sidenav > .active .nav a {
