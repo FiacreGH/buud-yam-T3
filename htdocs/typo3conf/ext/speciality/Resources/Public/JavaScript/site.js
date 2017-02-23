@@ -11605,6 +11605,10 @@ if (typeof jQuery === 'undefined') {
 				$('.anchor', this).toggleClass('hidden');
 			});
 
+			/* Activate fancy box plugin
+			*/
+			$('.fancybox').fancybox();
+
 			/**
 			 * Toggle visibility of "read-more-content" block.
 			 * Example: http://bootstrap.typo3cms.demo.typo3.org/content-examples/text-expandable/

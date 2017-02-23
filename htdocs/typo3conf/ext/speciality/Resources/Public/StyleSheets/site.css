@@ -7918,6 +7918,9 @@ body {
   line-height: 1.428571429;
   color: #333; }
 
+p {
+  text-align: justify; }
+
 .header {
   background: url(/banners/buudYam.png) no-repeat scroll 0 0;
   height: 200px; }
@@ -7929,6 +7932,64 @@ body {
 
 .headImg {
   margin: auto; }
+
+.box {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); }
+  .box .boxImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none; }
+    .box .boxImg * {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 66px;
+      background: rgba(51, 122, 183, 0.8);
+      padding: 15px;
+      transition: min-height 0.35s cubic-bezier(0.8, 0, 0.6, 1); }
+  .box a.boxImg:hover * {
+    min-height: 250px; }
+  .box .boxText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.7em; }
+    .box .boxText ul, .box .boxText ol {
+      margin: 0 0 0 20px;
+      padding: 0;
+      list-style: none; }
+      .box .boxText ul li, .box .boxText ol li {
+        position: relative; }
+        .box .boxText ul li::before, .box .boxText ol li::before {
+          content: "";
+          position: absolute;
+          left: -20px;
+          top: 8px;
+          box-sizing: border-box;
+          display: block;
+          width: 10px;
+          height: 10px;
+          border-top: 5px solid #337ab7;
+          border-right: 5px solid #337ab7;
+          transform: rotate(45deg); }
+    .box .boxText .boxMore {
+      margin-top: 5px; }
 
 .btn-primary {
   color: #fff;
@@ -7990,8 +8051,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold; } }
 
 #footer {
+  margin-top: 15px;
   color: #666;
-  background: #f9f9f9;
+  background: rgba(252, 237, 231, 0.53);
   padding: 15px;
   border-top: 5px rgba(207, 88, 19, 0.62) solid;
   text-align: center; }
