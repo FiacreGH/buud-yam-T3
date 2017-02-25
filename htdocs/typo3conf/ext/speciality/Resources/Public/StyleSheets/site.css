@@ -7933,6 +7933,9 @@ p {
 .headImg {
   margin: auto; }
 
+.box .boxImg > span {
+  background: rgba(192, 116, 0, 0.62); }
+
 .box {
   display: flex;
   flex-direction: column;

@@ -50,7 +50,9 @@ p {
   margin: auto;
 }
 
-
+.box .boxImg > span{
+  background: rgba(192, 116, 0, 0.62);
+}
 .box {
   display: flex;
   flex-direction: column;
@@ -60,7 +62,6 @@ p {
 
   $height: 250px;
   .boxImg {
-
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
