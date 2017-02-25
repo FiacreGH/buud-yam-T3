@@ -24,7 +24,7 @@ $tca = [
                 'default' => '1',
             ],
         ],
-        'CHANGE_ME' => [
+        'image' => [
             'config' => [
                 'type' => 'select',
                 'size' => 10,
