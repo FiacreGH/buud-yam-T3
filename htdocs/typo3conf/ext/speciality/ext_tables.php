@@ -8,11 +8,18 @@ if (!defined('TYPO3_MODE')) {
 # Add user TSConfig
 $basePath = \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath('speciality');
 
-# User TSconfig to be placed in your ext_tables.php:
+# Use default pid for news
 TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig('
 
 	# Default pid for "tt_news" in Vidi:
 	tx_vidi.dataType.tt_news.storagePid = 18
+');
+
+# Use default pid for news
+TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig('
+
+	# Default pid for "tt_address" in Vidi:
+	tx_vidi.dataType.tt_address.storagePid = 137
 ');
 
 // Default User TSConfig to be added in any case.
