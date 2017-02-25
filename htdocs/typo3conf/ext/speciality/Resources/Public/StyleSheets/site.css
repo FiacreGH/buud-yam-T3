@@ -7910,6 +7910,9 @@ button.close {
 .form-group {
   width: 100%; }
 
+.form-horizontal .control-label {
+  text-align: left; }
+
 .main, body {
   font-family: "Trebuchet MS", "Raleway", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; }
 

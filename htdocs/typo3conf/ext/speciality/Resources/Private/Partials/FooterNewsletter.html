@@ -3,20 +3,36 @@
      xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
 
 	<f:section name="FooterNewsletter">
+		<style>
+			body {
+				font-family: "Open Sans", Lato, sans-serif;
+				font-size: 15px;
+				line-height: 1.42857;
+				color: #333;
+			}
+
+			hr {
+				border: 0;
+				height: 0;
+				border-top: 1px solid rgba(0, 0, 0, 0.1);
+				border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+			}
+		</style>
 		<div class="newsletter-helper">
 			<hr/>
 			<p>
-				If the email does not display correctly
+				Si l'email ne s'affiche pas correctement,
 				<f:link.page>click here</f:link.page>.
 			</p>
 			<p>
-				Add the email address "info@example.com " in your email address book to ensure the newsletter to
-				correctly comes in your mail box and displays images.
+				Afin d'assurer la réception de la newsletter dans votre boîte électronique et l'affichage des
+				images, ajoutez l'adresse email "contact@buud-yam.ch" dans votre fichier d'adresses de votre
+				programme email.
 			</p>
 			<p>
-				If you no longer wish to receive the newsletter or if your email address has changed, please
-				<a href="{f:uri.page(pageUid: '350', additionalParams: '{token: \'\'}', noCacheHash: 'true', absolute: 1)}###token###">click
-					here</a>.
+				Si vous ne souhaitez plus recevoir la newsletter ou si votre adresse email a changé, veuillez
+				<a href="{f:uri.page(pageUid: '139', additionalParams: '{token: \'\'}', noCacheHash: 'true', absolute: 1)}###token###">cliquer
+					ici</a>.
 			</p>
 		</div>
 	</f:section>
