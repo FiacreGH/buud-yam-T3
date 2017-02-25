@@ -300,6 +300,12 @@ return [
             'packagePath' => 'typo3conf/ext/nc_staticfilecache/',
             'suggestions' => [],
         ],
+        'newsletter' => [
+            'composerName' => 'ecodev/newsletter',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/newsletter/',
+            'suggestions' => [],
+        ],
         'realurl' => [
             'composerName' => 'dmitryd/typo3-realurl',
             'state' => 'active',
@@ -394,12 +400,6 @@ return [
             'composerName' => 'typo3/cms-linkvalidator',
             'state' => 'inactive',
             'packagePath' => 'typo3/sysext/linkvalidator/',
-            'suggestions' => [],
-        ],
-        'newsletter' => [
-            'composerName' => 'ecodev/newsletter',
-            'state' => 'inactive',
-            'packagePath' => 'typo3conf/ext/newsletter/',
             'suggestions' => [],
         ],
         'opendocs' => [
