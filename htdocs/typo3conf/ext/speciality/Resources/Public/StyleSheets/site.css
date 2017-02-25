@@ -8144,9 +8144,11 @@ p {
 
 .btn-primary {
   color: #fff;
-  background-color: #c07400;
-  border-color: #3338A7;
-  border-radius: 0; }
+  background-color: #b66e00;
+  border-color: #b66e00; }
+  .btn-primary:hover {
+    background-color: #d38100;
+    border-color: #d38100; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #900 !important;
