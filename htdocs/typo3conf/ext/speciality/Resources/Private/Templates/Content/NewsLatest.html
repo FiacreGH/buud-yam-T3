@@ -1,7 +1,7 @@
 <div xmlns="http://www.w3.org/1999/xhtml" lang="en"
-	 xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
-	 xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
-	 xmlns:v="http://typo3.org/ns/Fab/Vidi/ViewHelpers">
+     xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+     xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+     xmlns:v="http://typo3.org/ns/Fab/Vidi/ViewHelpers">
 
 	<f:layout name="Content" />
 
@@ -12,34 +12,33 @@
 	</f:section>
 
 	<f:section name="Main">
-		<h2>Actualités</h2>
 
 		<f:if condition="{v:content.find( orderings: {datetime: 'DESC'}, type: 'tt_news')}">
-				<f:for each="{v:content.find(orderings: {datetime: 'DESC'},limit:3, type: 'tt_news')}" as="news">
-					<div class="news-row news-row-home">
-						<div class="new-date new-date-xs">
-							<div class="month">
-								<f:format.date format="M">{news.datetime}</f:format.date>
-							</div>
-							<div class="day">
-								<f:format.date format="d">{news.datetime}</f:format.date>
-							</div>
-							<div class="year">
-								<f:format.date format="Y">{news.datetime}</f:format.date>
-							</div>
+			<f:for each="{v:content.find(orderings: {datetime: 'DESC'},limit:3, type: 'tt_news')}" as="news">
+				<div class="news-row news-row-home">
+					<div class="new-date new-date-xs">
+						<div class="month">
+							<f:format.date format="M">{news.datetime}</f:format.date>
 						</div>
-						<div class="news-content">
-							<div class="news-title">
-								<f:link.page pageUid="100" additionalParams="{news:'{news.uid}'}" >
-									{news.title}
-								</f:link.page>
-							</div>
-							<div class="news-short">
-								{news.short}
-							</div>
+						<div class="day">
+							<f:format.date format="d">{news.datetime}</f:format.date>
+						</div>
+						<div class="year">
+							<f:format.date format="Y">{news.datetime}</f:format.date>
 						</div>
 					</div>
-				</f:for>
+					<div class="news-content">
+						<div class="news-title">
+							<f:link.page pageUid="140" additionalParams="{news:'{news.uid}'}" >
+								{news.title}
+							</f:link.page>
+						</div>
+						<div class="news-short">
+							{news.short}
+						</div>
+					</div>
+				</div>
+			</f:for>
 		</f:if>
 		{namespace m=Fab\Vidi\ViewHelpers}
 	</f:section>
