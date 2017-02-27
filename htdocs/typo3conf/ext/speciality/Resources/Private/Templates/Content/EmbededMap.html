@@ -1,0 +1,30 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	 xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+	 xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+	 xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+
+	<f:layout name="Content" />
+
+	<f:section name="Configuration">
+		<flux:form id="EmbededMap"
+		           options="{group: 'Bootstrap',Fluidcontent: {sorting: 55}, icon: '{f:uri.resource(path: \'Backend/Icons/Content/EmbedVideo.png\')}'}">
+		</flux:form>
+	</f:section>
+
+	<f:section name="Main">
+		<div id="map-canvas" style="width:100%;height:43em;">
+			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDh-sH700LoR6DDmKxZkehSAWfBLfpD2g&sensor=false"></script>
+			<script type="text/javascript">
+				function initialize() {
+					var myLatLng = new google.maps.LatLng(12.727335, -2.401689);
+					var mapOptions = {center:myLatLng, zoom:18, mapTypeId:google.maps.MapTypeId.HYBRID, disableDefaultUI: true};
+					var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+					var punaise = '/maps.png';
+					var marker = new google.maps.Marker({position:myLatLng, map:map, icon:punaise, title:"Dispensaire Buùd-Yam"});
+				}
+				google.maps.event.addDomListener(window, 'load', initialize);
+			</script>
+		</div>
+	</f:section>
+
+</div>

@@ -1,6 +1,8 @@
 <?php
 if (!defined('TYPO3_MODE')) die ('Access denied.');
 
+$GLOBALS['TCA']['tt_address']['grid']['excluded_fields'] = 'image';
+
 $tca = [
     'columns' => [
         'token' => [
@@ -24,27 +26,12 @@ $tca = [
                 'default' => '1',
             ],
         ],
-        'image' => [
-            'config' => [
-                'type' => 'select',
-                'size' => 10,
-                'minitems' => 0,
-                'maxitems' => 9999,
-                'autoSizeMax' => 30,
-                'multiple' => 0,
-                'foreign_table' => 'tt_address',
-                'MM' => 'CHANGE_ME',
-                'MM_opposite_field' => 'image',
-            ],
+    ],
+
+    'grid' => [
+        'excluded_fields' =>'image',
         ],
-
-    ]
 ];
-
-
-if (!empty($GLOBALS['TCA']['image'])) {
-    return \TYPO3\CMS\Core\Utility\GeneralUtility::array_merge_recursive_overrule($GLOBALS['TCA']['image'], $tca);
-}
 
 // Add new fields to the TCA.
 $fieldList = '--div--;LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:tab.newsletter,

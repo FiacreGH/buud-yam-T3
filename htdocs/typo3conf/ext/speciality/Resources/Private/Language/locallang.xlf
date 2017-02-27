@@ -1048,6 +1048,15 @@
             </trans-unit>
 			<!-- /Box.html -->
 
+			<!-- EmbededMap.html -->
+			<trans-unit id="flux.EmbededMap" xml:space="preserve">
+                <source>Embeded Map</source>
+            </trans-unit>
+            <trans-unit id="flux.EmbededMap.description" xml:space="preserve">
+                <source>Embeded Map with JavaScript</source>
+            </trans-unit>
+			<!-- /EmbededMap.html -->
+
 			<!-- Forms -->
 			<trans-unit id="first_name">
 				<source>Prénom: </source>
