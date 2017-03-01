@@ -40,103 +40,125 @@
 	<f:render section="FormError" partial="Form/Error" arguments="{_all}"/>
 	<div class="form-area">
 		<f:form class="form-horizontal" action="submit" controller="Form" additionalAttributes="{role: 'form'}" method="post">
-			<h1 style="padding-bottom: 10px">
-				Contact
-			</h1>
-			<f:if condition="{fo:context.isDevelopment()}">
-				<f:render section="FormError" partial="Form/Error" arguments="{_all}"/>
-			</f:if>
-			<div class="form-group {fo:hasError(field: 'first_name_last_name')}">
-				<div class="col-sm-12">
-					<input type="text"
-					       class="form-control"
-					       id="first_name_last_name"
-					       name="first_name_last_name"
-					       value="{values.first_name_last_name}"
-					       placeholder="Nom et prénom *"
-					       required="required"/>
-					<span class="help-block">{fo:message.error(field: 'first_name_last_name')}</span>
-				</div>
-			</div>
-			<div class="form-group ">
-				<div class="col-sm-12">
-					<input type="text"
-					       class="form-control"
-					       id="organ"
-					       name="organ"
-					       value="{values.organ}"
-					       placeholder="Organisme"/>
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-sm-12">
-					<input type="text"
-					       class="form-control"
-					       id="rue"
-					       name="rue"
-					       value="{values.rue}"
-					       placeholder="Rue"/>
-				</div>
-			</div>
-			<div class="form-group {fo:hasError(field: 'npa')}">
-				<div class="col-sm-12">
-					<input type="text"
-					       class="form-control"
-					       id="npa"
-					       name="npa"
-					       value="{values.npa}"
-					       placeholder="NPA / Localité *"
-					       required="required"/>
-					<span class="help-block">{fo:message.error(field: 'npa')}</span>
 
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="first_name">
+							{f:translate(key:'first_name', extensionName:'speciality')}
+						</label>
+						<input type="text"
+						       name="first_name"
+						       id="first_name" class="form-control"
+						       value="{values.first_name}"
+						       required
+						       placeholder="{f:translate(key:'first_name', extensionName:'speciality')}"/>
+						<span class="help-block">{fo:message.error(field: 'first_name')}</span>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="last_name">
+							{f:translate(key:'last_name', extensionName:'speciality')}
+						</label>
+						<input type="text"
+						       name="last_name"
+						       id="last_name"
+						       class="form-control"
+						       value="{values.last_name}"
+						       required
+						       placeholder="{f:translate(key:'last_name_plus', extensionName:'speciality')}"/>
+						<span class="help-block">{fo:message.error(field: 'last_name')}</span>
+					</div>
 				</div>
 			</div>
-			<div class="form-group">
-				<div class="col-sm-12">
-					<input type="text"
-					       class="form-control"
-					       id="pays"
-					       name="pays"
-					       value="{values.pays}"
-					       placeholder="Pays"/>
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-sm-12">
-					<input type="text"
-					       class="form-control"
-					       id="phone"
-					       name="phone"
-					       value="{values.phone}"
-					       placeholder="Téléphone"/>
-				</div>
-			</div>
-			<div class="form-group {fo:hasError(field: 'email')}">
-				<div class="col-sm-12">
-					<input type="text"
-					       class="form-control"
-					       id="email"
-					       name="email"
-					       value="{values.email}"
-					       placeholder="Courriel *"
-					       required="required"/>
-					<span class="help-block">{fo:message.error(field: 'email')}</span>
 
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="organ">
+							{f:translate(key:'organ', extensionName:'speciality')}
+						</label>
+						<input type="text"
+						       name="organ"
+						       id="organ" class="form-control"
+						       value="{values.organ}"
+						       placeholder="{f:translate(key:'organ', extensionName:'speciality')}"/>
+						<span class="help-block">{fo:message.error(field: 'organ')}</span>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="rue_address">
+							{f:translate(key:'rue_address', extensionName:'speciality')}
+						</label>
+						<input type="text"
+						       name="rue_address"
+						       id="rue_address"
+						       class="form-control"
+						       value="{values.rue_address}"
+						       placeholder="{f:translate(key:'rue_address', extensionName:'speciality')}"/>
+						<span class="help-block">{fo:message.error(field: 'rue_address')}</span>
+					</div>
 				</div>
 			</div>
+
 			<div class="form-group">
-				<div class="col-sm-12">
+				<label for="email">
+					{f:translate(key:'email', extensionName:'speciality')}
+				</label>
+				<input type="email"
+				       name="email"
+				       id="email"
+				       class="form-control"
+				       value="{values.email}"
+				       required
+				       placeholder="{f:translate(key:'email', extensionName:'speciality')}"/>
+				<span class="help-block">{fo:message.error(field: 'email')}</span>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="phone">
+							{f:translate(key:'phone', extensionName:'speciality')}
+						</label>
+						<input type="text"
+						       name="phone"
+						       id="phone" class="form-control"
+						       value="{values.phone}"
+						       required
+						       placeholder="{f:translate(key:'phone', extensionName:'speciality')}"/>
+						<span class="help-block">{fo:message.error(field: 'phone')}</span>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="natel">
+							{f:translate(key:'natel', extensionName:'speciality')}
+						</label>
+						<input type="text"
+						       name="natel"
+						       id="natel"
+						       class="form-control"
+						       value="{values.natel}"
+						       placeholder="{f:translate(key:'natel', extensionName:'speciality')}"/>
+						<span class="help-block">{fo:message.error(field: 'natel')}</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="message">
+					{f:translate(key:'message', extensionName:'speciality')}
+				</label>
 				<textarea class="form-control"
 				          rows="6"
 				          id="message"
 				          name="message"
-				          placeholder="Remarques">{values.message}</textarea>
-				</div>
+				          required
+				          placeholder="{f:translate(key:'message', extensionName:'speciality')}">{values.message}</textarea>
 			</div>
-
-			<p style="text-align: left">
-				*) champs obligatoires
-			</p>
 
 			<input type="submit" value="Envoyer" class="btn btn-primary pull-right">
 			<f:comment><!-- The only mandatory field --></f:comment>

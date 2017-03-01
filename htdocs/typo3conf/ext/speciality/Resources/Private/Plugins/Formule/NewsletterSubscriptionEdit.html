@@ -35,27 +35,42 @@
 
 					<f:render section="FlashMessage" partial="FlashMessage" arguments="{_all}"/>
 
-					<div class="form-group {fo:hasError(field: 'first_name')}">
-						<input type="text"
-						       class="form-control"
-						       id="first_name"
-						       name="first_name"
-						       value="{values.first_name}"
-						       placeholder="Prénom *"
-						       required="required"/>
-						<span class="help-block">{fo:message.error(field: 'first_name')}</span>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="first_name">
+									{f:translate(key:'first_name', extensionName:'speciality')}
+								</label>
+								<input type="text"
+								       name="first_name"
+								       id="first_name" class="form-control"
+								       value="{values.first_name}"
+								       required
+								       placeholder="{f:translate(key:'first_name', extensionName:'speciality')}"/>
+								<span class="help-block">{fo:message.error(field: 'first_name')}</span>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="last_name">
+									{f:translate(key:'last_name', extensionName:'speciality')}
+								</label>
+								<input type="text"
+								       name="last_name"
+								       id="last_name"
+								       class="form-control"
+								       value="{values.last_name}"
+								       required
+								       placeholder="{f:translate(key:'last_name_plus', extensionName:'speciality')}"/>
+								<span class="help-block">{fo:message.error(field: 'last_name')}</span>
+							</div>
+						</div>
 					</div>
-					<div class="form-group {fo:hasError(field: 'last_name')}">
-						<input type="text"
-						       class="form-control"
-						       id="last_name"
-						       name="last_name"
-						       value="{values.last_name}"
-						       placeholder="Nom *"
-						       required="required"/>
-						<span class="help-block">{fo:message.error(field: 'last_name')}</span>
-					</div>
-					<div class="form-group {fo:hasError(field: 'email')}">
+
+					<div class="form-group">
+						<label for="email">
+							{f:translate(key:'email', extensionName:'speciality')}
+						</label>
 						<div class="input-group">
 							<div class="input-group-addon">@</div>
 							<input type="text"
@@ -68,6 +83,7 @@
 						</div>
 						<span class="help-block">{fo:message.error(field: 'email')}</span>
 					</div>
+
 					<div class="checkbox {fo:hasError(field: 'is_newsletter_active')}">
 						<label>
 							<input type="hidden" name="is_newsletter_active" value="0"/>
