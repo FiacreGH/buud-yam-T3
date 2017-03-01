@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2012-10-17T17:55:17Z"
+	<file source-language="en" datatype="plaintext" original="messages" date="2012-10-17T175517Z"
 	      product-name="ext-speciality">
 		<header/>
 		<body>
 			<!-- Content -->
 
 			<!-- Accordion.html -->
-			<trans-unit id="flux.accordion" xml:space="preserve">
+			<trans-unit id="flux.accordion" xmlspace="preserve">
 				<source>Accordion with Content Elements</source>
 			</trans-unit>
-			<trans-unit id="flux.accordion.description" xml:space="preserve">
+			<trans-unit id="flux.accordion.description" xmlspace="preserve">
 				<source>Accordion Element Container</source>
 			</trans-unit>
-			<trans-unit id="flux.accordion.sheets.panels" xml:space="preserve">
+			<trans-unit id="flux.accordion.sheets.panels" xmlspace="preserve">
 				<source>Panels</source>
 			</trans-unit>
-			<trans-unit id="flux.accordion.sections.panels" xml:space="preserve">
+			<trans-unit id="flux.accordion.sections.panels" xmlspace="preserve">
 				<source>Panels</source>
 			</trans-unit>
-			<trans-unit id="flux.accordion.objects.panel" xml:space="preserve">
+			<trans-unit id="flux.accordion.objects.panel" xmlspace="preserve">
 				<source>Panel</source>
 			</trans-unit>
-			<trans-unit id="flux.accordion.objects.panel.title" xml:space="preserve">
+			<trans-unit id="flux.accordion.objects.panel.title" xmlspace="preserve">
 				<source>Panel Header/Title</source>
 			</trans-unit>
-			<trans-unit id="flux.accordion.objects.panel.active" xml:space="preserve">
+			<trans-unit id="flux.accordion.objects.panel.active" xmlspace="preserve">
 				<source>Panel is Active?</source>
 			</trans-unit>
 			<!-- /Accordion.html -->
 
 			<!-- Alert.html -->
-			<trans-unit id="flux.alert" xml:space="preserve">
+			<trans-unit id="flux.alert" xmlspace="preserve">
 				<source>Alert (Inline)</source>
 			</trans-unit>
-			<trans-unit id="flux.alert.description" xml:space="preserve">
+			<trans-unit id="flux.alert.description" xmlspace="preserve">
 				<source>Alert Box (Not Popup) Inline in Page</source>
 			</trans-unit>
-			<trans-unit id="flux.alert.areas.content" xml:space="preserve">
+			<trans-unit id="flux.alert.areas.content" xmlspace="preserve">
 				<source>Alert Content</source>
 			</trans-unit>
-			<trans-unit id="flux.alert.fields.header" xml:space="preserve">
+			<trans-unit id="flux.alert.fields.header" xmlspace="preserve">
 				<source>Alert Header</source>
 			</trans-unit>
-			<trans-unit id="flux.alert.fields.closeLinkText" xml:space="preserve">
+			<trans-unit id="flux.alert.fields.closeLinkText" xmlspace="preserve">
 				<source>Close Link Text (Like 'x' or '&amp;times;')</source>
 			</trans-unit>
-			<trans-unit id="flux.alert.fields.class" xml:space="preserve">
+			<trans-unit id="flux.alert.fields.class" xmlspace="preserve">
 				<source>Alert Box Class</source>
 			</trans-unit>
-			<trans-unit id="flux.alert.fields.isBlock" xml:space="preserve">
+			<trans-unit id="flux.alert.fields.isBlock" xmlspace="preserve">
 				<source>Add Additional Padding</source>
 			</trans-unit>
-            <trans-unit id="flux.alert.columns.content" xml:space="preserve">
+            <trans-unit id="flux.alert.columns.content" xmlspace="preserve">
 				<source>Alert</source>
 			</trans-unit>
 			<!-- /Alert.html -->
@@ -100,193 +100,193 @@
 			<!-- /Button.html -->
 
 			<!-- ButtonGroup.html -->
-			<trans-unit id="flux.buttongroup" xml:space="preserve">
+			<trans-unit id="flux.buttongroup" xmlspace="preserve">
 				<source>Button Group</source>
 			</trans-unit>
-			<trans-unit id="flux.buttongroup.description" xml:space="preserve">
+			<trans-unit id="flux.buttongroup.description" xmlspace="preserve">
 				<source>Obsolete!! will be removed in next version</source>
 			</trans-unit>
-			<trans-unit id="flux.buttongroup.areas.content" xml:space="preserve">
+			<trans-unit id="flux.buttongroup.areas.content" xmlspace="preserve">
 				<source>Buttons</source>
 			</trans-unit>
 			<!-- /ButtonGroup.html -->
 
 			<!-- ButtonLink.html -->
-			<trans-unit id="flux.buttonlink" xml:space="preserve">
+			<trans-unit id="flux.buttonlink" xmlspace="preserve">
 				<source>Button Link</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.description" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.description" xmlspace="preserve">
 				<source>Default Twitter Bootstrap Button-styled Link to a Page, File or Custom URL.</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.fields.target" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.fields.target" xmlspace="preserve">
 				<source>Link Target</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.fields.text" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.fields.text" xmlspace="preserve">
 				<source>Link Text</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.fields.tooltip" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.fields.tooltip" xmlspace="preserve">
 				<source>Display Title as Tooltip</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.fields.title" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.fields.title" xmlspace="preserve">
 				<source>Optional Title, Appears as Tooltip If Tooltip is Enabled</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.fields.iconClass" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.fields.iconClass" xmlspace="preserve">
 				<source>Optional Icon Class Name (Like 'envelope' or 'exclamation-sign')</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.fields.iconPlacement" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.fields.iconPlacement" xmlspace="preserve">
 				<source>Icon Placement - Left or Right</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.fields.size" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.fields.size" xmlspace="preserve">
 				<source>LinkButton Size</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.fields.block" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.fields.block" xmlspace="preserve">
 				<source>Display Button as Block Element (100% Width)</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.fields.class" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.fields.class" xmlspace="preserve">
 				<source>LinkButton Style Type</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.fields.additionalClassNames" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.fields.additionalClassNames" xmlspace="preserve">
 				<source>Additional Class Names for LinkButton Element</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.fields.wrapTag" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.fields.wrapTag" xmlspace="preserve">
 				<source>Wrap with Tag</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.sheets.addons" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.sheets.addons" xmlspace="preserve">
 				<source>Addons</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.sections.addons" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.sections.addons" xmlspace="preserve">
 				<source>Addons</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.objects.popover" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.objects.popover" xmlspace="preserve">
 				<source>Popover Dialog</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.objects.popover.title" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.objects.popover.title" xmlspace="preserve">
 				<source>Popover Title</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.objects.popover.content" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.objects.popover.content" xmlspace="preserve">
 				<source>Popover Content</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.objects.modal" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.objects.modal" xmlspace="preserve">
 				<source>Modal Dialog</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.objects.modal.title" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.objects.modal.title" xmlspace="preserve">
 				<source>Modal Dialog Title</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.objects.modal.content" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.objects.modal.content" xmlspace="preserve">
 				<source>Content Elements to be Displayed</source>
 			</trans-unit>
-			<trans-unit id="flux.buttonlink.edit" xml:space="preserve">
+			<trans-unit id="flux.buttonlink.edit" xmlspace="preserve">
 				<source>Edit</source>
 			</trans-unit>
 			<!-- /ButtonLink.html -->
 
 			<!-- Carousel.html -->
-			<trans-unit id="flux.carousel" xml:space="preserve">
+			<trans-unit id="flux.carousel" xmlspace="preserve">
 				<source>Element Carousel</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.description" xml:space="preserve">
+			<trans-unit id="flux.carousel.description" xmlspace="preserve">
 				<source>Content elements, images or simple texts (each type supporting captions) in a carousel matrix with JS based slide change.</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.fields.settings.carousel.quickselect" xml:space="preserve">
+			<trans-unit id="flux.carousel.fields.settings.carousel.quickselect" xmlspace="preserve">
 				<source>Display circle icons for direct selection of slides, default top right corner</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.fields.settings.carousel.quickselectType" xml:space="preserve">
+			<trans-unit id="flux.carousel.fields.settings.carousel.quickselectType" xmlspace="preserve">
 				<source>Choose navigation display type</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.fields.settings.carousel.interval" xml:space="preserve">
-				<source>Interval between image changes, in milliseconds (default: 5000)</source>
+			<trans-unit id="flux.carousel.fields.settings.carousel.interval" xmlspace="preserve">
+				<source>Interval between image changes, in milliseconds (default 5000)</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.fields.settings.carousel.id" xml:space="preserve">
+			<trans-unit id="flux.carousel.fields.settings.carousel.id" xmlspace="preserve">
 				<source>DOM element ID (override not necessary but possible)</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.fields.settings.carousel.labelNext" xml:space="preserve">
-				<source>Label: next (empty will display default arrow)</source>
+			<trans-unit id="flux.carousel.fields.settings.carousel.labelNext" xmlspace="preserve">
+				<source>Label next (empty will display default arrow)</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.fields.settings.carousel.labelPrev" xml:space="preserve">
-				<source>Label: previous (empty will display default arrow)</source>
+			<trans-unit id="flux.carousel.fields.settings.carousel.labelPrev" xmlspace="preserve">
+				<source>Label previous (empty will display default arrow)</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.fields.settings.carousel.width" xml:space="preserve">
+			<trans-unit id="flux.carousel.fields.settings.carousel.width" xmlspace="preserve">
 				<source>Image width, supports TS IMAGE widths, fx 250c to set width 250 with cropping</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.sheets.elements" xml:space="preserve">
+			<trans-unit id="flux.carousel.sheets.elements" xmlspace="preserve">
 				<source>Content Elements</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.sections.elements" xml:space="preserve">
+			<trans-unit id="flux.carousel.sections.elements" xmlspace="preserve">
 				<source>Content Elements</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.objects.text" xml:space="preserve">
+			<trans-unit id="flux.carousel.objects.text" xmlspace="preserve">
 				<source>Text</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.objects.text.title" xml:space="preserve">
+			<trans-unit id="flux.carousel.objects.text.title" xmlspace="preserve">
 				<source>Header</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.objects.text.size" xml:space="preserve">
+			<trans-unit id="flux.carousel.objects.text.size" xmlspace="preserve">
 				<source>Text Size</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.objects.text.text" xml:space="preserve">
+			<trans-unit id="flux.carousel.objects.text.text" xmlspace="preserve">
 				<source>Text</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.objects.text.header" xml:space="preserve">
+			<trans-unit id="flux.carousel.objects.text.header" xmlspace="preserve">
 				<source>Optional Header for Caption</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.objects.text.caption" xml:space="preserve">
+			<trans-unit id="flux.carousel.objects.text.caption" xmlspace="preserve">
 				<source>Optional Caption Body Text</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.objects.text.iconImage" xml:space="preserve">
+			<trans-unit id="flux.carousel.objects.text.iconImage" xmlspace="preserve">
 				<source>Optional Image for Navigation Dots</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.objects.content" xml:space="preserve">
+			<trans-unit id="flux.carousel.objects.content" xmlspace="preserve">
 				<source>Content Elements</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.objects.content.id" xml:space="preserve">
+			<trans-unit id="flux.carousel.objects.content.id" xmlspace="preserve">
 				<source>Content Area ID</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.objects.content.header" xml:space="preserve">
+			<trans-unit id="flux.carousel.objects.content.header" xmlspace="preserve">
 				<source>Optional Header for Caption</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.objects.content.caption" xml:space="preserve">
+			<trans-unit id="flux.carousel.objects.content.caption" xmlspace="preserve">
 				<source>Optional Caption Body Text</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.objects.content.iconImage" xml:space="preserve">
+			<trans-unit id="flux.carousel.objects.content.iconImage" xmlspace="preserve">
 				<source>Optional Image for Navigation Dots</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.objects.image" xml:space="preserve">
+			<trans-unit id="flux.carousel.objects.image" xmlspace="preserve">
 				<source>Image</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.objects.image.file" xml:space="preserve">
+			<trans-unit id="flux.carousel.objects.image.file" xmlspace="preserve">
 				<source>Image File</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.objects.image.header" xml:space="preserve">
+			<trans-unit id="flux.carousel.objects.image.header" xmlspace="preserve">
 				<source>Optional Header for Caption</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.objects.image.caption" xml:space="preserve">
+			<trans-unit id="flux.carousel.objects.image.caption" xmlspace="preserve">
 				<source>Optional Caption Body Text</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.objects.image.iconImage" xml:space="preserve">
+			<trans-unit id="flux.carousel.objects.image.iconImage" xmlspace="preserve">
 				<source>Optional Image for Navigation Dots</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.sheets.styles" xml:space="preserve">
+			<trans-unit id="flux.carousel.sheets.styles" xmlspace="preserve">
 				<source>Styles</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.fields.void" xml:space="preserve">
+			<trans-unit id="flux.carousel.fields.void" xmlspace="preserve">
 				<source> </source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.fields.settings.carousel.autostart" xml:space="preserve">
+			<trans-unit id="flux.carousel.fields.settings.carousel.autostart" xmlspace="preserve">
 				<source>Should the carousel start sliding on page-load?</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.fields.settings.carousel.quickselectStyles" xml:space="preserve">
+			<trans-unit id="flux.carousel.fields.settings.carousel.quickselectStyles" xmlspace="preserve">
 				<source>Optional CSS rule for the quick slide selector dots container</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.fields.settings.carousel.quickselectDotStyles" xml:space="preserve">
+			<trans-unit id="flux.carousel.fields.settings.carousel.quickselectDotStyles" xmlspace="preserve">
 				<source>Optional CSS rule for the quick slide selector dots</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.fields.settings.carousel.navigationStyles" xml:space="preserve">
+			<trans-unit id="flux.carousel.fields.settings.carousel.navigationStyles" xmlspace="preserve">
 				<source>Optional CSS rule for the navigation dots</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.fields.settings.carousel.innerStyles" xml:space="preserve">
+			<trans-unit id="flux.carousel.fields.settings.carousel.innerStyles" xmlspace="preserve">
 				<source>CSS rule for inside of carousel</source>
 			</trans-unit>
-			<trans-unit id="flux.carousel.label.grid.column.prefix" xml:space="preserve">
+			<trans-unit id="flux.carousel.label.grid.column.prefix" xmlspace="preserve">
 				<source>CSS rule for inside of carousel</source>
 			</trans-unit>
 			<!-- /Carousel.html -->
@@ -310,61 +310,61 @@
 			<!-- /EmbedVideo.htm -->
 
 			<!-- ImageGallery.html -->
-			<trans-unit id="flux.imgGallery.description" xml:space="preserve">
+			<trans-unit id="flux.imgGallery.description" xmlspace="preserve">
 				<source>Responsive Image Gallery</source>
 			</trans-unit>
-			<trans-unit id="flux.imgGallery" xml:space="preserve">
+			<trans-unit id="flux.imgGallery" xmlspace="preserve">
 				<source>Image Gallery</source>
 			</trans-unit>
-			<trans-unit id="flux.imgGallery.sheets.imgGallerySheetImages" xml:space="preserve">
+			<trans-unit id="flux.imgGallery.sheets.imgGallerySheetImages" xmlspace="preserve">
 				<source>Images</source>
 			</trans-unit>
-			<trans-unit id="flux.imgGallery.sheets.imgGallerySheetAdvanced" xml:space="preserve">
+			<trans-unit id="flux.imgGallery.sheets.imgGallerySheetAdvanced" xmlspace="preserve">
 				<source>Advanced</source>
 			</trans-unit>
-			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalImageItems" xml:space="preserve">
+			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalImageItems" xmlspace="preserve">
 				<source>Images</source>
 			</trans-unit>
-			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalClassesModal" xml:space="preserve">
+			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalClassesModal" xmlspace="preserve">
 				<source>Custom CSS Class</source>
 			</trans-unit>
-			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalShowPreviewTitle" xml:space="preserve">
+			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalShowPreviewTitle" xmlspace="preserve">
 				<source>Show Title in Preview</source>
 			</trans-unit>
-			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalRenderHrefToOriginal" xml:space="preserve">
+			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalRenderHrefToOriginal" xmlspace="preserve">
 				<source>Render Link Href Attribute to Original Image</source>
 			</trans-unit>
-			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalPrevNextPosition" xml:space="preserve">
+			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalPrevNextPosition" xmlspace="preserve">
 				<source>Position of Prev-Next</source>
 			</trans-unit>
-			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalImageWidth" xml:space="preserve">
+			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalImageWidth" xmlspace="preserve">
 				<source>Size of Preview Image</source>
 			</trans-unit>
-			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalRowLg" xml:space="preserve">
+			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalRowLg" xmlspace="preserve">
 				<source>Images in a Row - Large Screen</source>
 			</trans-unit>
-			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalRowMd" xml:space="preserve">
+			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalRowMd" xmlspace="preserve">
 				<source>Images in a Row - Small Screen</source>
 			</trans-unit>
-			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalRowSm" xml:space="preserve">
+			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalRowSm" xmlspace="preserve">
 				<source>Images in a Row - Tablet</source>
 			</trans-unit>
-			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalRowXs" xml:space="preserve">
+			<trans-unit id="flux.imgGallery.fields.settings.imgGalleryFalRowXs" xmlspace="preserve">
 				<source>Images in a Row - Phones</source>
 			</trans-unit>
 			<!-- /ImageGallery.html -->
 
 			<!-- Jumbotron.html -->
-			<trans-unit id="flux.jumbotron" xml:space="preserve">
+			<trans-unit id="flux.jumbotron" xmlspace="preserve">
 				<source>Jumbotron</source>
 			</trans-unit>
-			<trans-unit id="flux.jumbotron.description" xml:space="preserve">
+			<trans-unit id="flux.jumbotron.description" xmlspace="preserve">
 				<source>A very large header-type element that you can insert other content elements into.</source>
 			</trans-unit>
-			<trans-unit id="flux.jumbotron.areas.content" xml:space="preserve">
+			<trans-unit id="flux.jumbotron.areas.content" xmlspace="preserve">
 				<source>Jumbotron Content</source>
 			</trans-unit>
-            <trans-unit id="flux.jumbotron.columns.content" xml:space="preserve">
+            <trans-unit id="flux.jumbotron.columns.content" xmlspace="preserve">
 				<source>Jumbotron</source>
 			</trans-unit>
 			<!-- /Jumbotron.html -->
@@ -400,76 +400,76 @@
 			<!-- /ModalLight.htm -->
 
 			<!-- NavigationList.html -->
-			<trans-unit id="flux.navigationlist" xml:space="preserve">
+			<trans-unit id="flux.navigationlist" xmlspace="preserve">
 				<source>Navigation List</source>
 			</trans-unit>
-			<trans-unit id="flux.navigationlist.description" xml:space="preserve">
+			<trans-unit id="flux.navigationlist.description" xmlspace="preserve">
 				<source>Configurable navigation list of links to various resources.</source>
 			</trans-unit>
-			<trans-unit id="flux.navigationlist.sheets.display" xml:space="preserve">
+			<trans-unit id="flux.navigationlist.sheets.display" xmlspace="preserve">
 				<source>Display</source>
 			</trans-unit>
-			<trans-unit id="flux.navigationlist.fields.addWell" xml:space="preserve">
+			<trans-unit id="flux.navigationlist.fields.addWell" xmlspace="preserve">
 				<source>Add Well Wrapper</source>
 			</trans-unit>
-			<trans-unit id="flux.navigationlist.fields.zeroPadding" xml:space="preserve">
+			<trans-unit id="flux.navigationlist.fields.zeroPadding" xmlspace="preserve">
 				<source>Do Not Pad the Wrapper</source>
 			</trans-unit>
-			<trans-unit id="flux.navigationlist.fields.class" xml:space="preserve">
+			<trans-unit id="flux.navigationlist.fields.class" xmlspace="preserve">
 				<source>Additional Class Names for Wrapper Element</source>
 			</trans-unit>
-			<trans-unit id="flux.navigationlist.sheets.items" xml:space="preserve">
+			<trans-unit id="flux.navigationlist.sheets.items" xmlspace="preserve">
 				<source>Items</source>
 			</trans-unit>
-			<trans-unit id="flux.navigationlist.sections.items" xml:space="preserve">
+			<trans-unit id="flux.navigationlist.sections.items" xmlspace="preserve">
 				<source>Items</source>
 			</trans-unit>
-			<trans-unit id="flux.navigationlist.objects.header" xml:space="preserve">
+			<trans-unit id="flux.navigationlist.objects.header" xmlspace="preserve">
 				<source>Header</source>
 			</trans-unit>
-			<trans-unit id="flux.navigationlist.objects.header.text" xml:space="preserve">
+			<trans-unit id="flux.navigationlist.objects.header.text" xmlspace="preserve">
 				<source>Header text</source>
 			</trans-unit>
-			<trans-unit id="flux.navigationlist.objects.header.class" xml:space="preserve">
+			<trans-unit id="flux.navigationlist.objects.header.class" xmlspace="preserve">
 				<source>Additional CSS class names</source>
 			</trans-unit>
-			<trans-unit id="flux.navigationlist.objects.item" xml:space="preserve">
+			<trans-unit id="flux.navigationlist.objects.item" xmlspace="preserve">
 				<source>List Item</source>
 			</trans-unit>
-			<trans-unit id="flux.navigationlist.objects.item.text" xml:space="preserve">
+			<trans-unit id="flux.navigationlist.objects.item.text" xmlspace="preserve">
 				<source>Item label text</source>
 			</trans-unit>
-			<trans-unit id="flux.navigationlist.objects.item.tooltip" xml:space="preserve">
+			<trans-unit id="flux.navigationlist.objects.item.tooltip" xmlspace="preserve">
 				<source>Optional Tooltip Text</source>
 			</trans-unit>
-			<trans-unit id="flux.navigationlist.objects.item.icon" xml:space="preserve">
+			<trans-unit id="flux.navigationlist.objects.item.icon" xmlspace="preserve">
 				<source>Optional Icon (16x16)</source>
 			</trans-unit>
-			<trans-unit id="flux.navigationlist.objects.item.target" xml:space="preserve">
+			<trans-unit id="flux.navigationlist.objects.item.target" xmlspace="preserve">
 				<source>Target</source>
 			</trans-unit>
-			<trans-unit id="flux.navigationlist.objects.item.class" xml:space="preserve">
+			<trans-unit id="flux.navigationlist.objects.item.class" xmlspace="preserve">
 				<source>Additional CSS Class Names</source>
 			</trans-unit>
-			<trans-unit id="flux.navigationlist.objects.divider" xml:space="preserve">
+			<trans-unit id="flux.navigationlist.objects.divider" xmlspace="preserve">
 				<source>Divider</source>
 			</trans-unit>
-			<trans-unit id="flux.navigationlist.objects.divider.class" xml:space="preserve">
+			<trans-unit id="flux.navigationlist.objects.divider.class" xmlspace="preserve">
 				<source>Additional CSS Class Names</source>
 			</trans-unit>
 			<!-- /NavigationList.html -->
 
 			<!-- PageHeader.html -->
-			<trans-unit id="flux.pageheader" xml:space="preserve">
+			<trans-unit id="flux.pageheader" xmlspace="preserve">
 				<source>Page Header</source>
 			</trans-unit>
-			<trans-unit id="flux.pageheader.description" xml:space="preserve">
+			<trans-unit id="flux.pageheader.description" xmlspace="preserve">
 				<source>An underlined page header element with optional small caption.</source>
 			</trans-unit>
-			<trans-unit id="flux.pageheader.fields.header" xml:space="preserve">
+			<trans-unit id="flux.pageheader.fields.header" xmlspace="preserve">
 				<source>Large Text</source>
 			</trans-unit>
-			<trans-unit id="flux.pageheader.fields.subheader" xml:space="preserve">
+			<trans-unit id="flux.pageheader.fields.subheader" xmlspace="preserve">
 				<source>Smaller Text Next to Large Text</source>
 			</trans-unit>
 			<!-- /PageHeader.html -->
@@ -502,28 +502,28 @@
 			<!-- /ProgressBar.htm -->
 
 			<!-- Row.html -->
-			<trans-unit id="flux.row" xml:space="preserve">
+			<trans-unit id="flux.row" xmlspace="preserve">
 				<source>1-12 Multi Column Builder</source>
 			</trans-unit>
-			<trans-unit id="flux.row.description" xml:space="preserve">
+			<trans-unit id="flux.row.description" xmlspace="preserve">
 				<source>Build a MulitColumn Grid with X Columns</source>
 			</trans-unit>
-			<trans-unit id="flux.row.fields.settings.fluid" xml:space="preserve">
+			<trans-unit id="flux.row.fields.settings.fluid" xmlspace="preserve">
 				<source>Use "fluid" Row Type Instead of Standard Row</source>
 			</trans-unit>
-			<trans-unit id="flux.row.sections.columns" xml:space="preserve">
+			<trans-unit id="flux.row.sections.columns" xmlspace="preserve">
 				<source>Columns</source>
 			</trans-unit>
-			<trans-unit id="flux.row.objects.column" xml:space="preserve">
+			<trans-unit id="flux.row.objects.column" xmlspace="preserve">
 				<source>Column</source>
 			</trans-unit>
-			<trans-unit id="flux.row.objects.column.addWell" xml:space="preserve">
+			<trans-unit id="flux.row.objects.column.addWell" xmlspace="preserve">
 				<source>Add 'Well' Inside Cell</source>
 			</trans-unit>
-			<trans-unit id="flux.row.objects.column.class" xml:space="preserve">
+			<trans-unit id="flux.row.objects.column.class" xmlspace="preserve">
 				<source>Class</source>
 			</trans-unit>
-			<trans-unit id="flux.row.objects.column.additionalClass" xml:space="preserve">
+			<trans-unit id="flux.row.objects.column.additionalClass" xmlspace="preserve">
 				<source>Additional CSS Class Names</source>
 			</trans-unit>
 			<!-- /Row.html -->
@@ -571,118 +571,118 @@
 			<!-- /SimpleResponsiveImage.html -->
 
 			<!-- Tabs.html -->
-			<trans-unit id="flux.tabs" xml:space="preserve">
+			<trans-unit id="flux.tabs" xmlspace="preserve">
 				<source>Tabs/pills with Content Elements</source>
 			</trans-unit>
-			<trans-unit id="flux.tabs.description" xml:space="preserve">
+			<trans-unit id="flux.tabs.description" xmlspace="preserve">
 				<source>Places Child Content Elements in Tabs.</source>
 			</trans-unit>
-			<trans-unit id="flux.tabs.sheets.display" xml:space="preserve">
+			<trans-unit id="flux.tabs.sheets.display" xmlspace="preserve">
 				<source>Display</source>
 			</trans-unit>
-			<trans-unit id="flux.tabs.fields.mode" xml:space="preserve">
+			<trans-unit id="flux.tabs.fields.mode" xmlspace="preserve">
 				<source>Display Mode</source>
 			</trans-unit>
-			<trans-unit id="flux.tabs.fields.stackable" xml:space="preserve">
+			<trans-unit id="flux.tabs.fields.stackable" xmlspace="preserve">
 				<source>Make Stackable Tabs/Pills</source>
 			</trans-unit>
-			<trans-unit id="flux.tabs.fields.position" xml:space="preserve">
+			<trans-unit id="flux.tabs.fields.position" xmlspace="preserve">
 				<source>Positioning</source>
 			</trans-unit>
-			<trans-unit id="flux.tabs.sheets.tabs" xml:space="preserve">
+			<trans-unit id="flux.tabs.sheets.tabs" xmlspace="preserve">
 				<source>Tabs</source>
 			</trans-unit>
-			<trans-unit id="flux.tabs.sections.tabs" xml:space="preserve">
+			<trans-unit id="flux.tabs.sections.tabs" xmlspace="preserve">
 				<source>Tabs</source>
 			</trans-unit>
-			<trans-unit id="flux.tabs.objects.tab" xml:space="preserve">
+			<trans-unit id="flux.tabs.objects.tab" xmlspace="preserve">
 				<source>Tab</source>
 			</trans-unit>
-			<trans-unit id="flux.tabs.objects.tab.title" xml:space="preserve">
+			<trans-unit id="flux.tabs.objects.tab.title" xmlspace="preserve">
 				<source>Tab Title</source>
 			</trans-unit>
-			<trans-unit id="flux.tabs.objects.tab.class" xml:space="preserve">
+			<trans-unit id="flux.tabs.objects.tab.class" xmlspace="preserve">
 				<source>Additional CSS Class Names</source>
 			</trans-unit>
-			<trans-unit id="flux.tabs.objects.tab.active" xml:space="preserve">
+			<trans-unit id="flux.tabs.objects.tab.active" xmlspace="preserve">
 				<source>Active?</source>
 			</trans-unit>
-			<trans-unit id="flux.tabs.fields.fade" xml:space="preserve">
+			<trans-unit id="flux.tabs.fields.fade" xmlspace="preserve">
 				<source>Enable Fading Effect</source>
 			</trans-unit>
 			<!-- /Tabs.html -->
 
 			<!-- Thumbnails.html -->
-			<trans-unit id="flux.thumbnails" xml:space="preserve">
+			<trans-unit id="flux.thumbnails" xmlspace="preserve">
 				<source>Thumbnail Grid</source>
 			</trans-unit>
-			<trans-unit id="flux.thumbnails.areas.content" xml:space="preserve">
+			<trans-unit id="flux.thumbnails.areas.content" xmlspace="preserve">
 				<source>Content Elements</source>
 			</trans-unit>
-			<trans-unit id="flux.thumbnails.description" xml:space="preserve">
+			<trans-unit id="flux.thumbnails.description" xmlspace="preserve">
 				<source>Obsolete!! will be removed in next version</source>
 			</trans-unit>
-			<trans-unit id="flux.thumbnails.sheets.thumbnails" xml:space="preserve">
+			<trans-unit id="flux.thumbnails.sheets.thumbnails" xmlspace="preserve">
 				<source>Thumbnails</source>
 			</trans-unit>
-			<trans-unit id="flux.thumbnails.fields.width" xml:space="preserve">
+			<trans-unit id="flux.thumbnails.fields.width" xmlspace="preserve">
 				<source>Maximum allowed width to distribute across 12 cells. The Twitter Bootstrap default is 960.</source>
 			</trans-unit>
-			<trans-unit id="flux.thumbnails.fields.ratio" xml:space="preserve">
-				<source>Ratio of Images (For Example: grid friendly 0.75, widescreen 16/9, or the golden ratio portrait 1.32).</source>
+			<trans-unit id="flux.thumbnails.fields.ratio" xmlspace="preserve">
+				<source>Ratio of Images (For Example grid friendly 0.75, widescreen 16/9, or the golden ratio portrait 1.32).</source>
 			</trans-unit>
-			<trans-unit id="flux.thumbnails.sections.thumbnails" xml:space="preserve">
+			<trans-unit id="flux.thumbnails.sections.thumbnails" xmlspace="preserve">
 				<source>Thumbnails</source>
 			</trans-unit>
-			<trans-unit id="flux.thumbnails.objects.image" xml:space="preserve">
+			<trans-unit id="flux.thumbnails.objects.image" xmlspace="preserve">
 				<source>Image</source>
 			</trans-unit>
-			<trans-unit id="flux.thumbnails.objects.image.file" xml:space="preserve">
+			<trans-unit id="flux.thumbnails.objects.image.file" xmlspace="preserve">
 				<source>File</source>
 			</trans-unit>
-			<trans-unit id="flux.thumbnails.objects.image.addWell" xml:space="preserve">
+			<trans-unit id="flux.thumbnails.objects.image.addWell" xmlspace="preserve">
 				<source>Add Well on Thumbnail wrap</source>
 			</trans-unit>
-			<trans-unit id="flux.thumbnails.objects.image.scaling" xml:space="preserve">
+			<trans-unit id="flux.thumbnails.objects.image.scaling" xmlspace="preserve">
 				<source>Scaling Mode</source>
 			</trans-unit>
-			<trans-unit id="flux.thumbnails.objects.image.title" xml:space="preserve">
+			<trans-unit id="flux.thumbnails.objects.image.title" xmlspace="preserve">
 				<source>Hover Title / alt text for image</source>
 			</trans-unit>
-			<trans-unit id="flux.thumbnails.objects.image.header" xml:space="preserve">
+			<trans-unit id="flux.thumbnails.objects.image.header" xmlspace="preserve">
 				<source>Caption Header (optional)</source>
 			</trans-unit>
-			<trans-unit id="flux.thumbnails.objects.image.caption" xml:space="preserve">
+			<trans-unit id="flux.thumbnails.objects.image.caption" xmlspace="preserve">
 				<source>Caption Text (optional)</source>
 			</trans-unit>
-			<trans-unit id="flux.thumbnails.objects.content" xml:space="preserve">
+			<trans-unit id="flux.thumbnails.objects.content" xmlspace="preserve">
 				<source>Content</source>
 			</trans-unit>
-			<trans-unit id="flux.thumbnails.objects.content.name" xml:space="preserve">
+			<trans-unit id="flux.thumbnails.objects.content.name" xmlspace="preserve">
 				<source>Content Area Name</source>
 			</trans-unit>
-			<trans-unit id="flux.thumbnails.objects.content.label" xml:space="preserve">
+			<trans-unit id="flux.thumbnails.objects.content.label" xmlspace="preserve">
 				<source>Content Area Label</source>
 			</trans-unit>
-			<trans-unit id="flux.thumbnails.objects.content.message" xml:space="preserve">
+			<trans-unit id="flux.thumbnails.objects.content.message" xmlspace="preserve">
 				<source> </source>
 			</trans-unit>
 			<!-- /Thumbnails.html -->
 
 			<!-- Well.html -->
-			<trans-unit id="flux.well" xml:space="preserve">
+			<trans-unit id="flux.well" xmlspace="preserve">
 				<source>Content Well</source>
 			</trans-unit>
-			<trans-unit id="flux.well.description" xml:space="preserve">
+			<trans-unit id="flux.well.description" xmlspace="preserve">
 				<source>Visual Well for Other Content Elements</source>
 			</trans-unit>
-			<trans-unit id="flux.well.fields.wellStyle" xml:space="preserve">
+			<trans-unit id="flux.well.fields.wellStyle" xmlspace="preserve">
 				<source>Optional Well Style Class</source>
 			</trans-unit>
-			<trans-unit id="flux.well.areas.content" xml:space="preserve">
+			<trans-unit id="flux.well.areas.content" xmlspace="preserve">
 				<source>Content Elements</source>
 			</trans-unit>
-			<trans-unit id="flux.well.columns.content" xml:space="preserve">
+			<trans-unit id="flux.well.columns.content" xmlspace="preserve">
 				<source>Well Content</source>
 			</trans-unit>
 			<!-- /Well.html -->
@@ -719,10 +719,10 @@
 				<source>Bootstrap CSS Class Column 2</source>
 			</trans-unit>
 			<trans-unit id="flux.grid2.fields.settings.grid2.col1hide">
-				<source>Column 1: Hide on Small Device</source>
+				<source>Column 1 Hide on Small Device</source>
 			</trans-unit>
 			<trans-unit id="flux.grid2.fields.settings.grid2.col2hide">
-				<source>Column 2: Hide on Small Device</source>
+				<source>Column 2 Hide on Small Device</source>
 			</trans-unit>
 			<trans-unit id="flux.grid2.fields.settings.grid2.col1CSS">
 				<source>Column Custom CSS Class for Col1</source>
@@ -785,13 +785,13 @@
 				<source>Bootstrap CSS Class Column 3</source>
 			</trans-unit>
 			<trans-unit id="flux.grid3.fields.settings.grid3.col1hide">
-				<source>Column 1: Hide on Small Device</source>
+				<source>Column 1 Hide on Small Device</source>
 			</trans-unit>
 			<trans-unit id="flux.grid3.fields.settings.grid3.col2hide">
-				<source>Column 2: Hide on Small Device</source>
+				<source>Column 2 Hide on Small Device</source>
 			</trans-unit>
 			<trans-unit id="flux.grid3.fields.settings.grid3.col3hide">
-				<source>Column 3: Hide on Small Device</source>
+				<source>Column 3 Hide on Small Device</source>
 			</trans-unit>
 			<trans-unit id="flux.grid3.fields.settings.grid3.col1CSS">
 				<source>Column Custom CSS Class</source>
@@ -855,16 +855,16 @@
 				<source>Bootstrap CSS Class Column 4</source>
 			</trans-unit>
 			<trans-unit id="flux.grid4.fields.settings.grid4.col1hide">
-				<source>Column 1: Hide on Small Device</source>
+				<source>Column 1 Hide on Small Device</source>
 			</trans-unit>
 			<trans-unit id="flux.grid4.fields.settings.grid4.col2hide">
-				<source>Column 2: Hide on Small Device</source>
+				<source>Column 2 Hide on Small Device</source>
 			</trans-unit>
 			<trans-unit id="flux.grid4.fields.settings.grid4.col3hide">
-				<source>Column 3: Hide on Small Device</source>
+				<source>Column 3 Hide on Small Device</source>
 			</trans-unit>
 			<trans-unit id="flux.grid4.fields.settings.grid4.col4hide">
-				<source>Column 4: Hide on Small Device</source>
+				<source>Column 4 Hide on Small Device</source>
 			</trans-unit>
 			<trans-unit id="flux.grid4.fields.settings.grid4.col1CSS">
 				<source>Column Custom CSS Class for Col1</source>
@@ -939,22 +939,22 @@
 				<source>Bootstrap CSS Class Column 6</source>
 			</trans-unit>
 			<trans-unit id="flux.grid6.fields.settings.grid6.col1hide">
-				<source>Column 1: Hide on Small Device</source>
+				<source>Column 1 Hide on Small Device</source>
 			</trans-unit>
 			<trans-unit id="flux.grid6.fields.settings.grid6.col2hide">
-				<source>Column 2: Hide on Small Device</source>
+				<source>Column 2 Hide on Small Device</source>
 			</trans-unit>
 			<trans-unit id="flux.grid6.fields.settings.grid6.col3hide">
-				<source>Column 3: Hide on Small Device</source>
+				<source>Column 3 Hide on Small Device</source>
 			</trans-unit>
 			<trans-unit id="flux.grid6.fields.settings.grid6.col4hide">
-				<source>Column 4: Hide on Small Device</source>
+				<source>Column 4 Hide on Small Device</source>
 			</trans-unit>
 			<trans-unit id="flux.grid6.fields.settings.grid6.col5hide">
-				<source>Column 5: Hide on Small Device</source>
+				<source>Column 5 Hide on Small Device</source>
 			</trans-unit>
 			<trans-unit id="flux.grid6.fields.settings.grid6.col6hide">
-				<source>Column 6: Hide on Small Device</source>
+				<source>Column 6 Hide on Small Device</source>
 			</trans-unit>
 			<trans-unit id="flux.grid6.fields.settings.grid6.col1CSS">
 				<source>Column Custom CSS Class for Col1</source>
@@ -1022,71 +1022,86 @@
 			<!-- /ThumbnailBox.html -->
 
 			<!-- Box.html -->
-			<trans-unit id="flux.Box" xml:space="preserve">
+			<trans-unit id="flux.Box" xmlspace="preserve">
                 <source>Box</source>
             </trans-unit>
-            <trans-unit id="flux.Box.description" xml:space="preserve">
+            <trans-unit id="flux.Box.description" xmlspace="preserve">
                 <source>Box with image, title, link and content.</source>
             </trans-unit>
-            <trans-unit id="flux.Box.columns.content" xml:space="preserve">
+            <trans-unit id="flux.Box.columns.content" xmlspace="preserve">
                 <source>Content</source>
             </trans-unit>
-            <trans-unit id="flux.Box.fields.settings.image" xml:space="preserve">
+            <trans-unit id="flux.Box.fields.settings.image" xmlspace="preserve">
                 <source>Image</source>
             </trans-unit>
-            <trans-unit id="flux.Box.fields.settings.title" xml:space="preserve">
+            <trans-unit id="flux.Box.fields.settings.title" xmlspace="preserve">
                 <source>Box title</source>
             </trans-unit>
-            <trans-unit id="flux.Box.fields.settings.maxWidth" xml:space="preserve">
+            <trans-unit id="flux.Box.fields.settings.maxWidth" xmlspace="preserve">
                 <source>Max image width</source>
             </trans-unit>
-            <trans-unit id="flux.Box.fields.settings.link" xml:space="preserve">
+            <trans-unit id="flux.Box.fields.settings.link" xmlspace="preserve">
                 <source>Link of content</source>
             </trans-unit>
-            <trans-unit id="flux.Box.fields.settings.more" xml:space="preserve">
+            <trans-unit id="flux.Box.fields.settings.more" xmlspace="preserve">
                 <source>"See more" button label</source>
             </trans-unit>
 			<!-- /Box.html -->
 
 			<!-- EmbededMap.html -->
-			<trans-unit id="flux.EmbededMap" xml:space="preserve">
+			<trans-unit id="flux.EmbededMap" xmlspace="preserve">
                 <source>Embeded Map</source>
             </trans-unit>
-            <trans-unit id="flux.EmbededMap.description" xml:space="preserve">
+            <trans-unit id="flux.EmbededMap.description" xmlspace="preserve">
                 <source>Embeded Map with JavaScript</source>
             </trans-unit>
 			<!-- /EmbededMap.html -->
 
 			<!-- Forms -->
 			<trans-unit id="first_name">
-				<source>Prénom: </source>
+				<source>Prénom </source>
 			</trans-unit>
 			<trans-unit id="last_name">
-				<source>Nom: </source>
+				<source>Nom </source>
+			</trans-unit>
+			<trans-unit id="last_name_plus">
+				<source>Nom de famille</source>
+			</trans-unit>
+			<trans-unit id="gender_m">
+				<source>Homme</source>
+			</trans-unit>
+			<trans-unit id="gender_f">
+				<source>Femme</source>
 			</trans-unit>
 			<trans-unit id="first_name_last_name">
-				<source>Nom et prénom*:</source>
+				<source>Nom et prénom</source>
 			</trans-unit>
 			<trans-unit id="organ">
-				<source>Organisme:</source>
+				<source>Organisme</source>
 			</trans-unit>
-			<trans-unit id="rue">
-				<source>Rue:</source>
+			<trans-unit id="rue_address">
+				<source>Rue - Adresse</source>
 			</trans-unit>
 			<trans-unit id="npa">
-				<source>NPA / Localité*:</source>
+				<source>NPA / Localité</source>
 			</trans-unit>
-			<trans-unit id="pays">
-				<source>Pays:</source>
+			<trans-unit id="country">
+				<source>Pays</source>
+			</trans-unit>
+			<trans-unit id="town">
+				<source>Ville</source>
 			</trans-unit>
 			<trans-unit id="phone">
-				<source>Téléphone:</source>
+				<source>Téléphone</source>
+			</trans-unit>
+			<trans-unit id="natel">
+				<source>Portable</source>
 			</trans-unit>
 			<trans-unit id="email">
-				<source>Courriel*:</source>
+				<source>Adresse mail</source>
 			</trans-unit>
 			<trans-unit id="message">
-				<source>Commentaire:</source>
+				<source>Message</source>
 			</trans-unit>
 			<trans-unit id="option0">
 				<source>Membre(Frs 50.-)</source>
@@ -1128,7 +1143,7 @@
 
 					Vous avez reçu une nouvelle requête en provenance du site Buud Yam.
 
-					Les informations reçues sont les suivantes:
+					Les informations reçues sont les suivantes
 				</source>
 			</trans-unit>
 			<trans-unit id="feedback_body">
@@ -1157,62 +1172,62 @@ Si vous pensez avoir reçu cet email par erreur, veuillez ignorer ce message.]]>
 			</trans-unit>
 
 			<!-- LatestNews.html -->
-			<trans-unit id="flux.latestNews" xml:space="preserve">
+			<trans-unit id="flux.latestNews" xmlspace="preserve">
 				<source>Latest News with Content Elements</source>
 			</trans-unit>
-			<trans-unit id="flux.latestNews.description" xml:space="preserve">
+			<trans-unit id="flux.latestNews.description" xmlspace="preserve">
 				<source>Latest News Element Container</source>
 			</trans-unit>
 
 			<!-- NewsDetail.html -->
-			<trans-unit id="flux.newsDetail" xml:space="preserve">
+			<trans-unit id="flux.newsDetail" xmlspace="preserve">
 				<source>Détail actualité</source>
 			</trans-unit>
-			<trans-unit id="flux.newsDetail.description" xml:space="preserve">
+			<trans-unit id="flux.newsDetail.description" xmlspace="preserve">
 				<source></source>
 			</trans-unit>
 
 
 			<!-- NewsletterList.html -->
-			<trans-unit id="flux.newsletterList" xml:space="preserve">
+			<trans-unit id="flux.newsletterList" xmlspace="preserve">
 				<source>Liste Newsletter</source>
 			</trans-unit>
-			<trans-unit id="flux.newsletterList.description" xml:space="preserve">
+			<trans-unit id="flux.newsletterList.description" xmlspace="preserve">
 				<source></source>
 			</trans-unit>
 
 			<!-- TextImage.html -->
-			<trans-unit id="flux.TextImage" xml:space="preserve">
+			<trans-unit id="flux.TextImage" xmlspace="preserve">
                 <source>Text and image</source>
             </trans-unit>
-            <trans-unit id="flux.TextImage.description" xml:space="preserve">
+            <trans-unit id="flux.TextImage.description" xmlspace="preserve">
                 <source>Text and image in columns</source>
             </trans-unit>
-            <trans-unit id="flux.TextImage.columns.content" xml:space="preserve">
+            <trans-unit id="flux.TextImage.columns.content" xmlspace="preserve">
                 <source>Content</source>
             </trans-unit>
-            <trans-unit id="flux.TextImage.fields.settings.responsiveViewImage" xml:space="preserve">
+            <trans-unit id="flux.TextImage.fields.settings.responsiveViewImage" xmlspace="preserve">
                 <source>Image responsive visibility</source>
             </trans-unit>
-            <trans-unit id="flux.TextImage.fields.settings.responsiveViewText" xml:space="preserve">
+            <trans-unit id="flux.TextImage.fields.settings.responsiveViewText" xmlspace="preserve">
                 <source>Text responsive visibility</source>
             </trans-unit>
-            <trans-unit id="flux.TextImage.fields.settings.image" xml:space="preserve">
+            <trans-unit id="flux.TextImage.fields.settings.image" xmlspace="preserve">
                 <source>Image</source>
             </trans-unit>
-            <trans-unit id="flux.TextImage.fields.settings.imageTitle" xml:space="preserve">
+            <trans-unit id="flux.TextImage.fields.settings.imageTitle" xmlspace="preserve">
                 <source>Image title</source>
             </trans-unit>
-            <trans-unit id="flux.TextImage.fields.settings.maxWidth" xml:space="preserve">
+            <trans-unit id="flux.TextImage.fields.settings.maxWidth" xmlspace="preserve">
                 <source>Max image width</source>
             </trans-unit>
-            <trans-unit id="flux.TextImage.fields.settings.imageAlign" xml:space="preserve">
+            <trans-unit id="flux.TextImage.fields.settings.imageAlign" xmlspace="preserve">
                 <source>Image position</source>
             </trans-unit>
-            <trans-unit id="flux.TextImage.fields.settings.link" xml:space="preserve">
+            <trans-unit id="flux.TextImage.fields.settings.link" xmlspace="preserve">
                 <source>Link of content</source>
             </trans-unit>
-            <trans-unit id="flux.TextImage.fields.settings.more" xml:space="preserve">
+            <trans-unit id="flux.TextImage.fields.settings.more" xmlspace="preserve">
                 <source>"See more" button label</source>
             </trans-unit>
 			<!-- /TextImage.html -->
@@ -1222,7 +1237,7 @@ Si vous pensez avoir reçu cet email par erreur, veuillez ignorer ce message.]]>
 			<!-- carousel widget -->
 			<!-- @todo restore those labels -->
 			<trans-unit id="flux.carouselWidget">
-				<source>Media: carousel gallery</source>
+				<source>Media carousel gallery</source>
 			</trans-unit>
 			<trans-unit id="flux.carouselWidget.description">
 				<source>Display a configurable carousel gallery where images come from the Media module.</source>
@@ -1242,14 +1257,14 @@ Si vous pensez avoir reçu cet email par erreur, veuillez ignorer ce message.]]>
 
 			<!-- 1 column template -->
 			<trans-unit id="field.carousel.categories">
-				<source>Carousel: categories of images displayed (comma separated values)</source>
+				<source>Carousel categories of images displayed (comma separated values)</source>
 			</trans-unit>
 
 			<trans-unit id="lead-text">
 				<source>Acme - a company making everything</source>
 			</trans-unit>
 			<trans-unit id="lead-text-tip">
-				<source>Tip: clear the "system cache" in the Backend after editing a label.</source>
+				<source>Tip clear the "system cache" in the Backend after editing a label.</source>
 			</trans-unit>
 		</body>
 	</file>
