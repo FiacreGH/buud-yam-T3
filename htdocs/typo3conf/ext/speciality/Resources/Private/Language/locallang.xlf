@@ -1059,10 +1059,10 @@
 
 			<!-- Forms -->
 			<trans-unit id="first_name">
-				<source>Prénom </source>
+				<source>Prénom</source>
 			</trans-unit>
 			<trans-unit id="last_name">
-				<source>Nom </source>
+				<source>Nom</source>
 			</trans-unit>
 			<trans-unit id="last_name_plus">
 				<source>Nom de famille</source>
@@ -1133,18 +1133,14 @@
 			<trans-unit id="confirm.delete">
 				<source>Êtes-vous sûr de vouloir supprimer votre compte?</source>
 			</trans-unit>
-
 			<trans-unit id="user_email_body">
-				<source>Nous avons bien reçu votre requête depuis le site Buud Yam. Nous l'examinerons et vous contacterons dès que possible.
-				</source>
+				<source>Bonjour,
+Nous avons bien reçu votre requête depuis le site Buud Yam. Nous l'examinerons et vous contacterons dès que possible</source>
 			</trans-unit>
 			<trans-unit id="admin_email_body">
 				<source>Bonjour Administrateur,
-
-					Vous avez reçu une nouvelle requête en provenance du site Buud Yam.
-
-					Les informations reçues sont les suivantes
-				</source>
+Vous avez reçu une nouvelle requête en provenance du site Buud Yam.
+Les informations reçues sont les suivantes:</source>
 			</trans-unit>
 			<trans-unit id="feedback_body">
 				<source>Merci, votre requête a été bien envoyée.</source>
