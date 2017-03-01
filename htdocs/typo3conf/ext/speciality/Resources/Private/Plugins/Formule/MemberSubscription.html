@@ -1,0 +1,293 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"
+      xmlns:f="http://typo3.org/ns/fluid/ViewHelpers"
+      xmlns:fo="http://typo3.org/ns/Fab/Formule/ViewHelpers">
+
+<f:layout name="Default"/>
+
+<f:section name="main">
+
+	<fo:loadAssets/>
+
+	<style>
+		.red {
+			color: red;
+		}
+	</style>
+
+	<fo:loadAssets>
+		<script>
+			$(document).ready(function() {
+				$('#characterLeft').text('{f:translate(key:"contact.limit.total.characters")}');
+				$('#message').keydown(function() {
+					var max = 140;
+					var len = $(this).val().length;
+					if (len >= max) {
+						$('#characterLeft').text('{f:translate(key:"contact.limit.met")}');
+						$('#characterLeft').addClass('red');
+						$('#btnSubmit').addClass('disabled');
+					}
+					else {
+						var numberOfCharacters = max - len;
+						$('#characterLeft').text(numberOfCharacters + ' {f:translate(key:"contact.limit.characters")}');
+						$('#btnSubmit').removeClass('disabled');
+						$('#characterLeft').removeClass('red');
+					}
+				});
+			});
+		</script>
+	</fo:loadAssets>
+
+	<f:render section="FormError" partial="Form/Error" arguments="{_all}"/>
+	<div class="form-area">
+		<f:form class="form-horizontal" action="submit" controller="Form" additionalAttributes="{role: 'form'}" method="post">
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="first_name">
+							{f:translate(key:'first_name', extensionName:'speciality')}
+						</label>
+						<input type="text"
+						       name="first_name"
+						       id="first_name" class="form-control"
+						       value="{values.first_name}"
+						       required
+						       placeholder="{f:translate(key:'first_name', extensionName:'speciality')}"/>
+						<span class="help-block">{fo:message.error(field: 'first_name')}</span>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="last_name">
+							{f:translate(key:'last_name', extensionName:'speciality')}
+						</label>
+						<input type="text"
+						       name="last_name"
+						       id="last_name"
+						       class="form-control"
+						       value="{values.last_name}"
+						       required
+						       placeholder="{f:translate(key:'last_name_plus', extensionName:'speciality')}"/>
+						<span class="help-block">{fo:message.error(field: 'last_name')}</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="label-text">
+			Je suis :
+			</div>
+			<label class="radio-inline" for="gender_m">
+				<input type="radio"
+				       name="genre"
+				       id="gender_m"
+				       checked
+				       value="{f:translate(key:'gender_m', extensionName:'speciality')}">
+				{f:translate(key:'gender_m', extensionName:'speciality')}
+			</label>
+			<label class="radio-inline" for="gender_f">
+				<input type="radio"
+				       name="genre"
+				       id="gender_f"
+				       value="{f:translate(key:'gender_f', extensionName:'speciality')}">
+				{f:translate(key:'gender_f', extensionName:'speciality')}
+			</label>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="country">
+							{f:translate(key:'country', extensionName:'speciality')}
+						</label>
+						<input type="text"
+						       name="country"
+						       id="country" class="form-control"
+						       value="{values.country}"
+						       required
+						       placeholder="{f:translate(key:'country', extensionName:'speciality')}"/>
+						<span class="help-block">{fo:message.error(field: 'country')}</span>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="town">
+							{f:translate(key:'town', extensionName:'speciality')}
+						</label>
+						<input type="text"
+						       name="town"
+						       id="town"
+						       class="form-control"
+						       value="{values.town}"
+						       required
+						       placeholder="{f:translate(key:'town', extensionName:'speciality')}"/>
+						<span class="help-block">{fo:message.error(field: 'town')}</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="organ">
+							{f:translate(key:'organ', extensionName:'speciality')}
+						</label>
+						<input type="text"
+						       name="organ"
+						       id="organ" class="form-control"
+						       value="{values.organ}"
+						       required
+						       placeholder="{f:translate(key:'organ', extensionName:'speciality')}"/>
+						<span class="help-block">{fo:message.error(field: 'organ')}</span>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="rue_address">
+							{f:translate(key:'rue_address', extensionName:'speciality')}
+						</label>
+						<input type="text"
+						       name="rue_address"
+						       id="rue_address"
+						       class="form-control"
+						       value="{values.rue_address}"
+						       required
+						       placeholder="{f:translate(key:'rue_address', extensionName:'speciality')}"/>
+						<span class="help-block">{fo:message.error(field: 'rue_address')}</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="email">
+					{f:translate(key:'email', extensionName:'speciality')}
+				</label>
+				<input type="email"
+				       name="email"
+				       id="email"
+				       class="form-control"
+				       value="{values.email}"
+				       required
+				       placeholder="{f:translate(key:'email', extensionName:'speciality')}"/>
+				<span class="help-block">{fo:message.error(field: 'email')}</span>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="phone">
+							{f:translate(key:'phone', extensionName:'speciality')}
+						</label>
+						<input type="text"
+						       name="phone"
+						       id="phone" class="form-control"
+						       value="{values.phone}"
+						       required
+						       placeholder="{f:translate(key:'phone', extensionName:'speciality')}"/>
+						<span class="help-block">{fo:message.error(field: 'phone')}</span>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="natel">
+							{f:translate(key:'natel', extensionName:'speciality')}
+						</label>
+						<input type="text"
+						       name="natel"
+						       id="natel"
+						       class="form-control"
+						       value="{values.natel}"
+						       placeholder="{f:translate(key:'natel', extensionName:'speciality')}"/>
+						<span class="help-block">{fo:message.error(field: 'natel')}</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="label-text">
+			Veuillez choisir un montant de contribution:
+			</div>
+			<div class="form-group">
+				<div class="col-sm-1"></div>
+				<label class="col-sm-11 control-label" for="option0">
+					<input type="radio"
+					       name="membre"
+					       id="option0"
+					       checked
+					       value="{f:translate(key:'option0', extensionName:'speciality')}">
+					{f:translate(key:'option0', extensionName:'speciality')}
+				</label>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-1"></div>
+				<label class="col-sm-11 control-label" for="option1">
+					<input type="radio"
+					       name="membre"
+					       id="option1"
+					       value="{f:translate(key:'option1', extensionName:'speciality')}">
+					{f:translate(key:'option1', extensionName:'speciality')}
+				</label>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-1"></div>
+				<label class="col-sm-11 control-label" for="option2">
+					<input type="radio"
+					       name="membre"
+					       id="option2"
+					       value="{f:translate(key:'option2', extensionName:'speciality')}">
+					{f:translate(key:'option2', extensionName:'speciality')}
+				</label>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-1"></div>
+				<label class="col-sm-11 control-label" for="option3">
+					<input type="radio"
+					       name="membre"
+					       id="option3"
+					       value="{f:translate(key:'option3', extensionName:'speciality')}">
+					{f:translate(key:'option3', extensionName:'speciality')}
+				</label>
+			</div>
+
+			<input type="submit" value="Envoyer" class="btn btn-primary pull-right">
+			<f:comment><!-- The only mandatory field --></f:comment>
+			<f:form.hidden name="values" value="{contentElement.uid}"/>
+
+			<f:comment><!-- VH to limit bots annoyance (required) --></f:comment>
+			<fo:honeyPot/>
+
+			<f:comment><!--Display hint in Development context (optional) --></f:comment>
+			<fo:message.development/>
+		</f:form>
+	</div>
+
+</f:section>
+
+<f:section name="emailAdmin">
+	<f:translate key="newsletter.admin.body1"
+	             arguments="{
+             0: '{HTTP_HOST}',
+             1: '{email}',
+             2: '{f:translate(key: \'link\') -> fo:link.backend()}',
+             3: '{last_name}'
+             }"
+	             extensionName="speciality"/>
+
+	<fo:form.show labelsIn="speciality"/>
+</f:section>
+
+<f:section name="emailUser">
+	<f:translate key="newsletter.user.body1"
+	             arguments="{
+             0: '{first_name}',
+             1: '{last_name}',
+             2: '{f:translate(key: \'link\') -> fo:link.confirm(pageUid: \'variable.preferencesPageUid\')}'
+             }"
+	             extensionName="speciality"/>
+</f:section>
+
+<f:section name="feedback">
+	<p>
+		<f:translate key="feedback_body" extensionName="speciality"/>
+	</p>
+
+	<fo:form.show labelsIn="speciality"/>
+</f:section>
+</html>

@@ -90,8 +90,61 @@ plugin.tx_formule {
 
 				# Validate mail unicity and format
 				validators {
+					0 = Fab\Formule\Validator\EmailFormatValidator
+				}
+
+			}
+			12 {
+				title = Inscription Membre
+				path = EXT:speciality/Resources/Private/Plugins/Formule/MemberSubscription.html
+
+				# Validate mail unicity and format
+				validators {
 					0 = Fab\Formule\Validator\EmailUniqueValidator
 					1 = Fab\Formule\Validator\EmailFormatValidator
+				}
+
+				# Persist configuration
+				persist {
+					tableName = tx_speciality_member
+
+					defaultValues {
+						pid = 144
+					}
+					processors {
+						0 = Fab\Speciality\Processor\MemberNewProcessor
+					}
+				}
+				variable {
+					preferencesPageUid = 145
+				}
+			}
+			13 {
+				title = Modification de Membre
+				path = EXT:speciality/Resources/Private/Plugins/Formule/MemberSubscriptionEdit.html
+
+				loaders {
+					0 = Fab\Speciality\Loader\MemberDataLoader
+				}
+
+				validators {
+					0 = Fab\Formule\Validator\EmailUniqueValidator
+					1 = Fab\Formule\Validator\EmailFormatValidator
+				}
+
+				# Persist configuration
+				persist {
+					tableName = tx_speciality_member
+					identifierField = token
+
+					processors {
+						0 = Fab\Speciality\Processor\MemberEditProcessor
+						1 = Fab\Speciality\Processor\MemberDeleteProcessor
+					}
+				}
+
+				redirect {
+					action = show
 				}
 
 			}
