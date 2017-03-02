@@ -108,9 +108,6 @@ plugin.tx_formule {
 				persist {
 					tableName = tx_speciality_member
 
-					defaultValues {
-						pid = 144
-					}
 					processors {
 						0 = Fab\Speciality\Processor\MemberNewProcessor
 					}

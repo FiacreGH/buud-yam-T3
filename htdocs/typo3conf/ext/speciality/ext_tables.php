@@ -22,6 +22,12 @@ TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig('
 	tx_vidi.dataType.tt_address.storagePid = 137
 ');
 
+TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig('
+
+	# Default pid for "tx_speciality_member" in Vidi:
+	tx_vidi.dataType.tx_speciality_member.storagePid = 144
+');
+
 // Default User TSConfig to be added in any case.
 TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig('
     <INCLUDE_TYPOSCRIPT: source="DIR:EXT:speciality/Configuration/UserTS">
