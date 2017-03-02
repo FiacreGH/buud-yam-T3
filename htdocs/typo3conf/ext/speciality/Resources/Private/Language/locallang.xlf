@@ -1076,10 +1076,10 @@
 			<trans-unit id="first_name_last_name">
 				<source>Nom et prénom</source>
 			</trans-unit>
-			<trans-unit id="organ">
+			<trans-unit id="organisation">
 				<source>Organisme</source>
 			</trans-unit>
-			<trans-unit id="rue_address">
+			<trans-unit id="address">
 				<source>Rue - Adresse</source>
 			</trans-unit>
 			<trans-unit id="npa">
@@ -1088,13 +1088,13 @@
 			<trans-unit id="country">
 				<source>Pays</source>
 			</trans-unit>
-			<trans-unit id="town">
+			<trans-unit id="city">
 				<source>Ville</source>
 			</trans-unit>
 			<trans-unit id="phone">
 				<source>Téléphone</source>
 			</trans-unit>
-			<trans-unit id="natel">
+			<trans-unit id="mobile_phone">
 				<source>Portable</source>
 			</trans-unit>
 			<trans-unit id="email">

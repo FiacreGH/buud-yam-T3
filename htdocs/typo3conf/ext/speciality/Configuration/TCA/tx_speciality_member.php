@@ -15,7 +15,7 @@ return [
         'iconfile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath('speciality') . 'Resources/Public/Images/tx_speciality_member.png',
     ],
     'interface' => [
-        'showRecordFieldList' => 'hidden,last_name,first_name,gender,country,town,phone,natel,email,organ,rue_address,ocupation,member'
+        'showRecordFieldList' => 'hidden,last_name,first_name,gender,country,city,phone,mobile_phone,email,organisation,address,occupation,member'
     ],
     'columns' => [
         'hidden' => [
@@ -53,10 +53,10 @@ return [
                 'type' => 'radio',
                 'items' => [
                     [
-                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:gender_m', 0
+                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:gender_m', 'Mr'
                     ],
                     [
-                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:gender_f', 1
+                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:gender_f', 'Mme'
                     ]
                 ]
             ]
@@ -71,9 +71,9 @@ return [
                 'max' => '255',
             ]
         ],
-        'town' => [
+        'city' => [
             'exclude' => 1,
-            'label' => 'LLL:EXT:speciality/Resources/Private/Language/tx_speciality_member.xlf:town',
+            'label' => 'LLL:EXT:speciality/Resources/Private/Language/tx_speciality_member.xlf:city',
             'config' => [
                 'type' => 'input',
                 'size' => '48',
@@ -91,9 +91,9 @@ return [
                 'max' => '255',
             ]
         ],
-        'natel' => [
+        'mobile_phone' => [
             'exclude' => 1,
-            'label' => 'LLL:EXT:speciality/Resources/Private/Language/tx_speciality_member.xlf:natel',
+            'label' => 'LLL:EXT:speciality/Resources/Private/Language/tx_speciality_member.xlf:mobile_phone',
             'config' => [
                 'type' => 'input',
                 'size' => '48',
@@ -111,9 +111,9 @@ return [
                 'max' => '255',
             ]
         ],
-        'organ' => [
+        'organisation' => [
             'exclude' => 1,
-            'label' => 'LLL:EXT:speciality/Resources/Private/Language/tx_speciality_member.xlf:organ',
+            'label' => 'LLL:EXT:speciality/Resources/Private/Language/tx_speciality_member.xlf:organisation',
             'config' => [
                 'type' => 'input',
                 'size' => '48',
@@ -121,9 +121,9 @@ return [
                 'max' => '255',
             ]
         ],
-        'rue_address' => [
+        'address' => [
             'exclude' => 1,
-            'label' => 'LLL:EXT:speciality/Resources/Private/Language/tx_speciality_member.xlf:rue_address',
+            'label' => 'LLL:EXT:speciality/Resources/Private/Language/tx_speciality_member.xlf:address',
             'config' => [
                 'type' => 'input',
                 'size' => '48',
@@ -131,9 +131,9 @@ return [
                 'max' => '255',
             ]
         ],
-        'ocupation' => [
+        'occupation' => [
             'exclude' => 1,
-            'label' => 'LLL:EXT:speciality/Resources/Private/Language/tx_speciality_member.xlf:ocupation',
+            'label' => 'LLL:EXT:speciality/Resources/Private/Language/tx_speciality_member.xlf:occupation',
             'config' => [
                 'type' => 'input',
                 'size' => '48',
@@ -148,23 +148,23 @@ return [
                 'type' => 'radio',
                 'items' => [
                     [
-                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option0', 0
+                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option0', 'CHF 50'
                     ],
                     [
-                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option1', 1
+                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option1', 'CHF 70'
                     ],
                     [
-                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option2', 2
+                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option2', 'CHF 100'
                     ],
                     [
-                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option3', 3
+                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option3', 'CHF 200'
                     ],
                 ]
             ]
         ],
     ],
     'types' => [
-        '0' => ['showitem' => 'hidden,last_name,first_name,gender,country,town,phone,natel,email,organ,rue_address,ocupation,member']
+        '0' => ['showitem' => 'hidden,last_name,first_name,gender,country,city,phone,mobile_phone,email,organisation,address,occupation,member']
     ],
     'palettes' => [
         '1' => ['showitem' => '']
