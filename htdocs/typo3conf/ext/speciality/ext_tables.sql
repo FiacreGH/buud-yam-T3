@@ -31,6 +31,7 @@ CREATE TABLE tx_speciality_member (
 	email tinytext NOT NULL,
 	organ tinytext,
 	rue_address tinytext,
+	ocupation tinytext NOT NULL,
 	member tinytext,
 
   token varchar(36) DEFAULT '' NOT NULL,

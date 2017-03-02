@@ -15,7 +15,7 @@ return [
         'iconfile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath('speciality') . 'Resources/Public/Images/tx_speciality_member.png',
     ],
     'interface' => [
-        'showRecordFieldList' => 'hidden,last_name,first_name,gender,country,town,phone,natel,email,organ,rue_address,member'
+        'showRecordFieldList' => 'hidden,last_name,first_name,gender,country,town,phone,natel,email,organ,rue_address,ocupation,member'
     ],
     'columns' => [
         'hidden' => [
@@ -131,6 +131,16 @@ return [
                 'max' => '255',
             ]
         ],
+        'ocupation' => [
+            'exclude' => 1,
+            'label' => 'LLL:EXT:speciality/Resources/Private/Language/tx_speciality_member.xlf:ocupation',
+            'config' => [
+                'type' => 'input',
+                'size' => '48',
+                'eval' => 'trim',
+                'max' => '255',
+            ]
+        ],
         'member' => [
             'exclude' => 1,
             'label' => 'LLL:EXT:speciality/Resources/Private/Language/tx_speciality_member.xlf:member',
@@ -154,7 +164,7 @@ return [
         ],
     ],
     'types' => [
-        '0' => ['showitem' => 'hidden,last_name,first_name,gender,country,town,phone,natel,email,organ,rue_address,member']
+        '0' => ['showitem' => 'hidden,last_name,first_name,gender,country,town,phone,natel,email,organ,rue_address,ocupation,member']
     ],
     'palettes' => [
         '1' => ['showitem' => '']

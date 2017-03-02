@@ -107,6 +107,9 @@ plugin.tx_formule {
 				# Persist configuration
 				persist {
 					tableName = tx_speciality_member
+					defaultValues {
+						ocupation = Membre
+					}
 
 					processors {
 						0 = Fab\Speciality\Processor\MemberNewProcessor

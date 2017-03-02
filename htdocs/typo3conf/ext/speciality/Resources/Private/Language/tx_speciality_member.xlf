@@ -40,6 +40,9 @@
 			<trans-unit id="member">
 				<source>Contribution membre</source>
 			</trans-unit>
+			<trans-unit id="ocupation">
+				<source>Poste occupé</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>
