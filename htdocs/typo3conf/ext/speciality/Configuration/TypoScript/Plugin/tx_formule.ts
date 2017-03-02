@@ -108,7 +108,7 @@ plugin.tx_formule {
 				persist {
 					tableName = tx_speciality_member
 					defaultValues {
-						ocupation = Membre
+						occupation = Membre
 					}
 
 					processors {
