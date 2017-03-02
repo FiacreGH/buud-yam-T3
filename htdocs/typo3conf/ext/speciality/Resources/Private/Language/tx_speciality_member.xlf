@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2012-10-17T17:55:17Z"
+	      product-name="ext-speciality">
+		<header/>
+		<body>
+			<trans-unit id="members">
+				<source>Membres</source>
+			</trans-unit>
+			<trans-unit id="last_name">
+				<source>Prénom</source>
+			</trans-unit>
+			<trans-unit id="first_name">
+				<source>Nom de famille</source>
+			</trans-unit>
+			<trans-unit id="gender">
+				<source>Sexe</source>
+			</trans-unit>
+			<trans-unit id="country">
+				<source>Pays</source>
+			</trans-unit>
+			<trans-unit id="town">
+				<source>Ville</source>
+			</trans-unit>
+			<trans-unit id="phone">
+				<source>Téléphone</source>
+			</trans-unit>
+			<trans-unit id="natel">
+				<source>Portable</source>
+			</trans-unit>
+			<trans-unit id="email">
+				<source>Adresse Mail</source>
+			</trans-unit>
+			<trans-unit id="organ">
+				<source>Organisme</source>
+			</trans-unit>
+			<trans-unit id="rue_address">
+				<source>Rue - Adresse</source>
+			</trans-unit>
+			<trans-unit id="member">
+				<source>Contribution membre</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
