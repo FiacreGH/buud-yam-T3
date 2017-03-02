@@ -1122,6 +1122,9 @@
 			<trans-unit id="newsletter.delete">
 				<source>Supprimer mon inscription</source>
 			</trans-unit>
+			<trans-unit id="is_member_active">
+				<source>Activer mon adhesion</source>
+			</trans-unit>
 
 			<!-- Frontend message -->
 			<trans-unit id="is_newsletter_active">

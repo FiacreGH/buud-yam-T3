@@ -148,16 +148,16 @@ return [
                 'type' => 'radio',
                 'items' => [
                     [
-                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option0', 'CHF 50'
+                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option0', '50'
                     ],
                     [
-                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option1', 'CHF 70'
+                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option1', '70'
                     ],
                     [
-                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option2', 'CHF 100'
+                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option2', '100'
                     ],
                     [
-                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option3', 'CHF 200'
+                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option3', '200'
                     ],
                 ]
             ]
