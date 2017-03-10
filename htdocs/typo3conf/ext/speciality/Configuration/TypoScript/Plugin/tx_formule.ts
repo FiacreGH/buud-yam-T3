@@ -14,7 +14,7 @@ plugin.tx_formule {
 			# Use key "10", "11" and following for your own templates to be safe.
 
 			2 {
-				title = Inscription à la newsletter
+				title = formulaire d'inscription à la newsletter
 				path = EXT:speciality/Resources/Private/Plugins/Formule/NewsletterSubscription.html
 
 				# Validate mail unicity and format
@@ -43,7 +43,7 @@ plugin.tx_formule {
 				}
 
 			3 {
-				title = Modification d'inscription Newsletter
+				title = Modification d'inscription newsletter
 				path = EXT:speciality/Resources/Private/Plugins/Formule/NewsletterSubscriptionEdit.html
 
 					loaders {
@@ -85,7 +85,7 @@ plugin.tx_formule {
 			}
 
 			11 {
-				title = Inscription Pour Donner
+				title = Formulaire de don
 				path = EXT:speciality/Resources/Private/Plugins/Formule/GivingSubscription.html
 
 				# Validate mail unicity and format
@@ -95,7 +95,7 @@ plugin.tx_formule {
 
 			}
 			12 {
-				title = Inscription Membre
+				title = Inscription de membre
 				path = EXT:speciality/Resources/Private/Plugins/Formule/MemberSubscription.html
 
 				# Validate mail unicity and format
@@ -108,6 +108,7 @@ plugin.tx_formule {
 				persist {
 					tableName = tx_speciality_member
 					defaultValues {
+						pid = 144
 						occupation = Membre
 					}
 
@@ -120,7 +121,7 @@ plugin.tx_formule {
 				}
 			}
 			13 {
-				title = Modification de Membre
+				title = Modification de membre
 				path = EXT:speciality/Resources/Private/Plugins/Formule/MemberSubscriptionEdit.html
 
 				loaders {

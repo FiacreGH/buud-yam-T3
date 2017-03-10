@@ -203,48 +203,23 @@
 					</div>
 
 					<div class="label-text">
-						Veuillez choisir un montant de contribution:
+						Veuillez saisir un montant de contribution pour devenir membre:
 					</div>
+
 					<div class="form-group">
-						<div class="col-sm-1"></div>
-						<label class="col-sm-11 control-label" for="option0">
-							<input type="radio"
-							       name="member"
-							       id="option0"
-							       value="50">
-							{f:translate(key:'option0', extensionName:'speciality')}
+						<label for="amount">
+							{f:translate(key:'amount', extensionName:'speciality')}
 						</label>
+						<input type="text"
+						       name="amount"
+						       id="amount"
+						       class="form-control"
+						       value="{values.amount}"
+						       required
+						       placeholder="{f:translate(key:'amount', extensionName:'speciality')}"/>
+						<span class="help-block">{fo:message.error(field: 'amount')}</span>
 					</div>
-					<div class="form-group">
-						<div class="col-sm-1"></div>
-						<label class="col-sm-11 control-label" for="option1">
-							<input type="radio"
-							       name="member"
-							       id="option1"
-							       value="70">
-							{f:translate(key:'option1', extensionName:'speciality')}
-						</label>
-					</div>
-					<div class="form-group">
-						<div class="col-sm-1"></div>
-						<label class="col-sm-11 control-label" for="option2">
-							<input type="radio"
-							       name="member"
-							       id="option2"
-							       value="100">
-							{f:translate(key:'option2', extensionName:'speciality')}
-						</label>
-					</div>
-					<div class="form-group">
-						<div class="col-sm-1"></div>
-						<label class="col-sm-11 control-label" for="option3">
-							<input type="radio"
-							       name="member"
-							       id="option3"
-							       value="200">
-							{f:translate(key:'option3', extensionName:'speciality')}
-						</label>
-					</div>
+
 
 					<div class="checkbox {fo:hasError(field: 'is_member_active')}">
 						<label>
@@ -287,18 +262,18 @@
 </f:section>
 
 <f:section name="emailAdmin">
-	<f:translate key="admin_email_body" extensionName="speciality"/>
+	<f:translate key="admin_member_email_body" extensionName="speciality"/>
 	<fo:form.show labelsIn="speciality"/>
 </f:section>
 
 <f:section name="emailUser">
-	<f:translate key="user_email_body" extensionName="speciality"/>
+	<f:translate key="user_member_email_body" extensionName="speciality"/>
 	<fo:form.show labelsIn="speciality"/>
 </f:section>
 
 <f:section name="feedback">
 	<p>
-		<f:translate key="feedback_body" extensionName="speciality"/>
+		<f:translate key="member_feedback_body" extensionName="speciality"/>
 	</p>
 
 	<fo:form.show labelsIn="speciality"/>

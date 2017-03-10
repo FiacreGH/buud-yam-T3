@@ -73,25 +73,6 @@
 				</div>
 			</div>
 
-			<div class="label-text">
-			Je suis :
-			</div>
-			<label class="radio-inline" for="gender_m">
-				<input type="radio"
-				       name="genre"
-				       id="gender_m"
-				       checked
-				       value="{f:translate(key:'gender_m', extensionName:'speciality')}">
-				{f:translate(key:'gender_m', extensionName:'speciality')}
-			</label>
-			<label class="radio-inline" for="gender_f">
-				<input type="radio"
-				       name="genre"
-				       id="gender_f"
-				       value="{f:translate(key:'gender_f', extensionName:'speciality')}">
-				{f:translate(key:'gender_f', extensionName:'speciality')}
-			</label>
-
 			<div class="row">
 				<div class="col-md-6">
 					<div class="form-group">
@@ -124,38 +105,6 @@
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-md-6">
-					<div class="form-group">
-						<label for="organisation">
-							{f:translate(key:'organisation', extensionName:'speciality')}
-						</label>
-						<input type="text"
-						       name="organisation"
-						       id="organisation" class="form-control"
-						       value="{values.organisation}"
-						       required
-						       placeholder="{f:translate(key:'organisation', extensionName:'speciality')}"/>
-						<span class="help-block">{fo:message.error(field: 'organisation')}</span>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="form-group">
-						<label for="address">
-							{f:translate(key:'address', extensionName:'speciality')}
-						</label>
-						<input type="text"
-						       name="address"
-						       id="address"
-						       class="form-control"
-						       value="{values.address}"
-						       required
-						       placeholder="{f:translate(key:'address', extensionName:'speciality')}"/>
-						<span class="help-block">{fo:message.error(field: 'address')}</span>
-					</div>
-				</div>
-			</div>
-
 			<div class="form-group">
 				<label for="email">
 					{f:translate(key:'email', extensionName:'speciality')}
@@ -170,80 +119,48 @@
 				<span class="help-block">{fo:message.error(field: 'email')}</span>
 			</div>
 
-			<div class="row">
-				<div class="col-md-6">
-					<div class="form-group">
-						<label for="phone">
-							{f:translate(key:'phone', extensionName:'speciality')}
-						</label>
-						<input type="text"
-						       name="phone"
-						       id="phone" class="form-control"
-						       value="{values.phone}"
-						       required
-						       placeholder="{f:translate(key:'phone', extensionName:'speciality')}"/>
-						<span class="help-block">{fo:message.error(field: 'phone')}</span>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="form-group">
-						<label for="mobile_phone">
-							{f:translate(key:'mobile_phone', extensionName:'speciality')}
-						</label>
-						<input type="text"
-						       name="mobile_phone"
-						       id="mobile_phone"
-						       class="form-control"
-						       value="{values.mobile_phone}"
-						       placeholder="{f:translate(key:'mobile_phone', extensionName:'speciality')}"/>
-						<span class="help-block">{fo:message.error(field: 'mobile_phone')}</span>
-					</div>
-				</div>
+			<div class="form-group">
+				<label for="phone">
+					{f:translate(key:'phone', extensionName:'speciality')}
+				</label>
+				<input type="text"
+				       name="phone"
+				       id="phone" class="form-control"
+				       value="{values.phone}"
+				       required
+				       placeholder="{f:translate(key:'phone', extensionName:'speciality')}"/>
+				<span class="help-block">{fo:message.error(field: 'phone')}</span>
 			</div>
 
 			<div class="label-text">
-			Veuillez choisir un montant de contribution
+				NB: La nature de votre don peut varier.
+				</br>Votre dont peut être en nature (matériel), en espèce (argent), ou sous forme de service rendu à l'association (volontariat).
 			</div>
+
 			<div class="form-group">
-				<div class="col-sm-1"></div>
-				<label class="col-sm-11 control-label" for="option0">
-					<input type="radio"
-					       name="membre"
-					       id="option0"
-					       checked
-					       value="{f:translate(key:'option0', extensionName:'speciality')}">
-					{f:translate(key:'option0', extensionName:'speciality')}
+				<label for="gift_nature">
+					{f:translate(key:'gift_nature', extensionName:'speciality')}
 				</label>
+				<input type="text"
+				       name="gift_nature"
+				       id="gift_nature"
+				       class="form-control"
+				       value="{values.gift_nature}"
+				       required
+				       placeholder="{f:translate(key:'gift_nature_detail', extensionName:'speciality')}"/>
+				<span class="help-block">{fo:message.error(field: 'gift_nature')}</span>
 			</div>
+
 			<div class="form-group">
-				<div class="col-sm-1"></div>
-				<label class="col-sm-11 control-label" for="option1">
-					<input type="radio"
-					       name="membre"
-					       id="option1"
-					       value="{f:translate(key:'option1', extensionName:'speciality')}">
-					{f:translate(key:'option1', extensionName:'speciality')}
+				<label for="gift_description">
+					{f:translate(key:'gift_description', extensionName:'speciality')}
 				</label>
-			</div>
-			<div class="form-group">
-				<div class="col-sm-1"></div>
-				<label class="col-sm-11 control-label" for="option2">
-					<input type="radio"
-					       name="membre"
-					       id="option2"
-					       value="{f:translate(key:'option2', extensionName:'speciality')}">
-					{f:translate(key:'option2', extensionName:'speciality')}
-				</label>
-			</div>
-			<div class="form-group">
-				<div class="col-sm-1"></div>
-				<label class="col-sm-11 control-label" for="option3">
-					<input type="radio"
-					       name="membre"
-					       id="option3"
-					       value="{f:translate(key:'option3', extensionName:'speciality')}">
-					{f:translate(key:'option3', extensionName:'speciality')}
-				</label>
+				<textarea class="form-control"
+				          rows="6"
+				          id="gift_description"
+				          name="gift_description"
+				          required
+				          placeholder="{f:translate(key:'gift_description', extensionName:'speciality')}">{values.gift_description}</textarea>
 			</div>
 
 			<input type="submit" value="Envoyer" class="btn btn-primary pull-right">
@@ -261,20 +178,21 @@
 </f:section>
 
 <f:section name="emailAdmin">
-	<f:translate key="admin_email_body" extensionName="speciality"/>
-	<fo:form.show labelsIn="speciality"/>
+<f:translate key="admin_giving_email_body" extensionName="speciality"/>
+
+<fo:form.show labelsIn="speciality"/>
 </f:section>
 
 <f:section name="emailUser">
-	<f:translate key="user_email_body" extensionName="speciality"/>
-	<fo:form.show labelsIn="speciality"/>
+<f:translate key="user_giving_email_body" extensionName="speciality"/>
+
+<fo:form.show labelsIn="speciality"/>
 </f:section>
 
 <f:section name="feedback">
 	<p>
-		<f:translate key="feedback_body" extensionName="speciality"/>
+		<f:translate key="giving_feedback_body" extensionName="speciality"/>
 	</p>
-
 	<fo:form.show labelsIn="speciality"/>
 </f:section>
 </html>

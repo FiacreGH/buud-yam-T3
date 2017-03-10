@@ -1103,21 +1103,20 @@
 			<trans-unit id="message">
 				<source>Message</source>
 			</trans-unit>
-			<trans-unit id="option0">
-				<source>Membre(Frs 50.-)</source>
+			<trans-unit id="amount">
+				<source>Montant</source>
 			</trans-unit>
-			<trans-unit id="option1">
-				<source>Membre (Frs 70.-)</source>
+			<trans-unit id="gift_nature">
+				<source>Nature du don</source>
 			</trans-unit>
-			<trans-unit id="option2">
-				<source>Membre (Frs 100.-)</source>
+			<trans-unit id="gift_nature_detail">
+				<source>Nature, Espèce ou Service</source>
 			</trans-unit>
-			<trans-unit id="option3">
-				<source>Parrainage (dès Frs 200.-)</source>
+			<trans-unit id="gift_description">
+				<source>Description du don</source>
 			</trans-unit>
-
 			<trans-unit id="newsletter.update">
-				<source>Modifier mon inscription</source>
+				<source>Sauvegarder mon inscription</source>
 			</trans-unit>
 			<trans-unit id="newsletter.delete">
 				<source>Supprimer mon inscription</source>
@@ -1136,19 +1135,59 @@
 			<trans-unit id="confirm.delete">
 				<source>Êtes-vous sûr de vouloir supprimer votre compte?</source>
 			</trans-unit>
-			<trans-unit id="user_email_body">
+
+			<!-- Contact email messages -->
+			<trans-unit id="user_contact_email_body">
 				<source>Bonjour,
-Nous avons bien reçu votre requête depuis le site Buud Yam. Nous l'examinerons et vous contacterons dès que possible</source>
+Nous avons bien reçu votre message depuis le site de Buud Yam.
+Nous vous lirons avec plaisir et vous contacterons dès que possible</source>
 			</trans-unit>
-			<trans-unit id="admin_email_body">
+			<trans-unit id="admin_contact_email_body">
 				<source>Bonjour Administrateur,
-Vous avez reçu une nouvelle requête en provenance du site Buud Yam.
+Vous avez reçu un nouveau message depuis le formulaire de contact du site Buud Yam.
 Les informations reçues sont les suivantes:</source>
 			</trans-unit>
-			<trans-unit id="feedback_body">
-				<source>Merci, votre requête a été bien envoyée.</source>
+			<trans-unit id="contact_feedback_body">
+				<source>Merci, votre message a été bien envoyée.</source>
 			</trans-unit>
 
+			<!-- Memsber email messages -->
+			<trans-unit id="user_member_email_body">
+				<source><![CDATA[%s %s,
+
+Nous avons reçu votre requette d'adhésion à travers le formulaire de notre site. Veuillez confirmer votre adresse email en cliquant %s.
+
+Si vous pensez avoir reçu cet email par erreur, veuillez ignorer ce message.]]></source>
+			</trans-unit>
+			<trans-unit id="admin_member_email_body">
+				<source><![CDATA[Hello Admin,
+
+Un visiteur a rempli le formulaire d'adhésion depuis %s avec %s.
+
+Un email lui a été envoyé pour confirmation de son email adresse.
+
+Pour retrouver son contact, veuillez cliquer sur %s et chercher "%s" comme occurrence.]]></source>
+			</trans-unit>
+			<trans-unit id="member_feedback_body">
+				<source>Merci, nous avons bien enregistré votre adhésion à l'association Buud Yam</source>
+			</trans-unit>
+
+			<!-- Giving email messages -->
+			<trans-unit id="user_giving_email_body">
+				<source>Bonjour,
+Nous vous remercions pour votre promesse de don.
+Vous pouvez nous contacter en utilisant la page de contact sur le site www.buud-yam.ch pour finaliser votre don.</source>
+			</trans-unit>
+			<trans-unit id="admin_giving_email_body">
+				<source>Bonjour Administrateur,
+Vous avez reçu une nouvelle promesse de don depuis site Buud Yam.
+Les informations reçues sont les suivantes:</source>
+			</trans-unit>
+			<trans-unit id="giving_feedback_body">
+				<source>Merci, nous avons bien enregistré votre promesse de don</source>
+			</trans-unit>
+
+			<!-- newsletter email messages -->
 			<trans-unit id="newsletter.admin.body1">
 				<source><![CDATA[Hello Admin,
 
