@@ -15,7 +15,7 @@ return [
         'iconfile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath('speciality') . 'Resources/Public/Images/tx_speciality_member.png',
     ],
     'interface' => [
-        'showRecordFieldList' => 'hidden,last_name,first_name,gender,country,city,phone,mobile_phone,email,organisation,address,occupation,member'
+        'showRecordFieldList' => 'hidden,last_name,first_name,gender,country,city,phone,mobile_phone,email,organisation,address,occupation,amount'
     ],
     'columns' => [
         'hidden' => [
@@ -141,30 +141,19 @@ return [
                 'max' => '255',
             ]
         ],
-        'member' => [
+        'amount' => [
             'exclude' => 1,
-            'label' => 'LLL:EXT:speciality/Resources/Private/Language/tx_speciality_member.xlf:member',
+            'label' => 'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:amount',
             'config' => [
-                'type' => 'radio',
-                'items' => [
-                    [
-                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option0', '50'
-                    ],
-                    [
-                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option1', '70'
-                    ],
-                    [
-                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option2', '100'
-                    ],
-                    [
-                        'LLL:EXT:speciality/Resources/Private/Language/locallang.xlf:option3', '200'
-                    ],
-                ]
+                'type' => 'input',
+                'size' => '48',
+                'eval' => 'trim',
+                'max' => '255',
             ]
         ],
     ],
     'types' => [
-        '0' => ['showitem' => 'hidden,last_name,first_name,gender,country,city,phone,mobile_phone,email,organisation,address,occupation,member']
+        '0' => ['showitem' => 'hidden,last_name,first_name,gender,country,city,phone,mobile_phone,email,organisation,address,occupation,amount']
     ],
     'palettes' => [
         '1' => ['showitem' => '']

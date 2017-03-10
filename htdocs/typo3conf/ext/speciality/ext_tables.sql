@@ -32,7 +32,7 @@ CREATE TABLE tx_speciality_member (
 	organisation tinytext,
 	address tinytext,
 	occupation tinytext NOT NULL,
-	member tinytext,
+	amount tinytext NOT NULL,
 
   token varchar(36) DEFAULT '' NOT NULL,
   is_email_verified int(11) DEFAULT '0' NOT NULL,

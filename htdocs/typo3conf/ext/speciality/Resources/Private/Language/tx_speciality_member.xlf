@@ -37,9 +37,6 @@
 			<trans-unit id="address">
 				<source>Rue - Adresse</source>
 			</trans-unit>
-			<trans-unit id="member">
-				<source>Contribution membre</source>
-			</trans-unit>
 			<trans-unit id="occupation">
 				<source>Poste occupé</source>
 			</trans-unit>
