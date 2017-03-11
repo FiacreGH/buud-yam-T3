@@ -274,6 +274,12 @@ return [
                 'filemetadata',
             ],
         ],
+        'natural_carousel' => [
+            'composerName' => 'fab/natural-carousel',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/natural_carousel/',
+            'suggestions' => [],
+        ],
         'natural_gallery' => [
             'composerName' => 'fab/natural-gallery',
             'state' => 'active',

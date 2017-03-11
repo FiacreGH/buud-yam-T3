@@ -18,6 +18,7 @@ return [
             'flux' => 'a:4:{s:9:"debugMode";s:1:"0";s:7:"compact";s:1:"0";s:17:"listNestedContent";s:1:"0";s:12:"handleErrors";s:1:"0";}',
             'formule' => 'a:4:{s:19:"autoload_typoscript";s:1:"1";s:23:"development_redirect_to";s:0:"";s:19:"testing_redirect_to";s:0:"";s:22:"production_redirect_to";s:0:"";}',
             'media' => 'a:10:{s:18:"default_categories";s:0:"";s:22:"load_rte_configuration";s:1:"0";s:15:"has_folder_tree";s:1:"1";s:21:"has_media_file_picker";s:1:"1";s:14:"hide_file_list";s:1:"0";s:15:"image_thumbnail";s:7:"100x100";s:10:"image_mini";s:7:"120x120";s:11:"image_small";s:7:"320x320";s:12:"image_medium";s:7:"760x760";s:11:"image_large";s:9:"1200x1200";}',
+            'natural_carousel' => 'a:0:{}',
             'natural_gallery' => 'a:0:{}',
             'nc_staticfilecache' => 'a:8:{s:23:"clearCacheForAllDomains";s:1:"1";s:22:"sendCacheControlHeader";s:1:"1";s:47:"sendCacheControlHeaderRedirectAfterCacheTimeout";s:1:"0";s:27:"enableStaticFileCompression";s:1:"1";s:23:"showGenerationSignature";s:1:"0";s:9:"fileTypes";s:7:"xml,rss";s:8:"strftime";s:14:"%d-%m-%y %H:%M";s:11:"recreateURI";s:1:"0";}',
             'newsletter' => 'a:11:{s:11:"sender_name";s:4:"user";s:12:"sender_email";s:4:"user";s:18:"notification_email";s:4:"user";s:10:"fetch_path";s:0:"";s:10:"append_url";s:0:"";s:12:"path_to_lynx";s:13:"/usr/bin/lynx";s:17:"path_to_fetchmail";s:18:"/usr/bin/fetchmail";s:13:"keep_messages";s:1:"0";s:13:"attach_images";s:1:"1";s:15:"mails_per_round";s:3:"100";s:20:"unsubscribe_redirect";s:0:"";}',
