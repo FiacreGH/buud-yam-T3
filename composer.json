@@ -41,6 +41,7 @@
 		"helhum/typo3-console": "1.*.*",
 		"fab/vidi": "2.*.*",
 		"fab/vidi-frontend": "1.*.*",
+		"fab/natural-carousel": "^1.0.0",
 		"fab/natural-gallery": "1.*.*",
 		"fab/media": "4.*.*"
 	},
