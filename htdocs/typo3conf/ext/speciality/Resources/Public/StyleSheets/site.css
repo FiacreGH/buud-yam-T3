@@ -7899,6 +7899,11 @@ button.close {
   border-bottom: 1px solid #ddd;
   border-top: none; }
 
+.natural-carousel.swiper-container-horizontal .natural-carousel-text-container {
+  color: #0089e0 !important;
+  padding: 0 !important;
+  background: none !important; }
+
 .thumbnail {
   padding: 0;
   border: none;
@@ -7923,10 +7928,6 @@ body {
 
 p {
   text-align: justify; }
-
-.header {
-  background: url(/banners/buudYam.png) no-repeat scroll 0 0;
-  height: 200px; }
 
 .logo {
   position: relative;
@@ -8184,6 +8185,7 @@ h1, h2, h3, h4, h6 {
 
 @media (min-width: 767px) {
   #navbar-wrapper {
+    margin-top: 20px;
     background-color: #c07400;
     border-radius: 0; }
   #navbar-main a {

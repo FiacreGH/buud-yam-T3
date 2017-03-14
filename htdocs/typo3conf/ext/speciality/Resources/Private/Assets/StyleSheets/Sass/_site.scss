@@ -9,6 +9,12 @@
 
 }
 
+.natural-carousel.swiper-container-horizontal .natural-carousel-text-container{
+  color: #0089e0 !important;
+  padding: 0 !important;
+  background: none !important;
+}
+
 .thumbnail {
   padding: 0;
   border: none;
@@ -40,8 +46,8 @@ p {
 }
 
 .header {
-  background: url(/banners/buudYam.png) no-repeat scroll 0 0;
-  height: 200px;
+  //background: url(/banners/buudYam2.png) no-repeat scroll 0 0;
+  //height: 200px;
 }
 
 .logo {
@@ -457,6 +463,7 @@ h1, h2, h3, h4, h6 {
 @media (min-width: 767px) {
 
   #navbar-wrapper {
+    margin-top: 20px;
     background-color: #c07400;
     border-radius: 0;
   }
