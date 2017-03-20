@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "363c6a2addbbfd195d7ae6d464deda2c",
-    "content-hash": "46022c68f643285da8d1041588e8992e",
+    "hash": "76a8cf5ab81bb51340eb03a624877ac2",
+    "content-hash": "cedb70af8e73091506a02460d864404d",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -223,20 +223,17 @@
         },
         {
             "name": "fab/media",
-            "version": "4.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabarea/media.git",
-                "reference": "b4353f82fb2214800d9fd4a6f3d748470c9d0fe3"
+                "reference": "98327db0c5b0bce305a0348170cf5b428c048faf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabarea/media/zipball/b4353f82fb2214800d9fd4a6f3d748470c9d0fe3",
-                "reference": "b4353f82fb2214800d9fd4a6f3d748470c9d0fe3",
+                "url": "https://api.github.com/repos/fabarea/media/zipball/98327db0c5b0bce305a0348170cf5b428c048faf",
+                "reference": "98327db0c5b0bce305a0348170cf5b428c048faf",
                 "shasum": ""
-            },
-            "require": {
-                "fab/vidi": ">=2.3.0"
             },
             "replace": {
                 "media": "self.version",
@@ -258,7 +255,7 @@
                 "Media management",
                 "TYPO3 CMS"
             ],
-            "time": "2016-10-19 12:15:03"
+            "time": "2017-03-20 15:40:03"
         },
         {
             "name": "fab/natural-carousel",
@@ -2945,6 +2942,7 @@
         "fab/formule": 20,
         "friendsoftypo3/tt-address": 20,
         "ecodev/tt-news": 20,
+        "fab/media": 20,
         "mikey179/vfsstream": 20
     },
     "prefer-stable": false,
