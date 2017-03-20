@@ -72,7 +72,7 @@
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row hidden-xs">
 				<div class="col-md-6">
 					<div class="form-group">
 						<label for="organisation">
@@ -114,7 +114,7 @@
 				       placeholder="{f:translate(key:'email', extensionName:'speciality')}"/>
 				<span class="help-block">{fo:message.error(field: 'email')}</span>
 			</div>
-			<div class="row">
+			<div class="row hidden-xs">
 				<div class="col-md-6">
 					<div class="form-group">
 						<label for="phone">
@@ -124,7 +124,6 @@
 						       name="phone"
 						       id="phone" class="form-control"
 						       value="{values.phone}"
-						       required
 						       placeholder="{f:translate(key:'phone', extensionName:'speciality')}"/>
 						<span class="help-block">{fo:message.error(field: 'phone')}</span>
 					</div>

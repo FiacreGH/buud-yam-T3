@@ -7899,6 +7899,10 @@ button.close {
   border-bottom: 1px solid #ddd;
   border-top: none; }
 
+hr {
+  margin-top: 40px;
+  border-top: 1px solid rgba(238, 238, 238, 0); }
+
 .natural-carousel.swiper-container-horizontal .natural-carousel-text-container {
   color: #0089e0 !important;
   padding: 0 !important;
