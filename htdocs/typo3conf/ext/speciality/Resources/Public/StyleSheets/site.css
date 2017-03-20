@@ -7904,7 +7904,14 @@ button.close {
   padding: 0 !important;
   background: none !important; }
 
-.thumbnail {
+.panel-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px; }
+  .panel-title a {
+    color: #0089E0; }
+
+.panel-title .thumbnail {
   padding: 0;
   border: none;
   border-radius: 0; }
