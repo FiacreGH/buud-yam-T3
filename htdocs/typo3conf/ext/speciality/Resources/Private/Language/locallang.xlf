@@ -1080,7 +1080,7 @@
 				<source>Organisme</source>
 			</trans-unit>
 			<trans-unit id="address">
-				<source>Rue - Adresse</source>
+				<source>Adresse</source>
 			</trans-unit>
 			<trans-unit id="npa">
 				<source>NPA / Localité</source>

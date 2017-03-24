@@ -68,7 +68,6 @@ p {
 
 .logo {
   position: relative;
-  top: 20px;
   left: 30px;
 }
 .headImg{
@@ -449,15 +448,18 @@ h1, h2, h3, h4, h6 {
 }
 
 .nav-pills > li > a {
-  background-color: #c07400;
+  margin-left: 10px;
+  position: fixed;
+  padding: 6px;
+  font-size: small;
+  background-color: #de4d00;
   color: #ffffff;
   font-weight: bold;
-  border-radius: 6px;
-  margin-right: 6px;
+  border-radius: 3px;
 }
 
 .nav-pills > li > a:hover {
-  background-color: #c07400;
+  background-color: rgba(255, 87, 0, 0.91);
   color: #000000;
   font-weight: bold;
 }
@@ -479,7 +481,6 @@ h1, h2, h3, h4, h6 {
 @media (min-width: 767px) {
 
   #navbar-wrapper {
-    margin-top: 20px;
     background-color: #c07400;
     border-radius: 0;
   }
@@ -511,16 +512,18 @@ h1, h2, h3, h4, h6 {
   }
 }
 
-#footer {
+#footer{
   margin-top: 15px;
   color: #666;
   background: rgba(252, 237, 231, 0.53);
   padding: 15px;
   border-top: 5px rgba(207, 88, 19, 0.62) solid;
+}
+.footer{
   text-align: center;
 }
 
-//<-----------------------FIN CUSTOM CSS--------------------------->//
+  //<-----------------------FIN CUSTOM CSS--------------------------->//
 
 .csc-mailform-field {
 
