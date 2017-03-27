@@ -8227,7 +8227,8 @@ h1, h2, h3, h4, h6 {
   border-top: 5px rgba(207, 88, 19, 0.62) solid; }
 
 .footer {
-  text-align: center; }
+  text-align: center;
+  font-size: 13px; }
 
 .csc-mailform-field input[type=checkbox], .csc-mailform-field input[type=radio] {
   display: block;
