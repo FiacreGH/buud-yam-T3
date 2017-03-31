@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "76a8cf5ab81bb51340eb03a624877ac2",
-    "content-hash": "cedb70af8e73091506a02460d864404d",
+    "hash": "fbc319969018994c7e9505c50241164f",
+    "content-hash": "42f5f7b948ae5b14e6a7b9829eccc70d",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -114,16 +114,16 @@
         },
         {
             "name": "ecodev/newsletter",
-            "version": "3.1.0",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ecodev/newsletter.git",
-                "reference": "d9c5a642d225fb185baa449f1bb1e871d8416b18"
+                "reference": "093cbdb5d24a16a70f7e8c841a0c79fc40d44b31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ecodev/newsletter/zipball/d9c5a642d225fb185baa449f1bb1e871d8416b18",
-                "reference": "d9c5a642d225fb185baa449f1bb1e871d8416b18",
+                "url": "https://api.github.com/repos/Ecodev/newsletter/zipball/093cbdb5d24a16a70f7e8c841a0c79fc40d44b31",
+                "reference": "093cbdb5d24a16a70f7e8c841a0c79fc40d44b31",
                 "shasum": ""
             },
             "require": {
@@ -132,7 +132,7 @@
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^1.11"
+                "friendsofphp/php-cs-fixer": "^2.1"
             },
             "type": "typo3-cms-extension",
             "autoload": {
@@ -144,15 +144,16 @@
             "license": [
                 "GPL-2.0+"
             ],
-            "description": "Send any pages as Newsletter and provide statistics on opened emails and clicked links.",
+            "description": "TYPO3 extension to send any pages as Newsletter and provide statistics on opened emails and clicked links.",
             "homepage": "https://github.com/ecodev/newsletter",
             "keywords": [
                 "TYPO3 CMS",
                 "email",
                 "newsletter",
-                "statistics"
+                "statistics",
+                "typo3"
             ],
-            "time": "2016-08-17 11:04:23"
+            "time": "2017-03-31 14:40:33"
         },
         {
             "name": "ecodev/speciality-ecodev",

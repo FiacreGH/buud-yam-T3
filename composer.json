@@ -36,7 +36,7 @@
 		"typo3-ter/realurl": "2.0.15",
 		"typo3-ter/seo-basics": "*",
 		"ecodev/tt-news": "dev-master",
-		"ecodev/newsletter": "3.1.0",
+		"ecodev/newsletter": "3.2.0",
 
 		"helhum/typo3-console": "1.*.*",
 		"fab/vidi": "2.*.*",
