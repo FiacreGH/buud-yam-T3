@@ -191,12 +191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ecodev/formule.git",
-                "reference": "9bfd71931267498c9d4a075fa1b299a31023132c"
+                "reference": "52f422a543e89494944cbc95d73f99acb16b2f8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ecodev/formule/zipball/9bfd71931267498c9d4a075fa1b299a31023132c",
-                "reference": "9bfd71931267498c9d4a075fa1b299a31023132c",
+                "url": "https://api.github.com/repos/Ecodev/formule/zipball/52f422a543e89494944cbc95d73f99acb16b2f8f",
+                "reference": "52f422a543e89494944cbc95d73f99acb16b2f8f",
                 "shasum": ""
             },
             "replace": {
@@ -219,7 +219,7 @@
                 "TYPO3 CMS",
                 "form"
             ],
-            "time": "2016-12-14 09:08:11"
+            "time": "2017-04-10 10:54:49"
         },
         {
             "name": "fab/media",
@@ -227,12 +227,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabarea/media.git",
-                "reference": "98327db0c5b0bce305a0348170cf5b428c048faf"
+                "reference": "ab331e2d611c8b6c6e94f9261b8a56c35d492539"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabarea/media/zipball/98327db0c5b0bce305a0348170cf5b428c048faf",
-                "reference": "98327db0c5b0bce305a0348170cf5b428c048faf",
+                "url": "https://api.github.com/repos/fabarea/media/zipball/ab331e2d611c8b6c6e94f9261b8a56c35d492539",
+                "reference": "ab331e2d611c8b6c6e94f9261b8a56c35d492539",
                 "shasum": ""
             },
             "replace": {
@@ -255,20 +255,20 @@
                 "Media management",
                 "TYPO3 CMS"
             ],
-            "time": "2017-03-20 15:40:03"
+            "time": "2017-06-02 14:20:28"
         },
         {
             "name": "fab/natural-carousel",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ecodev/natural-carousel-typo3.git",
-                "reference": "5dab14b6f865b5a4c275942ab6343b8081f5db21"
+                "reference": "acbccdffcb15a6b81daef71f400cc8efdd01b0cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ecodev/natural-carousel-typo3/zipball/5dab14b6f865b5a4c275942ab6343b8081f5db21",
-                "reference": "5dab14b6f865b5a4c275942ab6343b8081f5db21",
+                "url": "https://api.github.com/repos/Ecodev/natural-carousel-typo3/zipball/acbccdffcb15a6b81daef71f400cc8efdd01b0cd",
+                "reference": "acbccdffcb15a6b81daef71f400cc8efdd01b0cd",
                 "shasum": ""
             },
             "replace": {
@@ -291,20 +291,20 @@
                 "TYPO3 CMS",
                 "photo gallery"
             ],
-            "time": "2016-11-30T14:44:55+00:00"
+            "time": "2017-04-14T10:11:25+00:00"
         },
         {
             "name": "fab/natural-gallery",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ecodev/natural-gallery-typo3.git",
-                "reference": "11ad8e2a0804f053a401f0843147bac6c1ba3519"
+                "reference": "40f796da86ae724b4739e0bfd3f350d3551ce7e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ecodev/natural-gallery-typo3/zipball/11ad8e2a0804f053a401f0843147bac6c1ba3519",
-                "reference": "11ad8e2a0804f053a401f0843147bac6c1ba3519",
+                "url": "https://api.github.com/repos/Ecodev/natural-gallery-typo3/zipball/40f796da86ae724b4739e0bfd3f350d3551ce7e0",
+                "reference": "40f796da86ae724b4739e0bfd3f350d3551ce7e0",
                 "shasum": ""
             },
             "replace": {
@@ -328,22 +328,22 @@
             ],
             "support": {
                 "issues": "https://github.com/Ecodev/natural-gallery-typo3/issues",
-                "source": "https://github.com/Ecodev/natural-gallery-typo3/tree/1.0.4"
+                "source": "https://github.com/Ecodev/natural-gallery-typo3/tree/1.0.5"
             },
-            "time": "2017-02-21T17:10:25+00:00"
+            "time": "2017-04-11T09:45:45+00:00"
         },
         {
             "name": "fab/vidi",
-            "version": "2.4.0",
+            "version": "2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabarea/vidi.git",
-                "reference": "dec0b2f0dac2c4412c74c4f01bc2065eacbef6a9"
+                "reference": "5c649479498031d539882cdc530cee0ccd960cdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabarea/vidi/zipball/dec0b2f0dac2c4412c74c4f01bc2065eacbef6a9",
-                "reference": "dec0b2f0dac2c4412c74c4f01bc2065eacbef6a9",
+                "url": "https://api.github.com/repos/fabarea/vidi/zipball/5c649479498031d539882cdc530cee0ccd960cdd",
+                "reference": "5c649479498031d539882cdc530cee0ccd960cdd",
                 "shasum": ""
             },
             "replace": {
@@ -366,7 +366,7 @@
                 "TYPO3 CMS",
                 "generic listing"
             ],
-            "time": "2016-10-19T12:12:04+00:00"
+            "time": "2017-04-28T09:04:05+00:00"
         },
         {
             "name": "fab/vidi-frontend",
@@ -1066,16 +1066,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.6",
+            "version": "v5.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e"
+                "reference": "9a06dc570a0367850280eefd3f1dc2da45aef517"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e",
-                "reference": "81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/9a06dc570a0367850280eefd3f1dc2da45aef517",
+                "reference": "9a06dc570a0367850280eefd3f1dc2da45aef517",
                 "shasum": ""
             },
             "require": {
@@ -1116,20 +1116,20 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2017-02-13T07:52:53+00:00"
+            "time": "2017-05-01T15:54:03+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.19",
+            "version": "v2.8.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "86407ff20855a5eaa2a7219bd815e9c40a88633e"
+                "reference": "efa4d466b67c2fc9bf9419a981e683e1f99fa029"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/86407ff20855a5eaa2a7219bd815e9c40a88633e",
-                "reference": "86407ff20855a5eaa2a7219bd815e9c40a88633e",
+                "url": "https://api.github.com/repos/symfony/console/zipball/efa4d466b67c2fc9bf9419a981e683e1f99fa029",
+                "reference": "efa4d466b67c2fc9bf9419a981e683e1f99fa029",
                 "shasum": ""
             },
             "require": {
@@ -1177,7 +1177,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-04-03T20:37:06+00:00"
+            "time": "2017-05-28T14:07:33+00:00"
         },
         {
             "name": "symfony/debug",
@@ -1238,16 +1238,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v2.8.19",
+            "version": "v2.8.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "7131327eb95d86d72039fd1216226c28f36fd02a"
+                "reference": "b058a6f0cb6ee9b6b727aae03d5a62474a308528"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/7131327eb95d86d72039fd1216226c28f36fd02a",
-                "reference": "7131327eb95d86d72039fd1216226c28f36fd02a",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/b058a6f0cb6ee9b6b727aae03d5a62474a308528",
+                "reference": "b058a6f0cb6ee9b6b727aae03d5a62474a308528",
                 "shasum": ""
             },
             "require": {
@@ -1283,7 +1283,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-20T08:46:40+00:00"
+            "time": "2017-05-25T22:57:22+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1346,16 +1346,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v3.2.6",
+            "version": "v3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "68bfa8c83f24c0ac04ea7193bcdcda4519f41892"
+                "reference": "8e30690c67aafb6c7992d6d8eb0d707807dd3eaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/68bfa8c83f24c0ac04ea7193bcdcda4519f41892",
-                "reference": "68bfa8c83f24c0ac04ea7193bcdcda4519f41892",
+                "url": "https://api.github.com/repos/symfony/process/zipball/8e30690c67aafb6c7992d6d8eb0d707807dd3eaf",
+                "reference": "8e30690c67aafb6c7992d6d8eb0d707807dd3eaf",
                 "shasum": ""
             },
             "require": {
@@ -1364,7 +1364,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.2-dev"
+                    "dev-master": "3.3-dev"
                 }
             },
             "autoload": {
@@ -1391,7 +1391,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-04T12:23:14+00:00"
+            "time": "2017-05-22T12:32:03+00:00"
         },
         {
             "name": "typo3-ter/nc-staticfilecache",
@@ -2523,23 +2523,23 @@
         },
         {
             "name": "sebastian/diff",
-            "version": "1.4.1",
+            "version": "1.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/diff.git",
-                "reference": "13edfd8706462032c2f52b4b862974dd46b71c9e"
+                "reference": "7f066a26a962dbe58ddea9f72a4e82874a3975a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/13edfd8706462032c2f52b4b862974dd46b71c9e",
-                "reference": "13edfd8706462032c2f52b4b862974dd46b71c9e",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/7f066a26a962dbe58ddea9f72a4e82874a3975a4",
+                "reference": "7f066a26a962dbe58ddea9f72a4e82874a3975a4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.8"
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
             },
             "type": "library",
             "extra": {
@@ -2571,7 +2571,7 @@
             "keywords": [
                 "diff"
             ],
-            "time": "2015-12-08T07:14:41+00:00"
+            "time": "2017-05-22T07:24:03+00:00"
         },
         {
             "name": "sebastian/environment",
@@ -2831,16 +2831,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.2.6",
+            "version": "v3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "093e416ad096355149e265ea2e4cc1f9ee40ab1a"
+                "reference": "9752a30000a8ca9f4b34b5227d15d0101b96b063"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/093e416ad096355149e265ea2e4cc1f9ee40ab1a",
-                "reference": "093e416ad096355149e265ea2e4cc1f9ee40ab1a",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/9752a30000a8ca9f4b34b5227d15d0101b96b063",
+                "reference": "9752a30000a8ca9f4b34b5227d15d0101b96b063",
                 "shasum": ""
             },
             "require": {
@@ -2855,7 +2855,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.2-dev"
+                    "dev-master": "3.3-dev"
                 }
             },
             "autoload": {
@@ -2882,7 +2882,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-07T16:47:02+00:00"
+            "time": "2017-06-02T22:05:06+00:00"
         },
         {
             "name": "webmozart/assert",
