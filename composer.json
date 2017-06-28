@@ -23,7 +23,6 @@
 	"require": {
 		"typo3/cms": "7.6.*",
 		"ecodev/speciality-ecodev": "dev-master",
-		"fab/formule": "dev-master",
 		"friendsoftypo3/tt-address": "dev-master",
 
 		"fluidtypo3/fluidcontent": "4.*.*",
@@ -43,7 +42,8 @@
 		"fab/vidi-frontend": "1.*.*",
 		"fab/natural-carousel": "^1.0.0",
 		"fab/natural-gallery": "1.*.*",
-		"fab/media": "dev-master"
+		"fab/media": "dev-master",
+		"fab/formule": "^1.2"
 	},
 	"require-dev": {
 		"mikey179/vfsStream": "1.4.*@dev",

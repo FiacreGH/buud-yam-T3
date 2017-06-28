@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "42f5f7b948ae5b14e6a7b9829eccc70d",
+    "content-hash": "3c37416aac28d3eed91a00d90e1fca9d",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -187,16 +187,16 @@
         },
         {
             "name": "fab/formule",
-            "version": "dev-master",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ecodev/formule.git",
-                "reference": "52f422a543e89494944cbc95d73f99acb16b2f8f"
+                "reference": "ae8269c5008aaedc6993ffb08b546f1bee7c9a66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ecodev/formule/zipball/52f422a543e89494944cbc95d73f99acb16b2f8f",
-                "reference": "52f422a543e89494944cbc95d73f99acb16b2f8f",
+                "url": "https://api.github.com/repos/Ecodev/formule/zipball/ae8269c5008aaedc6993ffb08b546f1bee7c9a66",
+                "reference": "ae8269c5008aaedc6993ffb08b546f1bee7c9a66",
                 "shasum": ""
             },
             "replace": {
@@ -219,7 +219,7 @@
                 "TYPO3 CMS",
                 "form"
             ],
-            "time": "2017-04-10 10:54:49"
+            "time": "2017-06-28T12:53:16+00:00"
         },
         {
             "name": "fab/media",
@@ -2939,7 +2939,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "ecodev/speciality-ecodev": 20,
-        "fab/formule": 20,
         "friendsoftypo3/tt-address": 20,
         "ecodev/tt-news": 20,
         "fab/media": 20,
