@@ -168,7 +168,7 @@
             ],
             "description": "TYPO3 extension to ship common configuration specific to Ecodev",
             "homepage": "https://github.com/Ecodev/speciality_ecodev",
-            "time": "2016-11-25T11:45:56+00:00"
+            "time": "2016-11-25 11:45:56"
         },
         {
             "name": "ecodev/tt-news",
@@ -183,7 +183,7 @@
                 "GPL-2.0+"
             ],
             "description": "Data structure for News",
-            "time": "2016-10-20T13:25:16+00:00"
+            "time": "2016-10-20 13:25:16"
         },
         {
             "name": "fab/formule",
@@ -255,7 +255,7 @@
                 "Media management",
                 "TYPO3 CMS"
             ],
-            "time": "2017-09-04T14:15:24+00:00"
+            "time": "2017-09-04 14:15:24"
         },
         {
             "name": "fab/natural-carousel",
@@ -667,7 +667,7 @@
                 "addresses",
                 "extension"
             ],
-            "time": "2016-02-09T09:49:01+00:00"
+            "time": "2016-02-09 09:49:01"
         },
         {
             "name": "helhum/typo3-console",
@@ -850,16 +850,16 @@
         },
         {
             "name": "pear/net_url2",
-            "version": "v2.2.1",
+            "version": "v2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Net_URL2.git",
-                "reference": "43a87606daf52efe6685c92131be083143108e37"
+                "reference": "07fd055820dbf466ee3990abe96d0e40a8791f9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Net_URL2/zipball/43a87606daf52efe6685c92131be083143108e37",
-                "reference": "43a87606daf52efe6685c92131be083143108e37",
+                "url": "https://api.github.com/repos/pear/Net_URL2/zipball/07fd055820dbf466ee3990abe96d0e40a8791f9d",
+                "reference": "07fd055820dbf466ee3990abe96d0e40a8791f9d",
                 "shasum": ""
             },
             "require": {
@@ -880,6 +880,9 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "./"
+            ],
             "license": [
                 "BSD-3-Clause"
             ],
@@ -907,7 +910,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2016-04-18T22:24:01+00:00"
+            "time": "2017-08-25T06:16:11+00:00"
         },
         {
             "name": "pear/pear_exception",
@@ -1117,16 +1120,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.25",
+            "version": "v2.8.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "46e65f8d98c9ab629bbfcc16a4ff023f61c37fb2"
+                "reference": "c0807a2ca978e64d8945d373a9221a5c35d1a253"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/46e65f8d98c9ab629bbfcc16a4ff023f61c37fb2",
-                "reference": "46e65f8d98c9ab629bbfcc16a4ff023f61c37fb2",
+                "url": "https://api.github.com/repos/symfony/console/zipball/c0807a2ca978e64d8945d373a9221a5c35d1a253",
+                "reference": "c0807a2ca978e64d8945d373a9221a5c35d1a253",
                 "shasum": ""
             },
             "require": {
@@ -1174,7 +1177,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-03T08:04:30+00:00"
+            "time": "2017-08-27T14:29:03+00:00"
         },
         {
             "name": "symfony/debug",
@@ -1235,7 +1238,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v2.8.25",
+            "version": "v2.8.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -1284,16 +1287,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "f29dca382a6485c3cbe6379f0c61230167681937"
+                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f29dca382a6485c3cbe6379f0c61230167681937",
-                "reference": "f29dca382a6485c3cbe6379f0c61230167681937",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
+                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
                 "shasum": ""
             },
             "require": {
@@ -1305,7 +1308,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -1339,7 +1342,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T14:24:12+00:00"
+            "time": "2017-06-14T15:44:48+00:00"
         },
         {
             "name": "symfony/process",
@@ -1561,16 +1564,16 @@
         },
         {
             "name": "typo3/cms",
-            "version": "7.6.21",
+            "version": "v7.6.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3/TYPO3.CMS.git",
-                "reference": "a32a598fd6c4c0e671e28d83aa94df095596c333"
+                "reference": "ce56e13bf3335cb3a22227eaec9bf44f012ceb4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/a32a598fd6c4c0e671e28d83aa94df095596c333",
-                "reference": "a32a598fd6c4c0e671e28d83aa94df095596c333",
+                "url": "https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/ce56e13bf3335cb3a22227eaec9bf44f012ceb4b",
+                "reference": "ce56e13bf3335cb3a22227eaec9bf44f012ceb4b",
                 "shasum": ""
             },
             "require": {
@@ -1760,24 +1763,25 @@
                 "extbase",
                 "typo3"
             ],
-            "time": "2017-07-25T16:53:48+00:00"
+            "time": "2017-09-05T10:29:14+00:00"
         },
         {
             "name": "typo3/cms-composer-installers",
-            "version": "1.3.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3/CmsComposerInstallers.git",
-                "reference": "cb25a053cdba0fcc43a9f56f5e086f77eed6b916"
+                "reference": "33cd7b5441744da327e482c48f987e1005da1b9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/CmsComposerInstallers/zipball/cb25a053cdba0fcc43a9f56f5e086f77eed6b916",
-                "reference": "cb25a053cdba0fcc43a9f56f5e086f77eed6b916",
+                "url": "https://api.github.com/repos/TYPO3/CmsComposerInstallers/zipball/33cd7b5441744da327e482c48f987e1005da1b9d",
+                "reference": "33cd7b5441744da327e482c48f987e1005da1b9d",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0.0"
+                "composer-plugin-api": "^1.0.0",
+                "php": ">=7.0.0 <7.2"
             },
             "conflict": {
                 "composer/installers": "<1.0.24 || >1.0.24"
@@ -1787,13 +1791,13 @@
                 "netresearch/composer-installers": "*"
             },
             "require-dev": {
-                "composer/composer": "1.*"
+                "composer/composer": "^1.2"
             },
             "type": "composer-plugin",
             "extra": {
                 "class": "TYPO3\\CMS\\Composer\\Installer\\Plugin",
                 "branch-alias": {
-                    "dev-master": "1.3.x-dev"
+                    "dev-master": "1.4.x-dev"
                 }
             },
             "autoload": {
@@ -1828,7 +1832,7 @@
                 "installer",
                 "typo3"
             ],
-            "time": "2016-07-05T09:38:42+00:00"
+            "time": "2017-08-01T16:14:32+00:00"
         }
     ],
     "packages-dev": [
