@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c37416aac28d3eed91a00d90e1fca9d",
+    "content-hash": "4a5b9d715fd0384339d32c4b19c772b5",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -168,7 +168,7 @@
             ],
             "description": "TYPO3 extension to ship common configuration specific to Ecodev",
             "homepage": "https://github.com/Ecodev/speciality_ecodev",
-            "time": "2016-11-25 11:45:56"
+            "time": "2016-11-25T11:45:56+00:00"
         },
         {
             "name": "ecodev/tt-news",
@@ -183,7 +183,7 @@
                 "GPL-2.0+"
             ],
             "description": "Data structure for News",
-            "time": "2016-10-20 13:25:16"
+            "time": "2016-10-20T13:25:16+00:00"
         },
         {
             "name": "fab/formule",
@@ -227,12 +227,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabarea/media.git",
-                "reference": "ab331e2d611c8b6c6e94f9261b8a56c35d492539"
+                "reference": "6dd5dedfee63d1f27f7427b4a330b2e50aa5b2ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabarea/media/zipball/ab331e2d611c8b6c6e94f9261b8a56c35d492539",
-                "reference": "ab331e2d611c8b6c6e94f9261b8a56c35d492539",
+                "url": "https://api.github.com/repos/fabarea/media/zipball/6dd5dedfee63d1f27f7427b4a330b2e50aa5b2ba",
+                "reference": "6dd5dedfee63d1f27f7427b4a330b2e50aa5b2ba",
                 "shasum": ""
             },
             "replace": {
@@ -255,7 +255,7 @@
                 "Media management",
                 "TYPO3 CMS"
             ],
-            "time": "2017-06-02 14:20:28"
+            "time": "2017-09-04T14:15:24+00:00"
         },
         {
             "name": "fab/natural-carousel",
@@ -317,19 +317,16 @@
                     "Fab\\NaturalGallery\\": "Classes/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0+"
             ],
             "description": "Display images as you scroll and enlarged them in a slideshow.",
             "homepage": "https://github.com/Ecodev/natural-gallery-typo3",
             "keywords": [
-                "Photo Gallery",
-                "TYPO3 CMS"
+                "TYPO3 CMS",
+                "photo gallery"
             ],
-            "support": {
-                "issues": "https://github.com/Ecodev/natural-gallery-typo3/issues",
-                "source": "https://github.com/Ecodev/natural-gallery-typo3/tree/1.0.5"
-            },
             "time": "2017-04-11T09:45:45+00:00"
         },
         {
@@ -638,8 +635,8 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://git.typo3.org/TYPO3CMS/Extensions/tt_address.git",
-                "reference": "2dc8e12f03e86b9e223665f390a3056c28efa032"
+                "url": "https://github.com/Ecodev/tt_address.git",
+                "reference": "38ff702db8bb83268c89206b66683c594c78edb5"
             },
             "require": {
                 "typo3/cms-core": ">=6.2.2,<8.0"
@@ -670,7 +667,7 @@
                 "addresses",
                 "extension"
             ],
-            "time": "2016-02-12 09:33:48"
+            "time": "2016-02-09T09:49:01+00:00"
         },
         {
             "name": "helhum/typo3-console",
@@ -1398,7 +1395,7 @@
             "version": "3.6.0",
             "dist": {
                 "type": "t3x",
-                "url": "https://typo3.org/extensions/repository/download/nc_staticfilecache/3.6.0/t3x/",
+                "url": "https://extensions.typo3.org/extension/download/nc_staticfilecache/3.6.0/t3x/",
                 "reference": null,
                 "shasum": null
             },
@@ -1429,16 +1426,16 @@
         },
         {
             "name": "typo3-ter/realurl",
-            "version": "2.0.15",
+            "version": "2.2.1",
             "dist": {
                 "type": "t3x",
-                "url": "https://typo3.org/extensions/repository/download/realurl/2.0.15/t3x/",
+                "url": "https://extensions.typo3.org/extension/download/realurl/2.2.1/t3x/",
                 "reference": null,
                 "shasum": null
             },
             "require": {
-                "php": ">= 5.3.2, <= 7.0.999",
-                "typo3/cms-core": ">= 6.2.0, <= 8.0.999"
+                "php": ">= 5.4.0, <= 7.1.999",
+                "typo3/cms-core": ">= 6.2.0, <= 8.7.999"
             },
             "conflict": {
                 "typo3-ter/cooluri": "*",
@@ -1446,9 +1443,6 @@
             },
             "replace": {
                 "realurl": "self.version"
-            },
-            "suggest": {
-                "typo3-ter/static-info-tables": ">= 6.2.0"
             },
             "type": "typo3-cms-extension",
             "autoload": {
@@ -1465,14 +1459,14 @@
                 }
             ],
             "description": "Makes TYPO3 URLs search engine friendly. Donations are welcome to dmitry.dulepov@gmail.com. They help to support the extension!",
-            "time": "2016-09-08T10:38:34+00:00"
+            "time": "2017-05-11T11:22:25+00:00"
         },
         {
             "name": "typo3-ter/seo-basics",
             "version": "0.9.2",
             "dist": {
                 "type": "t3x",
-                "url": "https://typo3.org/extensions/repository/download/seo_basics/0.9.2/t3x/",
+                "url": "https://extensions.typo3.org/extension/download/seo_basics/0.9.2/t3x/",
                 "reference": null,
                 "shasum": null
             },
@@ -1490,9 +1484,9 @@
                     ""
                 ],
                 "exclude-from-classmap": [
+                    "Migrations",
                     "Tests",
                     "tests",
-                    "Resources",
                     "class.ext_update.php"
                 ]
             },
