@@ -168,7 +168,7 @@
             ],
             "description": "TYPO3 extension to ship common configuration specific to Ecodev",
             "homepage": "https://github.com/Ecodev/speciality_ecodev",
-            "time": "2016-11-25 11:45:56"
+            "time": "2016-11-25T11:45:56+00:00"
         },
         {
             "name": "ecodev/tt-news",
@@ -183,7 +183,7 @@
                 "GPL-2.0+"
             ],
             "description": "Data structure for News",
-            "time": "2016-10-20 13:25:16"
+            "time": "2016-10-20T13:25:16+00:00"
         },
         {
             "name": "fab/formule",
@@ -255,7 +255,7 @@
                 "Media management",
                 "TYPO3 CMS"
             ],
-            "time": "2017-09-04 14:15:24"
+            "time": "2017-09-04T14:15:24+00:00"
         },
         {
             "name": "fab/natural-carousel",
@@ -667,7 +667,7 @@
                 "addresses",
                 "extension"
             ],
-            "time": "2016-02-09 09:49:01"
+            "time": "2016-02-09T09:49:01+00:00"
         },
         {
             "name": "helhum/typo3-console",
@@ -1564,16 +1564,16 @@
         },
         {
             "name": "typo3/cms",
-            "version": "v7.6.22",
+            "version": "7.6.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3/TYPO3.CMS.git",
-                "reference": "ce56e13bf3335cb3a22227eaec9bf44f012ceb4b"
+                "reference": "dea1e9643567e99a6f7cee6edda6d8000893b743"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/ce56e13bf3335cb3a22227eaec9bf44f012ceb4b",
-                "reference": "ce56e13bf3335cb3a22227eaec9bf44f012ceb4b",
+                "url": "https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/dea1e9643567e99a6f7cee6edda6d8000893b743",
+                "reference": "dea1e9643567e99a6f7cee6edda6d8000893b743",
                 "shasum": ""
             },
             "require": {
@@ -1763,7 +1763,7 @@
                 "extbase",
                 "typo3"
             ],
-            "time": "2017-09-05T10:29:14+00:00"
+            "time": "2017-09-19T13:01:36+00:00"
         },
         {
             "name": "typo3/cms-composer-installers",
