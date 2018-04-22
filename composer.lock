@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a5b9d715fd0384339d32c4b19c772b5",
+    "content-hash": "26b7de0c66644cf77838babe2281df1a",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -113,27 +113,34 @@
         },
         {
             "name": "ecodev/newsletter",
-            "version": "3.2.0",
+            "version": "3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ecodev/newsletter.git",
-                "reference": "093cbdb5d24a16a70f7e8c841a0c79fc40d44b31"
+                "reference": "183fea61bc9a594ab6ddfed0bbf4d24c2c3719b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ecodev/newsletter/zipball/093cbdb5d24a16a70f7e8c841a0c79fc40d44b31",
-                "reference": "093cbdb5d24a16a70f7e8c841a0c79fc40d44b31",
+                "url": "https://api.github.com/repos/Ecodev/newsletter/zipball/183fea61bc9a594ab6ddfed0bbf4d24c2c3719b7",
+                "reference": "183fea61bc9a594ab6ddfed0bbf4d24c2c3719b7",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-mcrypt": "*",
-                "php": ">=5.6.0"
+                "php": ">=5.6.0",
+                "typo3/cms": "^6.2 || ^7.6 || ^8.7 || ^9 || dev-master"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.1"
             },
             "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "cms-package-dir": "{$vendor-dir}/typo3/cms",
+                    "web-dir": "web"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Ecodev\\Newsletter\\": "Classes/"
@@ -152,7 +159,7 @@
                 "statistics",
                 "typo3"
             ],
-            "time": "2017-03-31T14:40:33+00:00"
+            "time": "2018-04-22T10:02:26+00:00"
         },
         {
             "name": "ecodev/speciality-ecodev",
