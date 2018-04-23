@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "26b7de0c66644cf77838babe2281df1a",
+    "content-hash": "8c18c0334cf80d5d59fb698ad3d474e8",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -113,16 +113,16 @@
         },
         {
             "name": "ecodev/newsletter",
-            "version": "3.3.0",
+            "version": "3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ecodev/newsletter.git",
-                "reference": "183fea61bc9a594ab6ddfed0bbf4d24c2c3719b7"
+                "reference": "e15de39d09beac757ac4a1b8f264e3b5e1426337"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ecodev/newsletter/zipball/183fea61bc9a594ab6ddfed0bbf4d24c2c3719b7",
-                "reference": "183fea61bc9a594ab6ddfed0bbf4d24c2c3719b7",
+                "url": "https://api.github.com/repos/Ecodev/newsletter/zipball/e15de39d09beac757ac4a1b8f264e3b5e1426337",
+                "reference": "e15de39d09beac757ac4a1b8f264e3b5e1426337",
                 "shasum": ""
             },
             "require": {
@@ -159,7 +159,7 @@
                 "statistics",
                 "typo3"
             ],
-            "time": "2018-04-22T10:02:26+00:00"
+            "time": "2018-04-22T12:14:49+00:00"
         },
         {
             "name": "ecodev/speciality-ecodev",
