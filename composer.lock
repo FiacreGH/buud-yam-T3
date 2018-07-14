@@ -1127,7 +1127,7 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.41",
+            "version": "v2.8.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
@@ -1188,16 +1188,16 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v2.8.41",
+            "version": "v2.8.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "fe8838e11cf7dbaf324bd6f51d065d873ccf78a2"
+                "reference": "a26ddce7fe4e884097d72435653bc7e703411f26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/fe8838e11cf7dbaf324bd6f51d065d873ccf78a2",
-                "reference": "fe8838e11cf7dbaf324bd6f51d065d873ccf78a2",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/a26ddce7fe4e884097d72435653bc7e703411f26",
+                "reference": "a26ddce7fe4e884097d72435653bc7e703411f26",
                 "shasum": ""
             },
             "require": {
@@ -1241,20 +1241,20 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2018-05-15T21:17:45+00:00"
+            "time": "2018-06-22T15:01:26+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v2.8.41",
+            "version": "v2.8.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "79764d21163db295f0daf8bd9d9b91f97e65db6a"
+                "reference": "995cd7c28a0778cece02e2133b4d813dc509dfc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/79764d21163db295f0daf8bd9d9b91f97e65db6a",
-                "reference": "79764d21163db295f0daf8bd9d9b91f97e65db6a",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/995cd7c28a0778cece02e2133b4d813dc509dfc3",
+                "reference": "995cd7c28a0778cece02e2133b4d813dc509dfc3",
                 "shasum": ""
             },
             "require": {
@@ -1290,7 +1290,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2018-05-15T21:17:45+00:00"
+            "time": "2018-06-19T11:07:17+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1509,6 +1509,7 @@
                 }
             ],
             "description": "Adds a separate field for the title-tag per page, easy and SEO-friendly keywords and description editing in a new module as well as a flexible Google Sitemap (XML).",
+            "abandoned": "b13/seo_basics",
             "time": "2015-12-23T11:17:35+00:00"
         },
         {
@@ -1571,16 +1572,16 @@
         },
         {
             "name": "typo3/cms",
-            "version": "v7.6.29",
+            "version": "v7.6.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3/TYPO3.CMS.git",
-                "reference": "1f403428aeaa2a82ed84db0df249e80d335f0ca4"
+                "reference": "1eb688a260f613048bd7ebe4c6aaca8143551aec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/1f403428aeaa2a82ed84db0df249e80d335f0ca4",
-                "reference": "1f403428aeaa2a82ed84db0df249e80d335f0ca4",
+                "url": "https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/1eb688a260f613048bd7ebe4c6aaca8143551aec",
+                "reference": "1eb688a260f613048bd7ebe4c6aaca8143551aec",
                 "shasum": ""
             },
             "require": {
@@ -1780,7 +1781,7 @@
                 "extbase",
                 "typo3"
             ],
-            "time": "2018-06-11T17:20:39+00:00"
+            "time": "2018-07-12T11:01:26+00:00"
         },
         {
             "name": "typo3/cms-composer-installers",
