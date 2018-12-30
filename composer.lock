@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "8c18c0334cf80d5d59fb698ad3d474e8",
@@ -1127,16 +1127,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.44",
+            "version": "v2.8.49",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "0c1fcbb9afb5cff992c982ff99c0434f0146dcfc"
+                "reference": "cbcf4b5e233af15cd2bbd50dee1ccc9b7927dc12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/0c1fcbb9afb5cff992c982ff99c0434f0146dcfc",
-                "reference": "0c1fcbb9afb5cff992c982ff99c0434f0146dcfc",
+                "url": "https://api.github.com/repos/symfony/console/zipball/cbcf4b5e233af15cd2bbd50dee1ccc9b7927dc12",
+                "reference": "cbcf4b5e233af15cd2bbd50dee1ccc9b7927dc12",
                 "shasum": ""
             },
             "require": {
@@ -1184,20 +1184,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-07-26T11:13:39+00:00"
+            "time": "2018-11-20T15:55:20+00:00"
         },
         {
             "name": "symfony/debug",
-            "version": "v2.8.44",
+            "version": "v2.8.49",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "d985c8546da49c4727e27dae82bcf783ee2c5af0"
+                "reference": "74251c8d50dd3be7c4ce0c7b862497cdc641a5d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/d985c8546da49c4727e27dae82bcf783ee2c5af0",
-                "reference": "d985c8546da49c4727e27dae82bcf783ee2c5af0",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/74251c8d50dd3be7c4ce0c7b862497cdc641a5d0",
+                "reference": "74251c8d50dd3be7c4ce0c7b862497cdc641a5d0",
                 "shasum": ""
             },
             "require": {
@@ -1241,20 +1241,20 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2018-07-26T11:13:39+00:00"
+            "time": "2018-11-11T11:18:13+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v2.8.44",
+            "version": "v2.8.49",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "f0de0b51913eb2caab7dfed6413b87e14fca780e"
+                "reference": "1444eac52273e345d9b95129bf914639305a9ba4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/f0de0b51913eb2caab7dfed6413b87e14fca780e",
-                "reference": "f0de0b51913eb2caab7dfed6413b87e14fca780e",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/1444eac52273e345d9b95129bf914639305a9ba4",
+                "reference": "1444eac52273e345d9b95129bf914639305a9ba4",
                 "shasum": ""
             },
             "require": {
@@ -1290,20 +1290,20 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2018-07-26T11:13:39+00:00"
+            "time": "2018-11-11T11:18:13+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.8.0",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "3296adf6a6454a050679cde90f95350ad604b171"
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/3296adf6a6454a050679cde90f95350ad604b171",
-                "reference": "3296adf6a6454a050679cde90f95350ad604b171",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/c79c051f5b3a46be09205c73b80b346e4153e494",
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494",
                 "shasum": ""
             },
             "require": {
@@ -1315,7 +1315,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.8-dev"
+                    "dev-master": "1.9-dev"
                 }
             },
             "autoload": {
@@ -1349,7 +1349,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-04-26T10:06:28+00:00"
+            "time": "2018-09-21T13:07:52+00:00"
         },
         {
             "name": "symfony/process",
@@ -1514,16 +1514,16 @@
         },
         {
             "name": "typo3/class-alias-loader",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3/class-alias-loader.git",
-                "reference": "a9dd295c81ed0b51455644be420ab9210cad688f"
+                "reference": "4972f9f6c2bad07ab1620b5c9717fa626e9b03b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/class-alias-loader/zipball/a9dd295c81ed0b51455644be420ab9210cad688f",
-                "reference": "a9dd295c81ed0b51455644be420ab9210cad688f",
+                "url": "https://api.github.com/repos/TYPO3/class-alias-loader/zipball/4972f9f6c2bad07ab1620b5c9717fa626e9b03b0",
+                "reference": "4972f9f6c2bad07ab1620b5c9717fa626e9b03b0",
                 "shasum": ""
             },
             "require": {
@@ -1536,7 +1536,7 @@
             "require-dev": {
                 "composer/composer": "dev-master",
                 "mikey179/vfsstream": "1.4.*@dev",
-                "phpunit/phpunit": "~4.7.0"
+                "phpunit/phpunit": "^4.8"
             },
             "type": "composer-plugin",
             "extra": {
@@ -1568,20 +1568,20 @@
                 "classloader",
                 "composer"
             ],
-            "time": "2015-10-06T10:25:44+00:00"
+            "time": "2018-10-03T12:49:56+00:00"
         },
         {
             "name": "typo3/cms",
-            "version": "v7.6.31",
+            "version": "v7.6.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3/TYPO3.CMS.git",
-                "reference": "9c2a581af498b16bdfe744647d2611fad92903d2"
+                "reference": "1ce6676d49ca38fe1ca742ea98844747447a1c24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/9c2a581af498b16bdfe744647d2611fad92903d2",
-                "reference": "9c2a581af498b16bdfe744647d2611fad92903d2",
+                "url": "https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/1ce6676d49ca38fe1ca742ea98844747447a1c24",
+                "reference": "1ce6676d49ca38fe1ca742ea98844747447a1c24",
                 "shasum": ""
             },
             "require": {
@@ -1601,7 +1601,8 @@
                 "symfony/debug": "^2.7",
                 "symfony/finder": "^2.7",
                 "typo3/class-alias-loader": "^1.0",
-                "typo3/cms-composer-installers": "^1.2.8"
+                "typo3/cms-composer-installers": "^1.2.8",
+                "typo3/phar-stream-wrapper": "^2.0.1"
             },
             "conflict": {
                 "symfony/finder": "2.7.44 || 2.8.37"
@@ -1781,25 +1782,25 @@
                 "extbase",
                 "typo3"
             ],
-            "time": "2018-07-31T08:10:35+00:00"
+            "time": "2018-12-11T12:38:13+00:00"
         },
         {
             "name": "typo3/cms-composer-installers",
-            "version": "v1.5.2",
+            "version": "v1.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3/CmsComposerInstallers.git",
-                "reference": "a5c340cafe69629869f046f4e2790fb87bfb9ded"
+                "reference": "aad8b6b56b45e2f9fc4542e1e64677da4ee8c5fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/CmsComposerInstallers/zipball/a5c340cafe69629869f046f4e2790fb87bfb9ded",
-                "reference": "a5c340cafe69629869f046f4e2790fb87bfb9ded",
+                "url": "https://api.github.com/repos/TYPO3/CmsComposerInstallers/zipball/aad8b6b56b45e2f9fc4542e1e64677da4ee8c5fa",
+                "reference": "aad8b6b56b45e2f9fc4542e1e64677da4ee8c5fa",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0.0",
-                "php": ">=7.0.0 <7.3"
+                "php": ">=7.0.0 <7.4"
             },
             "conflict": {
                 "composer/installers": "<1.0.24 || >1.0.24"
@@ -1850,7 +1851,47 @@
                 "installer",
                 "typo3"
             ],
-            "time": "2018-04-09T08:16:52+00:00"
+            "time": "2018-12-15T22:14:50+00:00"
+        },
+        {
+            "name": "typo3/phar-stream-wrapper",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3/phar-stream-wrapper.git",
+                "reference": "0469d9fefa0146ea4299d3b11cfbb76faa7045bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3/phar-stream-wrapper/zipball/0469d9fefa0146ea4299d3b11cfbb76faa7045bf",
+                "reference": "0469d9fefa0146ea4299d3b11cfbb76faa7045bf",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3|^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.36"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\PharStreamWrapper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Interceptors for PHP's native phar:// stream handling",
+            "homepage": "https://typo3.org/",
+            "keywords": [
+                "phar",
+                "php",
+                "security",
+                "stream-wrapper"
+            ],
+            "time": "2018-10-18T08:46:28+00:00"
         }
     ],
     "packages-dev": [
