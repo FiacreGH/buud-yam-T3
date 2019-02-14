@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8c18c0334cf80d5d59fb698ad3d474e8",
+    "content-hash": "7f658f695a72c0bed7d5d97f617159f7",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -113,23 +113,27 @@
         },
         {
             "name": "ecodev/newsletter",
-            "version": "3.3.1",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ecodev/newsletter.git",
-                "reference": "e15de39d09beac757ac4a1b8f264e3b5e1426337"
+                "reference": "a5d2ae2245a753b78b5889acc0f75c8418336b5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ecodev/newsletter/zipball/e15de39d09beac757ac4a1b8f264e3b5e1426337",
-                "reference": "e15de39d09beac757ac4a1b8f264e3b5e1426337",
+                "url": "https://api.github.com/repos/Ecodev/newsletter/zipball/a5d2ae2245a753b78b5889acc0f75c8418336b5b",
+                "reference": "a5d2ae2245a753b78b5889acc0f75c8418336b5b",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
-                "ext-mcrypt": "*",
+                "ext-openssl": "*",
                 "php": ">=5.6.0",
-                "typo3/cms": "^6.2 || ^7.6 || ^8.7 || ^9 || dev-master"
+                "typo3/cms-backend": "^7.6 || ^8.7",
+                "typo3/cms-core": "^7.6 || ^8.7",
+                "typo3/cms-extbase": "^7.6 || ^8.7",
+                "typo3/cms-fluid": "^7.6 || ^8.7",
+                "typo3/cms-scheduler": "^7.6 || ^8.7"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.1"
@@ -159,7 +163,7 @@
                 "statistics",
                 "typo3"
             ],
-            "time": "2018-04-22T12:14:49+00:00"
+            "time": "2019-02-14T07:12:16+00:00"
         },
         {
             "name": "ecodev/speciality-ecodev",
