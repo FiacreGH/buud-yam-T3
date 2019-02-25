@@ -1166,7 +1166,9 @@ Un visiteur a rempli le formulaire d'adhésion depuis %s avec %s.
 
 Un email lui a été envoyé pour confirmation de son email adresse.
 
-Pour retrouver son contact, veuillez cliquer sur %s et chercher "%s" comme occurrence.]]></source>
+En tant qu'Admin, vous pourrez valider son adhesion ici: %s.
+
+Adhérant concerné: "%s"]]></source>
 			</trans-unit>
 			<trans-unit id="member_feedback_body">
 				<source>Merci, nous avons bien enregistré votre adhésion à l'association Buud Yam</source>
